@@ -1,0 +1,4 @@
+set -tmpdir ./xst/projnav.tmp
+elaborate
+-ifn Full_using_HA.prj
+-ifmt mixed

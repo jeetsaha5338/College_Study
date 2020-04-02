@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3215" delta="unknown" >Unit <arg fmt="%s" index="1">work/FA_DECODER</arg> is now defined in a different file: was <arg fmt="%s" index="2">D:/IT_X_20/FA_DECODER/FA_DECODER.vhd</arg>, now is <arg fmt="%s" index="3">F:/LAB/jeet_5s/Xilin/FA_DECODER/FA_DECODER.vhd</arg>
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3215" delta="unknown" >Unit <arg fmt="%s" index="1">work/FA_DECODER/Behavioral</arg> is now defined in a different file: was <arg fmt="%s" index="2">D:/IT_X_20/FA_DECODER/FA_DECODER.vhd</arg>, now is <arg fmt="%s" index="3">F:/LAB/jeet_5s/Xilin/FA_DECODER/FA_DECODER.vhd</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1306" delta="unknown" >Output &lt;<arg fmt="%s" index="1">carry</arg>&gt; is never assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">b&lt;6:5&gt;</arg>&gt; is assigned but never used.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">b&lt;3&gt;</arg>&gt; is assigned but never used.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">b&lt;0&gt;</arg>&gt; is assigned but never used.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">c&lt;4&gt;</arg>&gt; is assigned but never used.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">c&lt;2:0&gt;</arg>&gt; is assigned but never used.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">c1</arg>&gt; is assigned but never used.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">c2</arg>&gt; is assigned but never used.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">dec1</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">FA_DECODER</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">dec1</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">FA_DECODER</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+</messages>

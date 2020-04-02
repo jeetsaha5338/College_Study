@@ -1,0 +1,7 @@
+xst -ise "D:/IT_X_20/NAND_2_NOR/NAND_2_NOR" -intstyle ise -ifn NAND_2_NOR.xst -ofn NAND_2_NOR.syr
+ngdbuild -ise "D:/IT_X_20/NAND_2_NOR/NAND_2_NOR" -intstyle ise -dd _ngo -i -p acr2 NAND_2_NOR.ngc NAND_2_NOR.ngd
+cpldfit -ise "D:/IT_X_20/NAND_2_NOR/NAND_2_NOR" -intstyle ise -p xa2c*-*-* -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -inreg on -blkfanin 38 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 NAND_2_NOR.ngd
+XSLTProcess -ise "D:/IT_X_20/NAND_2_NOR/NAND_2_NOR" NAND_2_NOR_build.xml
+tsim -ise "D:/IT_X_20/NAND_2_NOR/NAND_2_NOR" -intstyle ise NAND_2_NOR NAND_2_NOR.nga
+taengine -ise "D:/IT_X_20/NAND_2_NOR/NAND_2_NOR" -intstyle ise -f NAND_2_NOR -w --format html1 -l D:/IT_X_20/NAND_2_NOR/NAND_2_NOR_html/tim/timing_report.htm
+pin2ucf NAND_2_NOR.gyd -o NAND_2_NOR_locked.ucf -r NAND_2_NOR.lck

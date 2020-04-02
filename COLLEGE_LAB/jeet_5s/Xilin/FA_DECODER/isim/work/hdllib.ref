@@ -1,0 +1,6 @@
+EN fa_decoder NULL D:/IT_X_20/FA_DECODER/FA_DECODER.vhw sub00/vhpl02 1505201171
+EN fa_decoder_res NULL D:/IT_X_20/FA_DECODER/FA_DECODER_RES.vhw sub00/vhpl04 1505201173
+AR fa_decoder testbench_arch D:/IT_X_20/FA_DECODER/FA_DECODER.vhw sub00/vhpl03 1505201172
+AR decoder3_8 behavioral D:/IT_X_20/DECODER3_8/DECODER3_8.vhd sub00/vhpl01 1505200637
+EN decoder3_8 NULL D:/IT_X_20/DECODER3_8/DECODER3_8.vhd sub00/vhpl00 1505200636
+AR fa_decoder_res testbench_arch D:/IT_X_20/FA_DECODER/FA_DECODER_RES.vhw sub00/vhpl05 1505201174

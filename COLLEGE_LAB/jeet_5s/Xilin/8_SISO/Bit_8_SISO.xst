@@ -1,0 +1,4 @@
+set -tmpdir ./xst/projnav.tmp
+elaborate
+-ifn Bit_8_SISO.prj
+-ifmt mixed

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3215" delta="unknown" >Unit <arg fmt="%s" index="1">work/SIPO_RES1</arg> is now defined in a different file: was <arg fmt="%s" index="2">D:/IT_X_20/SIPO/SIPO_RES1.vhw</arg>, now is <arg fmt="%s" index="3">I:/pendrive/5th_Lab/final/Xilin/SIPO/SIPO_RES1.vhw</arg>
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3215" delta="unknown" >Unit <arg fmt="%s" index="1">work/SIPO_RES1/testbench_arch</arg> is now defined in a different file: was <arg fmt="%s" index="2">D:/IT_X_20/SIPO/SIPO_RES1.vhw</arg>, now is <arg fmt="%s" index="3">I:/pendrive/5th_Lab/final/Xilin/SIPO/SIPO_RES1.vhw</arg>
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3215" delta="unknown" >Unit <arg fmt="%s" index="1">work/SIPO</arg> is now defined in a different file: was <arg fmt="%s" index="2">D:/IT_X_20/SIPO/SIPO.vhd</arg>, now is <arg fmt="%s" index="3">I:/pendrive/5th_Lab/final/Xilin/SIPO/SIPO.vhd</arg>
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3215" delta="unknown" >Unit <arg fmt="%s" index="1">work/SIPO/Behavioral</arg> is now defined in a different file: was <arg fmt="%s" index="2">D:/IT_X_20/SIPO/SIPO.vhd</arg>, now is <arg fmt="%s" index="3">I:/pendrive/5th_Lab/final/Xilin/SIPO/SIPO.vhd</arg>
+</msg>
+
+</messages>

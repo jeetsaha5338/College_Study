@@ -1,0 +1,6 @@
+EN dff NULL D:/IT_X_20/DFF/DFF.vhd sub00/vhpl00 1507619583
+AR dff behavioral D:/IT_X_20/DFF/DFF.vhd sub00/vhpl01 1507619584
+AR pipo behavioral I:/pendrive/5th_Lab/final/Xilin/PIPO/PIPO.vhd sub00/vhpl03 1508172161
+AR pipo_res testbench_arch I:/pendrive/5th_Lab/final/Xilin/PIPO/PIPO_RES.vhw sub00/vhpl05 1508172163
+EN pipo NULL I:/pendrive/5th_Lab/final/Xilin/PIPO/PIPO.vhd sub00/vhpl02 1508172160
+EN pipo_res NULL I:/pendrive/5th_Lab/final/Xilin/PIPO/PIPO_RES.vhw sub00/vhpl04 1508172162

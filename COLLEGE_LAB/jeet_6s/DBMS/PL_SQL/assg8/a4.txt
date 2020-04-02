@@ -1,0 +1,18 @@
+DECLARE
+	A NUMBER(10,2):=0;
+	B NUMBER(10,2):=1;
+	C NUMBER(10,2);
+BEGIN
+	C:=A+B;
+	DBMS_OUTPUT.PUT_LINE('0');
+	WHILE C < 20000
+	LOOP
+		DBMS_OUTPUT.PUT_LINE(C);
+		C:=A+B;
+		A:=B;
+		B:=C;
+	END LOOP;
+END;
+/
+	
+	

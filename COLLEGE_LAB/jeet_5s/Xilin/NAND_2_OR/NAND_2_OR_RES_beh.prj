@@ -1,0 +1,2 @@
+vhdl work "NAND_2_OR.vhd"
+vhdl work "NAND_2_OR_RES.vhw"

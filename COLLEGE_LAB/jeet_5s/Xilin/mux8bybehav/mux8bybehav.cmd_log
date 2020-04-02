@@ -1,0 +1,1 @@
+xst -ise "F:/LAB/jeet_5s/Xilin/mux8bybehav/mux8bybehav" -intstyle ise -ifn mux8bybehav.xst -ofn mux8bybehav.syr

@@ -1,0 +1,6 @@
+EN lut_res NULL D:/IT_X_20/LUT/LUT_RES.vhw sub00/vhpl04 1508222268
+AR lut behavioral D:/IT_X_20/LUT/LUT.vhd sub00/vhpl03 1508222267
+AR mux2_1 behavioral D:/IT_X_20/mux2_1/mux2_1.vhd sub00/vhpl01 1508221727
+EN lut NULL D:/IT_X_20/LUT/LUT.vhd sub00/vhpl02 1508222266
+AR lut_res testbench_arch D:/IT_X_20/LUT/LUT_RES.vhw sub00/vhpl05 1508222269
+EN mux2_1 NULL D:/IT_X_20/mux2_1/mux2_1.vhd sub00/vhpl00 1508221726

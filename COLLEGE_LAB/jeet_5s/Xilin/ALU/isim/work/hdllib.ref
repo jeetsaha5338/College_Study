@@ -1,0 +1,8 @@
+EN alu_res NULL D:/IT_X_20/ALU/ALU_RES.vhw sub00/vhpl06 1503988811
+AR mux4 behavioral D:/IT_X_20/mux4/mux4.vhd sub00/vhpl01 1503988625
+EN mux4 NULL D:/IT_X_20/mux4/mux4.vhd sub00/vhpl00 1503988624
+AR alu behavioral D:/IT_X_20/ALU/ALU.vhd sub00/vhpl05 1503988629
+AR full_add behavioral D:/IT_X_20/Full_Add/Full_Add.vhd sub00/vhpl03 1503988627
+EN full_add NULL D:/IT_X_20/Full_Add/Full_Add.vhd sub00/vhpl02 1503988626
+AR alu_res testbench_arch D:/IT_X_20/ALU/ALU_RES.vhw sub00/vhpl07 1503988812
+EN alu NULL D:/IT_X_20/ALU/ALU.vhd sub00/vhpl04 1503988628

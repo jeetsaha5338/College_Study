@@ -1,0 +1,11 @@
+V3 7
+FL F:/LAB/jeet_5s/Xilin/D_B_MAX/D_B_MAX.vhd 2017/10/30.16:30:11 I.24
+EN work/D_B_MAX 1509363317         FL F:/LAB/jeet_5s/Xilin/D_B_MAX/D_B_MAX.vhd \
+      PB ieee/std_logic_1164 1131108373 PB ieee/std_logic_arith 1131108375 \
+      PB ieee/STD_LOGIC_UNSIGNED 1131108379
+AR work/D_B_MAX/Behavioral 1509363318 FL F:/LAB/jeet_5s/Xilin/D_B_MAX/D_B_MAX.vhd \
+      EN work/D_B_MAX 1509363317 CP mux4
+FL D:/IT_X_20/mux4/mux4.vhd 2017/08/22.11:29:30 I.24
+EN work/mux4 1505198796            FL D:/IT_X_20/mux4/mux4.vhd PB ieee/std_logic_1164 1131108373 \
+      PB ieee/std_logic_arith 1131108375 PB ieee/STD_LOGIC_UNSIGNED 1131108379
+AR work/mux4/Behavioral 1505198797 FL D:/IT_X_20/mux4/mux4.vhd EN work/mux4 1505198796

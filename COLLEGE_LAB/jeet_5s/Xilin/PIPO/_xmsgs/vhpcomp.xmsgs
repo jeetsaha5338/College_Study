@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3215" delta="unknown" >Unit <arg fmt="%s" index="1">work/PIPO_RES</arg> is now defined in a different file: was <arg fmt="%s" index="2">D:/IT_X_20/PIPO/PIPO_RES.vhw</arg>, now is <arg fmt="%s" index="3">I:/pendrive/5th_Lab/final/Xilin/PIPO/PIPO_RES.vhw</arg>
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3215" delta="unknown" >Unit <arg fmt="%s" index="1">work/PIPO_RES/testbench_arch</arg> is now defined in a different file: was <arg fmt="%s" index="2">D:/IT_X_20/PIPO/PIPO_RES.vhw</arg>, now is <arg fmt="%s" index="3">I:/pendrive/5th_Lab/final/Xilin/PIPO/PIPO_RES.vhw</arg>
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3215" delta="unknown" >Unit <arg fmt="%s" index="1">work/PIPO</arg> is now defined in a different file: was <arg fmt="%s" index="2">D:/IT_X_20/PIPO/PIPO.vhd</arg>, now is <arg fmt="%s" index="3">I:/pendrive/5th_Lab/final/Xilin/PIPO/PIPO.vhd</arg>
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3215" delta="unknown" >Unit <arg fmt="%s" index="1">work/PIPO/Behavioral</arg> is now defined in a different file: was <arg fmt="%s" index="2">D:/IT_X_20/PIPO/PIPO.vhd</arg>, now is <arg fmt="%s" index="3">I:/pendrive/5th_Lab/final/Xilin/PIPO/PIPO.vhd</arg>
+</msg>
+
+</messages>

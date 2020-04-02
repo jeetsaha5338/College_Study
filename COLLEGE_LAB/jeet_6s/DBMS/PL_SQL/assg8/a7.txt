@@ -1,0 +1,13 @@
+DECLARE
+	N SAILOR.SID%TYPE:='&N';
+	NAME SAILOR.SNAME%TYPE;
+	A SAILOR.AGE%TYPE;
+	R SAILOR.RATING%TYPE;
+BEGIN
+	
+	select sname,rating,age  into name,r,a from sailor where sid=n;
+	DBMS_OUTPUT.PUT_LINE('sailor name '||name||'age is '||a||'rating is '||r);	
+END;
+/
+	
+	

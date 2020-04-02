@@ -1,0 +1,29 @@
+ command line:
+   ./adder4bitsubt_tb_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  1783
+
+Mon Oct 30 16:09:50 2017
+
+Total Line Count = 820
+
+ Elaboration time 0 sec.
+
+ Estimate current memory usage 71.0779 Meg. 
+
+ Total signals 29
+ Total nets 21
+ Total signal drivers 14
+ Total blocks 11
+ Total primitive blocks 4
+ Total processes 13
+ntrace select -o on -n /adder4bitsubt_tb/a 
+ntrace select -o on -n /adder4bitsubt_tb/b 
+ntrace select -o on -n /adder4bitsubt_tb/cin 
+ntrace select -o on -n /adder4bitsubt_tb/s 
+ntrace select -o on -n /adder4bitsubt_tb/cout 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

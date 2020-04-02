@@ -1,0 +1,20 @@
+Release 8.1i ngdbuild I.24
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -intstyle ise -dd _ngo -i -p acr2 NAND_2_NOR.ngc
+NAND_2_NOR.ngd 
+
+Reading NGO file 'D:/IT_X_20/NAND_2_NOR/NAND_2_NOR.ngc' ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 105384 kilobytes
+
+Writing NGD file "NAND_2_NOR.ngd" ...
+
+Writing NGDBUILD log file "NAND_2_NOR.bld"...

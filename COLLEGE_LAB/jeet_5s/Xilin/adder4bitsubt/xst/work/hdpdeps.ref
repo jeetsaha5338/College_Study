@@ -1,0 +1,8 @@
+V3 4
+FL F:/LAB/jeet_5s/Xilin/adder4bitsubt/adder4bitsubt.vhd 2017/08/08.11:27:44 I.24
+EN work/adder4bitsubt 1511539826   FL F:/LAB/jeet_5s/Xilin/adder4bitsubt/adder4bitsubt.vhd \
+      PB ieee/std_logic_1164 1131108373 PB ieee/std_logic_arith 1131108375 \
+      PB ieee/STD_LOGIC_UNSIGNED 1131108379
+AR work/adder4bitsubt/Behavioral 1511539827 \
+      FL F:/LAB/jeet_5s/Xilin/adder4bitsubt/adder4bitsubt.vhd \
+      EN work/adder4bitsubt 1511539826 CP fulladder

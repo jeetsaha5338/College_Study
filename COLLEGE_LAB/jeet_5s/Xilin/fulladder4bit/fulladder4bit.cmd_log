@@ -1,0 +1,1 @@
+xst -ise "J:/Xilin/fulladder4bit/fulladder4bit" -intstyle ise -ifn fulladder4bit.xst -ofn fulladder4bit.syr

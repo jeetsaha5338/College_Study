@@ -1,0 +1,6 @@
+AR mux4 behavioral D:/IT_X_20/mux4/mux4.vhd sub00/vhpl01 1505196241
+EN mux4 NULL D:/IT_X_20/mux4/mux4.vhd sub00/vhpl00 1505196240
+AR s_c_usingmux_res testbench_arch D:/IT_X_20/S_C_usingMUX/S_C_usingMUX_RES.vhw sub00/vhpl05 1505197053
+AR s_c_usingmux behavioral D:/IT_X_20/S_C_usingMUX/S_C_usingMUX.vhd sub00/vhpl03 1505197051
+EN s_c_usingmux NULL D:/IT_X_20/S_C_usingMUX/S_C_usingMUX.vhd sub00/vhpl02 1505197050
+EN s_c_usingmux_res NULL D:/IT_X_20/S_C_usingMUX/S_C_usingMUX_RES.vhw sub00/vhpl04 1505197052

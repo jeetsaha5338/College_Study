@@ -1,0 +1,3 @@
+MODULE fulladder4bit_tb
+SUBMODULE fulladder4bit
+INSTANCE UUT

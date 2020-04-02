@@ -1,0 +1,25 @@
+ command line:
+   ./mux2_tb_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  50160
+
+Sat Oct 14 12:57:13 2017
+
+Total Line Count = 741
+
+ Elaboration time 0 sec.
+
+ Estimate current memory usage 62.2264 Meg. 
+
+ Total signals 6
+ Total nets 4
+ Total signal drivers 3
+ Total blocks 7
+ Total primitive blocks 1
+ Total processes 2
+ntrace select -o on -m / -l this 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

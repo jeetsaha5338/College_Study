@@ -1,0 +1,3 @@
+MODULE mux8bybahav_tb
+SUBMODULE mux8bybehav
+INSTANCE UUT

@@ -1,0 +1,11 @@
+V3 7
+FL D:/IT_X_20/mux4/mux4.vhd 2017/08/22.11:29:30 I.24
+EN work/mux4 1505197040            FL D:/IT_X_20/mux4/mux4.vhd PB ieee/std_logic_1164 1131108373 \
+      PB ieee/std_logic_arith 1131108375 PB ieee/STD_LOGIC_UNSIGNED 1131108379
+AR work/mux4/Behavioral 1505197041 FL D:/IT_X_20/mux4/mux4.vhd EN work/mux4 1505197040
+FL D:/IT_X_20/S_C_usingMUX/S_C_usingMUX.vhd 2017/09/12.11:47:13 I.24
+EN work/S_C_usingMUX 1505197042    FL D:/IT_X_20/S_C_usingMUX/S_C_usingMUX.vhd \
+      PB ieee/std_logic_1164 1131108373 PB ieee/std_logic_arith 1131108375 \
+      PB ieee/STD_LOGIC_UNSIGNED 1131108379
+AR work/S_C_usingMUX/Behavioral 1505197043 FL D:/IT_X_20/S_C_usingMUX/S_C_usingMUX.vhd \
+      EN work/S_C_usingMUX 1505197042 CP mux4

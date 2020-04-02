@@ -1,0 +1,4 @@
+EN full_using_ha NULL D:/IT_X_20/Full_Using_HA/Full_using_HA.vhd sub00/vhpl00 1500968164
+EN half_add NULL D:/IT_X_20/Half_Add/Half_Add.vhd sub00/vhpl01 1500968162
+AR half_add behavioral D:/IT_X_20/Half_Add/Half_Add.vhd sub00/vhpl02 1500968163
+AR full_using_ha behavioral D:/IT_X_20/Full_Using_HA/Full_using_HA.vhd sub00/vhpl03 1500968165

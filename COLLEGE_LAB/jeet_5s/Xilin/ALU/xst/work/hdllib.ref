@@ -1,0 +1,6 @@
+AR mux4 behavioral D:/IT_X_20/mux4/mux4.vhd sub00/vhpl01 1503988501
+EN mux4 NULL D:/IT_X_20/mux4/mux4.vhd sub00/vhpl00 1503988500
+AR alu behavioral F:/LAB/jeet_5s/Xilin/ALU/ALU.vhd sub00/vhpl05 1511540764
+AR full_add behavioral D:/IT_X_20/Full_Add/Full_Add.vhd sub00/vhpl03 1503988503
+EN full_add NULL D:/IT_X_20/Full_Add/Full_Add.vhd sub00/vhpl02 1503988502
+EN alu NULL F:/LAB/jeet_5s/Xilin/ALU/ALU.vhd sub00/vhpl04 1511540763

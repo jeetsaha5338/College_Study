@@ -1,0 +1,1 @@
+xst -ise "F:/LAB/jeet_5s/Xilin/D_B_MAX/D_B_MAX" -intstyle ise -ifn D_B_MAX.xst -ofn D_B_MAX.syr

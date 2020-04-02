@@ -1,0 +1,27 @@
+ command line:
+   ./SIPO_RES1_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  56009
+
+Mon Oct 16 22:44:14 2017
+
+Total Line Count = 884
+
+ Elaboration time 0 sec.
+
+ Estimate current memory usage 73.7567 Meg. 
+
+ Total signals 37
+ Total nets 17
+ Total signal drivers 17
+ Total blocks 15
+ Total primitive blocks 8
+ Total processes 17
+ntrace select -o on -n /SIPO_RES1/din 
+ntrace select -o on -n /SIPO_RES1/clk 
+ntrace select -o on -n /SIPO_RES1/qout 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

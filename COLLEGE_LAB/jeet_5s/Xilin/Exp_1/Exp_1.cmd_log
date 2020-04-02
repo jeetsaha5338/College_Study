@@ -1,0 +1,2 @@
+xst -ise "D:/IT_X_20/Exp_1/Exp_1" -intstyle ise -ifn Exp_1.xst -ofn Exp_1.syr
+xst -ise "J:/Xilin/Exp_1/Exp_1" -intstyle ise -ifn Exp_1.xst -ofn Exp_1.syr

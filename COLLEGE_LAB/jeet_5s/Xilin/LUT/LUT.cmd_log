@@ -1,0 +1,1 @@
+xst -ise "F:/LAB/jeet_5s/Xilin/LUT/LUT" -intstyle ise -ifn LUT.xst -ofn LUT.syr

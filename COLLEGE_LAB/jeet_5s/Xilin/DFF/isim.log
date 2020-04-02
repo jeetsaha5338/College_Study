@@ -1,0 +1,27 @@
+ command line:
+   ./DFF_RES_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  3514
+
+Tue Oct 31 00:21:45 2017
+
+Total Line Count = 760
+
+ Elaboration time 0 sec.
+
+ Estimate current memory usage 71.0124 Meg. 
+
+ Total signals 6
+ Total nets 3
+ Total signal drivers 3
+ Total blocks 7
+ Total primitive blocks 1
+ Total processes 3
+ntrace select -o on -n /DFF_RES/d 
+ntrace select -o on -n /DFF_RES/clk 
+ntrace select -o on -n /DFF_RES/cout 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

@@ -1,0 +1,27 @@
+ command line:
+   ./D_B_MAX_RES_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  1815
+
+Mon Oct 30 16:30:20 2017
+
+Total Line Count = 786
+
+ Elaboration time 0 sec.
+
+ Estimate current memory usage 70.8813 Meg. 
+
+ Total signals 15
+ Total nets 10
+ Total signal drivers 4
+ Total blocks 9
+ Total primitive blocks 2
+ Total processes 4
+ntrace select -o on -n /D_B_MAX_RES/a 
+ntrace select -o on -n /D_B_MAX_RES/diff 
+ntrace select -o on -n /D_B_MAX_RES/brow 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

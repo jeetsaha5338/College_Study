@@ -1,0 +1,309 @@
+﻿
+[Kaustav@localhost ~]$ cd Desktop
+
+[Kaustav@localhost Desktop]$ mkdir letter report assg
+
+[Kaustav@localhost Desktop]$ cd letter
+
+[Kaustav@localhost letter]$ mkdir man
+
+[Kaustav@localhost letter]$ pwd
+/home/Kaustav/Desktop/letter
+
+[Kaustav@localhost letter]$ mkdir friendly formal
+
+[Kaustav@localhost letter]$ cd ^C
+
+[Kaustav@localhost letter]$ cd /home/Kaustav/Desktop/
+
+[Kaustav@localhost Desktop]$ cd /home/Kaustav/Desktop/report
+
+[Kaustav@localhost report]$ mkdir personal business school
+
+[Kaustav@localhost report]$ cd ssignment
+bash: cd: ssignment: No such file or directory
+
+[Kaustav@localhost report]$ cd assg
+bash: cd: assg: No such file or directory
+
+[Kaustav@localhost report]$ man cd
+
+[Kaustav@localhost report]$ pid
+bash: pid: command not found
+
+[Kaustav@localhost report]$ pwd
+/home/Kaustav/Desktop/report
+
+[Kaustav@localhost report]$ mkdir/home/Kaustav/Desktop/assg/unit
+
+bash: mkdir/home/Kaustav/Desktop/assg/unit: No such file or directory
+
+[Kaustav@localhost report]$ mkdir /home/Kaustav/Desktop/assg/unit
+
+[Kaustav@localhost report]$ cd ~
+
+[Kaustav@localhost ~]$ cd Desktop
+
+[Kaustav@localhost Desktop]$ cd Today
+
+[Kaustav@localhost Today]$ ls
+ assg  letter  report
+
+[Kaustav@localhost Today]$ 
+tree
+.
+
+├── assg
+│   
+└── unit
+├── 
+	letter
+│   
+	├── formal
+│   
+	└── friendly
+
+	└── report
+    
+	├── business
+    
+	├── personal
+    
+	└── school
+
+9 directories, 0 files
+
+[Kaustav@localhost Today]$ man ls
+
+[Kaustav@localhost Today]$ ls -R
+. :
+assg  letter  report
+
+./assg:
+unit
+
+./assg/unit:
+
+./letter:
+formal  friendly
+
+./letter/formal:
+
+./letter/friendly:
+
+./report:
+business  personal  school
+
+./report/business:
+
+./report/personal:
+
+./report/school:
+
+[Kaustav@localhost Today]$ ls -l 
+total 12
+drwxrwxr-x 3 Kaustav Kaustav 4096 Aug  4 15:20 
+				assg
+drwxrwxr-x 4 Kaustav Kaustav 4096 Aug  4 15:10 letter
+
+											drwxrwxr-x 5 Kaustav Kaustav 4096 Aug  4 15:13 report
+
+[Kaustav@localhost Today]$ cd Desktop
+bash: cd: Desktop: No such file or directory
+
+
+[Kaustav@localhost Today]$ cd Desktop
+
+bash: cd: Desktop: No such file or directory
+
+[Kaustav@localhost Today]$ cd ..
+
+[Kaustav@localhost Desktop]$ mkdir AOT
+
+[Kaustav@localhost Desktop]$ cd AOT
+
+[Kaustav@localhost AOT]$ mkdir A1 A2 A3
+
+[Kaustav@localhost AOT]$ LS
+
+bash: LS: command not found
+
+[Kaustav@localhost AOT]$ ls
+A1  A2  A3
+
+[Kaustav@localhost AOT]$ rm A3
+
+rm: cannot remove ‘A3’: Is a directory
+
+[Kaustav@localhost AOT]$ rm -A3
+rm: invalid option -- 'A'
+Try 'rm --help' for more information.
+
+[Kaustav@localhost AOT]$ rm --hekp
+rm: unrecognized option '--hekp'
+Try 'rm --help' for more information.
+
+[Kaustav@localhost AOT]$ rm --help
+Usage: rm [OPTION]... [FILE]...
+Remove (unlink) the FILE(s).
+
+  -f, --force           ignore nonexistent files and arguments, never prompt
+  -i                    prompt before every removal
+  -I                    prompt once before removing more than three files, or
+                          when removing recursively; less intrusive than -i,
+                          while still giving protection against most mistakes
+      --interactive[=WHEN]  prompt according to WHEN: never, once (-I), or
+                          always (-i); without WHEN, prompt always
+      --one-file-system  when removing a hierarchy recursively, skip any
+                          directory that is on a file system different from
+                          that of the corresponding command line argument
+      --no-preserve-root  do not treat '/' specially
+      --preserve-root   do not remove '/' (default)
+  -r, -R, --recursive   remove directories and their contents recursively
+  -d, --dir             remove empty directories
+  -v, --verbose         explain what is being done
+      --help     display this help and exit
+      --version  output version information and exit
+
+By default, rm does not remove directories.  Use the --recursive (-r or -R)
+option to remove each listed directory, too, along with all of its contents.
+
+To remove a file whose name starts with a '-', for example '-foo',
+use one of these commands:
+  rm -- -foo
+
+  rm ./-foo
+
+Note that if you use rm to remove a file, it might be possible to recover
+some of its contents, given sufficient expertise and/or time.  For greater
+assurance that the contents are truly unrecoverable, consider using shred.
+
+GNU coreutils online help: <http://www.gnu.org/software/coreutils/>
+Full documentation at: <http://www.gnu.org/software/coreutils/rm>
+or available locally via: info '(coreutils) rm invocation'
+[Kaustav@localhost AOT]$ rm ./- A3
+rm: cannot remove ‘./-’: No such file or directory
+rm: cannot remove ‘A3’: Is a directory
+[Kaustav@localhost AOT]$ rm ./-A3
+rm: cannot remove ‘./-A3’: No such file or directory
+
+[Kaustav@localhost AOT]$ rm -d A3
+
+[Kaustav@localhost AOT]$ ls
+A1  A2
+
+[Kaustav@localhost AOT]$ pwd
+/home/Kaustav/Desktop/AOT
+
+[Kaustav@localhost AOT]$ cd A1
+
+[Kaustav@localhost A1]$ pwd
+/home/Kaustav/Desktop/AOT/A1
+
+[Kaustav@localhost A1]$ pluma A1.txt
+
+[Kaustav@localhost A1]$ cp A1.txt B2.txt
+
+[Kaustav@localhost A1]$ pwd
+/home/Kaustav/Desktop/AOT/A1
+
+[Kaustav@localhost A1]$ mv A1.txt C1.txt
+
+[Kaustav@localhost A1]$ rm B1.txt
+rm: cannot remove ‘B1.txt’: No such file or directory
+
+[Kaustav@localhost A1]$ rm B2.txt
+
+[Kaustav@localhost A1]$ chmode 444 C1.txt
+bash: chmode: command not found
+
+[Kaustav@localhost A1]$ chmode 600 C1.txt
+bash: chmode: command not found
+
+[Kaustav@localhost A1]$ chmod 444 C1.txt
+
+[Kaustav@localhost A1]$ ls -l
+total 4
+-r--r--r-- 1 Kaustav Kaustav 80 Aug  4 15:47 C1.txt
+
+[Kaustav@localhost A1]$ cd Desktop
+bash: cd: Desktop: No such file or directory
+
+[Kaustav@localhost A1]$ cd ..
+
+[Kaustav@localhost AOT]$ cd..
+bash: cd..: command not found
+
+[Kaustav@localhost AOT]$ cd Desktop
+bash: cd: Desktop: No such file or directory
+
+[Kaustav@localhost AOT]$ DC..
+bash: DC..: command not found
+
+[Kaustav@localhost AOT]$ cd ..
+
+[Kaustav@localhost Desktop]$ pluma My_Prof.txt
+
+[Kaustav@localhost Desktop]$ cp My_Prof.txt My_Bio.txt
+
+[Kaustav@localhost Desktop]$ grep -i "kaustav pallob" My_Prof.txt
+kaustav pallob
+KAUSTAV PALLOB
+Kaustav Pallob
+
+[Kaustav@localhost Desktop]$ grep "kaustav pallob" My_Prof.txt
+kaustav pallob
+
+[Kaustav@localhost Desktop]$ grep "Kaustav Pallob" My_Prof.txt
+Kaustav Pallob
+
+[Kaustav@localhost Desktop]$ grep "Kaustav Pall0b" My_Prof.txt
+
+[Kaustav@localhost Desktop]$ grep -B "Network Panitreat" My_Prof.txt
+grep: Network Panitreat: invalid context length argument
+
+[Kaustav@localhost Desktop]$ grep -n "Network Panitreat" My_Prof.txt
+8:Hobby:Network Panitreat
+
+[Kaustav@localhost Desktop]$ grep -n -i "Network Panitreat" My_Prof.txt
+8:Hobby:Network Panitreat
+
+[Kaustav@localhost Desktop]$ grep -n -i "kaustav pallob" My_Prof.txt
+1:kaustav pallob
+2:KAUSTAV PALLOB
+3:Kaustav Pallob
+
+[Kaustav@localhost Desktop]$ grep -A "Network Panitreat" My_Prof.txt
+grep: Network Panitreat: invalid context length argument
+
+[Kaustav@localhost Desktop]$ grep -C "Network Panitreat" My_Prof.txt
+grep: Network Panitreat: invalid context length argument
+
+[Kaustav@localhost Desktop]$ grep -C "Kaustav" My_Prof.txt
+grep: Kaustav: invalid context length argument
+
+[Kaustav@localhost Desktop]$ grep -C 3 "Kaustav" My_Prof.txt
+kaustav pallob
+KAUSTAV PALLOB
+Kaustav Pallob
+kaustavpallob@gmail.com
+91-8961046446
+
+
+[Kaustav@localhost Desktop]$ grep -v "Kaustav" My_Prof.txt
+kaustav pallob
+KAUSTAV PALLOB
+kaustavpallob@gmail.com
+91-8961046446
+
+
+Hobby:Network Panitreat
+
+Gread in C: 'A'
+
+#
+
+112@536
+
+[Kaustav@localhost Desktop]$ 
+

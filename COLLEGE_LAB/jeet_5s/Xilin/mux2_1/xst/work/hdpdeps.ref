@@ -1,0 +1,5 @@
+V3 3
+FL D:/it51/mux2_1/mux2_1.vhd 2017/10/14.12:52:06 I.24
+EN work/mux2_1 1508010749          FL D:/it51/mux2_1/mux2_1.vhd PB ieee/std_logic_1164 1131108373 \
+      PB ieee/std_logic_arith 1131108375 PB ieee/STD_LOGIC_UNSIGNED 1131108379
+AR work/mux2_1/Behavioral 1508010750 FL D:/it51/mux2_1/mux2_1.vhd EN work/mux2_1 1508010749

@@ -1,0 +1,6 @@
+step 1:	create the procedure
+step 2:	compile the procedure
+step 3:	create the main
+step 4:	compile the main
+**STEP 4 IS THE MAIN STEP**
+

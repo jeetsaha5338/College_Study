@@ -1,0 +1,4 @@
+EN fulladder_tb NULL D:/IT_54/fulladder/fulladder_tb.vhw sub00/vhpl02 1501010343
+AR fulladder behavioral D:/IT_54/fulladder/fulladder.vhd sub00/vhpl01 1501010342
+EN fulladder NULL D:/IT_54/fulladder/fulladder.vhd sub00/vhpl00 1501010341
+AR fulladder_tb testbench_arch D:/IT_54/fulladder/fulladder_tb.vhw sub00/vhpl03 1501010344

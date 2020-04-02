@@ -1,0 +1,4 @@
+AR mux4 behavioral D:/IT_X_20/mux4/mux4.vhd sub00/vhpl03 1505198797
+EN mux4 NULL D:/IT_X_20/mux4/mux4.vhd sub00/vhpl02 1505198796
+EN d_b_max NULL F:/LAB/jeet_5s/Xilin/D_B_MAX/D_B_MAX.vhd sub00/vhpl00 1509363317
+AR d_b_max behavioral F:/LAB/jeet_5s/Xilin/D_B_MAX/D_B_MAX.vhd sub00/vhpl01 1509363318

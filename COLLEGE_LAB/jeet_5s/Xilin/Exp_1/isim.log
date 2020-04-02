@@ -1,0 +1,28 @@
+ command line:
+   ./Exp_1_Res_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  52585
+
+Tue Jul 25 11:20:28 2017
+
+Total Line Count = 762
+
+ Elaboration time 0 sec.
+
+ Estimate current memory usage 62.0995 Meg. 
+
+ Total signals 15
+ Total nets 11
+ Total signal drivers 11
+ Total blocks 7
+ Total primitive blocks 1
+ Total processes 9
+ntrace select -o on -n /Exp_1_Res/a 
+ntrace select -o on -n /Exp_1_Res/b 
+ntrace select -o on -n /Exp_1_Res/c 
+ntrace select -o on -n /Exp_1_Res/y 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

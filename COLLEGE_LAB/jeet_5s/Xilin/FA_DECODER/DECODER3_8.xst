@@ -1,0 +1,4 @@
+set -tmpdir ./xst/projnav.tmp
+elaborate
+-ifn DECODER3_8.prj
+-ifmt mixed

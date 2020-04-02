@@ -1,0 +1,77 @@
+Assignment	4 (PART A)
+For the above schema, perform the following query
+1) Find the names and ages of all sailors.
+2) Show names under the heading of names_of_sailors and add 2 to age.
+3) Select all records from sailors in ascending order by name;
+4) Show all sailors name.
+5) Select all distinct sailors name.
+6) Show all distinct sailors names, ratings who have rating between 5 and 10.
+7) Select all records from sailors in ascending order by rating and descending order by age.
+8) Select all records from sailors whose rating>7.
+9) Find records for sailor name Horatio and age=35.4.
+10) Find records for sailor name Horatio or age=35.4.
+11) Select names of sailors who have reserved boat 104.
+12) Find sid of sailors who have reserved red boat
+13) Select records for name beginning with ‘B’.
+14) Select records for name containing ‘B’/’b’.
+15) Select names for mname present.
+16) Select names for mname  absent.
+17) Find color of boats reserved by Lubber.
+18) Find a sailor name that has reserved at least one boat.
+19) Compute the increments of rating of persons who have sailed on diff boats on the same day
+20) Find name of sailors whose name begins and ends with B and has at least 3 characters.
+21) Find names of a sailor whose name begins and ends with ‘B’ and has exactly 3 chars.
+22) Find names of sailors who have reserved a red boat or a green boat.
+23) Find names of sailors who have reserved a red boat but not a green boat.
+24) Find names of sailors who have reserved boat 103.
+25) Find names of sailors who have reserved red boat.
+26) Find names of sailors who have not reserved red boat.
+27) Count distinct sailor name from sailors.
+28) a) Find all records for the rating>some sailor name where sailor name like ‘Horatio’.
+b) Find all records for the rating>all sailor name where sailor name like ‘Horatio’.
+29) a) Find all records for the rating<some sailor name where sailor name like ‘Horatio’.
+b) Find all records for the rating<all sailor name where sailor name like ‘Horatio’.
+30) Select all records for s_name neither Lubber nor Horatio.
+31) Find names of sailors whose rating is>10/20/30 using multi row sub query operator.
+32) Find names of sailors whose rating is>10 & 20 & 30 using multi row sub query operator.
+33) Find average age of sailors with rating 10.
+34) Find the name of sailor who are older than oldest sailor of rating=10.
+35) Find the age of youngest sailor for each rating level.
+36) Find the name of each sailor who is eligible to vote for each rating level.
+37) Find the age of youngest sailor who is eligible to vote for each rating level with at least two such
+sailors.
+38) Find the average age of sailor for each rating level with at least two such sailor.
+39) For each red boat count the no of reservations for this boat.
+40) Find sailor with highest rating.
+41) Find those rating for which the average age of sailors is minimum over all rating.
+42) Find sailors who have reserved all boats.
+43 a) Display s_name with left side padding by exactly 3 #
+43 b)Display s_name with left side padding by at least 3 #
+44) Display length of each name.
+45) Display all sailors names in uppercase.
+46) Display all sailors’ names in lower case.
+47) Display all sailors names in sentence case.
+48) Display 4th to 7th letter of sailors name.
+49) Display 4th and 7th letter of sailors name.
+50) Concat s_id, s_name.
+51) Display square root of rating.
+52) Display floor values of all ages.
+53) Display ceiling values of all ages.
+54) Select all s_name with 1st 2 letters off.
+55) List months between today and reservation date.
+56) Select day between today and reservation date.
+57) Shift all reservation day by 2 months.
+58) Shift all reservation day earlier by 3 months.
+59) Suppose after sailing they enjoy their next Monday as holiday. Find that
+day.
+60) Display 3 # before and after each s_name.
+61) Find the date when sailing ends.
+62) Display all reservation day.
+63) Find the position of ‘Kumar’ in the sailors’ name.
+64) Display all sailors name order by its length.
+65) Display sid, sname and availability of middle name which pint as ‘available’ or ‘not available’.
+66) Display all reservation day like ‘22nd March twenty ten’ and 12/09/1998.
+67) Find the day of weekdays of reservation date.
+68) Find the number of day of weekdays of reservation date.
+69) Find the number of days passed upto reservation date of that year.
+70) Display the number of weeks of the year for reservation day.

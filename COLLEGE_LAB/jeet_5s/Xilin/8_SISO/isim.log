@@ -1,0 +1,41 @@
+ command line:
+   ./Bit_8_SISO_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  52753
+WARNING:Simulator:29 - at 0 ns: Warning: No entity is bound for inst
+   Bit_8_SISO/d0 of Component DFF
+WARNING:Simulator:29 - at 0 ns: Warning: No entity is bound for inst
+   Bit_8_SISO/d1 of Component DFF
+WARNING:Simulator:29 - at 0 ns: Warning: No entity is bound for inst
+   Bit_8_SISO/d2 of Component DFF
+WARNING:Simulator:29 - at 0 ns: Warning: No entity is bound for inst
+   Bit_8_SISO/d3 of Component DFF
+WARNING:Simulator:29 - at 0 ns: Warning: No entity is bound for inst
+   Bit_8_SISO/d4 of Component DFF
+WARNING:Simulator:29 - at 0 ns: Warning: No entity is bound for inst
+   Bit_8_SISO/d5 of Component DFF
+WARNING:Simulator:29 - at 0 ns: Warning: No entity is bound for inst
+   Bit_8_SISO/d6 of Component DFF
+WARNING:Simulator:29 - at 0 ns: Warning: No entity is bound for inst
+   Bit_8_SISO/d7 of Component DFF
+
+Tue Oct 10 11:36:42 2017
+
+Total Line Count = 591
+
+ Elaboration time 0 sec.
+
+ Estimate current memory usage 64.2621 Meg. 
+
+ Total signals 10
+ Total nets 10
+ Total signal drivers 1
+ Total blocks 4
+ Total primitive blocks 1
+ Total processes 0
+ntrace select -o on -m / -l this 
+ntrace start 
+run 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

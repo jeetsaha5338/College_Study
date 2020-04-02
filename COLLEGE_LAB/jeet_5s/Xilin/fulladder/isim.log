@@ -1,0 +1,25 @@
+ command line:
+   ./fulladder_tb_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  49227
+
+Tue Jul 25 12:19:03 2017
+
+Total Line Count = 761
+
+ Elaboration time 0.015625 sec.
+
+ Estimate current memory usage 62.0995 Meg. 
+
+ Total signals 6
+ Total nets 5
+ Total signal drivers 3
+ Total blocks 7
+ Total primitive blocks 1
+ Total processes 3
+ntrace select -o on -m / -l this 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

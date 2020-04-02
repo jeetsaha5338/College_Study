@@ -1,0 +1,11 @@
+V3 7
+FL D:/IT_X_20/mux2_1/mux2_1.vhd 2017/10/14.12:52:08 I.24
+EN work/mux2_1 1508221616          FL D:/IT_X_20/mux2_1/mux2_1.vhd PB ieee/std_logic_1164 1131108373 \
+      PB ieee/std_logic_arith 1131108375 PB ieee/STD_LOGIC_UNSIGNED 1131108379
+AR work/mux2_1/Behavioral 1508221617 FL D:/IT_X_20/mux2_1/mux2_1.vhd EN work/mux2_1 1508221616
+FL F:/LAB/jeet_5s/Xilin/LUT/LUT.vhd 2017/10/17.12:06:20 I.24
+EN work/LUT 1509390400             FL F:/LAB/jeet_5s/Xilin/LUT/LUT.vhd \
+      PB ieee/std_logic_1164 1131108373 PB ieee/std_logic_arith 1131108375 \
+      PB ieee/STD_LOGIC_UNSIGNED 1131108379
+AR work/LUT/Behavioral 1509390401  FL F:/LAB/jeet_5s/Xilin/LUT/LUT.vhd EN work/LUT 1509390400 \
+      CP mux2_1

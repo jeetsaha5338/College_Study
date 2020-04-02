@@ -1,0 +1,4 @@
+AR andgate_res testbench_arch D:/IT_X_20/AND_GATE/ANDGATE_RES.vhw sub00/vhpl03 1500357731
+AR and_gate behavioral D:/IT_X_20/AND_GATE/AND_GATE.vhd sub00/vhpl01 1500357729
+EN andgate_res NULL D:/IT_X_20/AND_GATE/ANDGATE_RES.vhw sub00/vhpl02 1500357730
+EN and_gate NULL D:/IT_X_20/AND_GATE/AND_GATE.vhd sub00/vhpl00 1500357728

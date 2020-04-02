@@ -1,0 +1,5 @@
+V3 3
+FL D:/IT_X_20/CLA/CLA.vhd 2017/09/08.16:49:01 I.24
+EN work/CLA 1504869544             FL D:/IT_X_20/CLA/CLA.vhd PB ieee/std_logic_1164 1131108373 \
+      PB ieee/std_logic_arith 1131108375 PB ieee/STD_LOGIC_UNSIGNED 1131108379
+AR work/CLA/Behavioral 1504869545  FL D:/IT_X_20/CLA/CLA.vhd EN work/CLA 1504869544

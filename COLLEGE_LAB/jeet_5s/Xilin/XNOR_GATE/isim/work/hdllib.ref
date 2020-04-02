@@ -1,0 +1,4 @@
+AR xnor_gate behavioral D:/IT_X_20/XNOR_GATE/XNOR_GATE.vhd sub00/vhpl01 1500359985
+EN xnor_gate NULL D:/IT_X_20/XNOR_GATE/XNOR_GATE.vhd sub00/vhpl00 1500359984
+AR xnorgate_res testbench_arch D:/IT_X_20/XNOR_GATE/XNORGATE_RES.vhw sub00/vhpl03 1500359987
+EN xnorgate_res NULL D:/IT_X_20/XNOR_GATE/XNORGATE_RES.vhw sub00/vhpl02 1500359986

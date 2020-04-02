@@ -1,0 +1,22 @@
+CREATE TABLES===>>
+		
+	SQL> CREATE TABLE SAILOR(SID VARCHAR2(4) PRIMARY KEY CHECK(SID = LOWER(SID)),
+  	2  SNAME VARCHAR2(15) CHECK(SNAME = INITCAP(SNAME)),MNAME VARCHAR2(15),Surname VARCHAR2(15),
+  	3  RATING NUMBER(2), AGE NUMBER(3,1));
+
+	Table created.
+
+
+
+
+INSERT DATA ON TABLE===>>
+	
+	SQL> INSERT INTO SAILOR VALUES('&SID','&SNAME','&MNAME','&SURNAME',&RATING,&AGE);
+	Enter value for sid: s74
+	Enter value for sname: Horatio
+	Enter value for mname: 
+	Enter value for surname: Forrest
+	Enter value for rating: 9
+	Enter value for age: 35
+	old   1: INSERT INTO SAILOR VALUES('&SID','&SNAME','&MNAME','&SURNAME',&RATING,&AGE)
+	new   1: INSERT INTO SAILOR VALUES('s74','Horatio','','Forrest',9,35)

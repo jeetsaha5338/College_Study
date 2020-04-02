@@ -1,0 +1,4 @@
+AR notgate_res testbench_arch D:/IT_X_20/NOT_GATE/NOTGATE_RES.vhw sub00/vhpl03 1500358914
+EN not_gate NULL D:/IT_X_20/NOT_GATE/NOT_GATE.vhd sub00/vhpl00 1500358720
+EN notgate_res NULL D:/IT_X_20/NOT_GATE/NOTGATE_RES.vhw sub00/vhpl02 1500358913
+AR not_gate behavioral D:/IT_X_20/NOT_GATE/NOT_GATE.vhd sub00/vhpl01 1500358721

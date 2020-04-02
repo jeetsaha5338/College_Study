@@ -1,0 +1,9 @@
+
+#PINLOCK_BEGIN
+
+#Fri Sep 08 15:05:29 2017
+
+NET "A2C32A44VQ"     LOC =  "XA2C32A-6-VQ44";
+NET "a"              LOC =  "S:PIN37";
+NET "c"              LOC =  "S:PIN38";
+#PINLOCK_END

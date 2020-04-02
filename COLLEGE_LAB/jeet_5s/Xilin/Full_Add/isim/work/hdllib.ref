@@ -1,0 +1,4 @@
+AR full_add_res testbench_arch D:/IT_X_20/Full_Add/Full_Add_Res.vhw sub00/vhpl03 1500965499
+EN full_add_res NULL D:/IT_X_20/Full_Add/Full_Add_Res.vhw sub00/vhpl02 1500965498
+AR full_add behavioral D:/IT_X_20/Full_Add/Full_Add.vhd sub00/vhpl01 1500965497
+EN full_add NULL D:/IT_X_20/Full_Add/Full_Add.vhd sub00/vhpl00 1500965496

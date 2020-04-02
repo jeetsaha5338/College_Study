@@ -1,0 +1,139 @@
+ANS OF QUARIES OF ASSG 4:(1 TO 64,66)====
+
+1.select SNAME,MNAME,SURNAME,AGE from sailor;
+
+2.select SNAME as names_of_sailors,AGE+2 from sailor;
+
+3.select * from sailor order by SNAME asc;
+
+4.select SNAME||' '||MNAME||' '||SURNAME AS NAME FROM SAILOR;
+
+5.SELECT DISTINCT SNAME FROM SAILOR;
+
+6.SELECT DISTINCT SNAME,RATING FROM SAILOR WHERE (RATING>5 AND RATING<10);
+
+7.SELECT * FROM SAILOR ORDER BY RATING ASC,AGE DESC;
+
+8.SELECT * FROM SAILOR WHERE (RATING>7);
+
+9.SELECT * FROM SAILOR WHERE (SNAME='Horatio' AND AGE=35.4);
+
+10.SELECT * FROM SAILOR WHERE (SNAME='Horatio' OR AGE=35.4);
+
+11.select sname from reserve,boat,sailor where ( reserve.bid = boat.bid and boat.bid='104' and sailor.sid = reserve.sid );
+
+12. select sname from reserve,boat,sailor where ( reserve.bid = boat.bid and color='RED' and sailor.sid = reserve.sid );
+
+13.select *from sailor where sname like 'B%';
+
+14.select *from sailor where sname like 'B%' or sname like 'b%';
+
+15.select * from sailor where mname is NULL;
+
+16.select * from sailor where mname is not NULL;
+
+17.select color from reserve,boat,sailor where reserve.sid = sailor.sid and boat.bid = reserve.bid and sailor.sname = 'Lubber';
+
+18. select distinct sname from sailor,reserve where sailor.sid=reserve.sid;
+
+19.select distinct sailor.sid,rating+2 from reserve r1,reserve r2,sailor where r1.sid=r2.sid and r1.bid!=r2.bid and r1.r_day=r2.r_day and r1.sid=sailor.sid;
+
+20.select sname from sailor where sname like 'B___%' and sname like '%b';
+
+21.select sname from sailor where sname like 'B_B';
+
+22.select distinct sname from reserve,sailor,boat where (reserve.sid=sailor.sid and reserve.bid=boat.bid and (boat.color='RED' or boat.color='GREEN'));
+
+23.select distinct sname from reserve,sailor,boat where (reserve.sid=sailor.sid and reserve.bid=boat.bid and boat.color='RED')minus
+
+select distinct sname from reserve,sailor,boat where (reserve.sid=sailor.sid and reserve.bid=boat.bid and boat.color='GREEN');
+
+24/25 same as 12,13;
+
+26. select distinct SNAME||' '||MNAME||' '||SURNAME from reserve,sailor,boat where (reserve.sid=sailor.sid and reserve.bid=boat.bid )minus
+
+ select distinct SNAME||' '||MNAME||' '||SURNAME from reserve,sailor,boat where (reserve.sid=sailor.sid and reserve.bid=boat.bid and boat.color='RED');
+
+27.select count( distinct SNAME||' '||MNAME||' '||SURNAME) as count from sailor;
+
+28.a.select * from sailor where rating> some(select rating from sailor where sname='Horatio');
+
+28.b.  select * from sailor where rating> all(select rating from sailor where sname='Horatio');
+
+29.a.select * from sailor where rating< some(select rating from sailor where sname='Horatio');
+
+29.b.  select * from sailor where rating< all(select rating from sailor where sname='Horatio');
+
+30.select  distinct SNAME||' '||MNAME||' '||SURNAME from sailor where sname!='Lubber' and sname!='Horatio';
+
+31. select * from sailor where rating< some(select rating from sailor where rating='7' or rating='8' or rating='9');
+
+32. select * from sailor where rating< all(select rating from sailor where rating='7' or rating='8' or rating='9');
+
+33.select avg(age) from sailor where rating='10';
+
+34.select max(age) from sailor where rating='10';
+
+35.select rating,min(age) from sailor group by rating;
+
+36. select rating,age from sailor where age>18 group by rating,age;
+
+37.SELECT RATING,MIN(AGE) FROM SAILOR WHERE AGE >=18 GROUP BY RATING HAVING COUNT(*)>=2;
+
+38.SELECT * from sailor where rating=(select max(rating)from sailor);
+
+39.SELECT * from sailor where rating=(select max(rating)from sailor);
+
+40.SELECT * from sailor where rating=(select max(rating)from sailor);
+
+41.SELECT RATING FROM SAILOR GROUP BY RATING HAVING AVG(AGE)=(SELECT MIN(AVG(AGE))FROM THE SAILOR GROUP BY RATING);
+
+42.SELECT SNAME FROM SAILOR WHERE SID IN (SELECT SID FROM RESERVE GROUP BY SID HAVING COUNT(SID) = (SELECT COUNT (*) FROM BOAT));
+
+43a.select lpad(sname,length(sname)+3,'#') from sailor;
+
+43b.select lpad(sname,(select max(length(sname)) from sailor)+3,'#') from sailor;
+
+44.select length(sname) from sailor;
+
+45.select upper(sname) from sailor;
+
+46.select lower(sname) from sailor;
+
+47.select initcap(sname) from sailor;
+
+48.select substr(sname,4,4) from sailor;
+
+49.select substr(sname,4,1),substr(sname,7,1) from sailor;
+
+50.select lpad(sname,length(sname)+length(sid),sid) from sailor;
+
+51.select sqrt(rating) from sailor;
+
+52.select floor(age) from sailor;
+
+53.select ceil(age) from sailor;
+
+54.select substr(sname,3,(select max(length(sname)) from sailor)) from sailor;
+
+55.select floor(months_between(sysdate,r_day)) from reserve;
+
+56.select round(months_between(sysdate,r_day)*30) as day from reserve;
+
+57.select add_months(r_day,2) from reserve;
+
+58.select add_months(r_day,-3) from reserve;  
+
+59.select next_day(r_day,'sunday') from reserve;
+
+60.select lpad(rpad(sname,length(sname)+3,'#'),length(sname)+6,'#') from sailor;
+
+61.select * from reserve where sysdate-reserve.r_day in(select min(sysdate-r_day) from reserve);
+
+62.select to_char(r_day,'day') from reserve;
+
+63.select instr(SNAME||' '||MNAME||' '||SURNAME,'Kumar',1,1) as Ith from sailor;
+
+64.select SNAME||' '||MNAME||' '||SURNAME as name from sailor order by length(SNAME||' '||MNAME||' '||SURNAME) asc;
+
+66.select to_char(r_day,'ddth month year') from reserve;

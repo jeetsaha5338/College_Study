@@ -1,0 +1,7 @@
+V3 3
+FL J:/Xilin/Exp_2_Vec/Exp_2_Vec.vhd 2017/07/25.11:38:44 I.24
+EN work/Exp_2_Vec 1501520095       FL J:/Xilin/Exp_2_Vec/Exp_2_Vec.vhd \
+      PB ieee/std_logic_1164 1131108373 PB ieee/std_logic_arith 1131108375 \
+      PB ieee/STD_LOGIC_UNSIGNED 1131108379
+AR work/Exp_2_Vec/Behavioral 1501520096 FL J:/Xilin/Exp_2_Vec/Exp_2_Vec.vhd \
+      EN work/Exp_2_Vec 1501520095

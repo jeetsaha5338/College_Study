@@ -1,0 +1,27 @@
+ command line:
+   ./FA_DECODER_RES_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  51487
+WARNING:Simulator:29 - at 0 ns: Warning: No entity is bound for inst
+   FA_DECODER_RES/UUT of Component FA_DECODER
+
+Tue Sep 12 12:56:15 2017
+
+Total Line Count = 751
+
+ Elaboration time 0.015625 sec.
+
+ Estimate current memory usage 64.9257 Meg. 
+
+ Total signals 3
+ Total nets 5
+ Total signal drivers 1
+ Total blocks 6
+ Total primitive blocks 1
+ Total processes 1
+ntrace select -o on -m / -l this 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

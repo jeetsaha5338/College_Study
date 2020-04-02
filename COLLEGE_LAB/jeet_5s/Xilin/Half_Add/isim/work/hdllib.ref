@@ -1,0 +1,4 @@
+AR ha_1 testbench_arch D:/IT_X_20/Half_Add/HA_1.vhw sub00/vhpl03 1500966811
+EN ha_1 NULL D:/IT_X_20/Half_Add/HA_1.vhw sub00/vhpl02 1500966810
+EN half_add NULL D:/IT_X_20/Half_Add/Half_Add.vhd sub00/vhpl00 1500966808
+AR half_add behavioral D:/IT_X_20/Half_Add/Half_Add.vhd sub00/vhpl01 1500966809

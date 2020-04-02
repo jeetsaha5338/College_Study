@@ -1,0 +1,27 @@
+ command line:
+   ./LUT_RES_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  50108
+
+Tue Oct 17 12:07:48 2017
+
+Total Line Count = 930
+
+ Elaboration time 0 sec.
+
+ Estimate current memory usage 61.5875 Meg. 
+
+ Total signals 62
+ Total nets 19
+ Total signal drivers 17
+ Total blocks 21
+ Total primitive blocks 14
+ Total processes 17
+ntrace select -o on -n /LUT_RES/a 
+ntrace select -o on -n /LUT_RES/c 
+ntrace select -o on -n /LUT_RES/sum 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

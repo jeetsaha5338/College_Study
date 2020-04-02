@@ -1,0 +1,6 @@
+AR mux4 behavioral D:/IT_X_19/Xilin/mux4/mux4.vhd sub00/vhpl01 1503991052
+EN mux4 NULL D:/IT_X_19/Xilin/mux4/mux4.vhd sub00/vhpl00 1503991051
+AR alu_1 behavioral D:/IT_X_20/ALU_1/ALU_1.vhd sub00/vhpl03 1503991598
+EN alu_1_t NULL D:/IT_X_20/ALU_1/ALU_1_T.vhw sub00/vhpl04 1503991599
+AR alu_1_t testbench_arch D:/IT_X_20/ALU_1/ALU_1_T.vhw sub00/vhpl05 1503991600
+EN alu_1 NULL D:/IT_X_20/ALU_1/ALU_1.vhd sub00/vhpl02 1503991597

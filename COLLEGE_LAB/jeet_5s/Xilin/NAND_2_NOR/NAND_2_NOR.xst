@@ -1,0 +1,4 @@
+set -tmpdir ./xst/projnav.tmp
+elaborate
+-ifn NAND_2_NOR.prj
+-ifmt mixed

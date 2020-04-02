@@ -1,0 +1,4 @@
+AR cla_res testbench_arch D:/IT_X_20/CLA/CLA_RES.vhw sub00/vhpl03 1504869764
+EN cla NULL D:/IT_X_20/CLA/CLA.vhd sub00/vhpl00 1504869761
+AR cla behavioral D:/IT_X_20/CLA/CLA.vhd sub00/vhpl01 1504869762
+EN cla_res NULL D:/IT_X_20/CLA/CLA_RES.vhw sub00/vhpl02 1504869763

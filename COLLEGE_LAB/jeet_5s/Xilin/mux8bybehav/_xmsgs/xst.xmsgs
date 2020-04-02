@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3215" delta="unknown" >Unit <arg fmt="%s" index="1">work/mux8bybehav</arg> is now defined in a different file: was <arg fmt="%s" index="2">D:/IT_X_20/mux8bybehav/mux8bybehav.vhd</arg>, now is <arg fmt="%s" index="3">F:/LAB/jeet_5s/Xilin/mux8bybehav/mux8bybehav.vhd</arg>
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3215" delta="unknown" >Unit <arg fmt="%s" index="1">work/mux8bybehav/Behavioral</arg> is now defined in a different file: was <arg fmt="%s" index="2">D:/IT_X_20/mux8bybehav/mux8bybehav.vhd</arg>, now is <arg fmt="%s" index="3">F:/LAB/jeet_5s/Xilin/mux8bybehav/mux8bybehav.vhd</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1561" delta="unknown" >&quot;<arg fmt="%s" index="1">F:/LAB/jeet_5s/Xilin/mux8bybehav/mux8bybehav.vhd</arg>&quot; line <arg fmt="%d" index="2">50</arg>: Mux is complete : default of case is discarded
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="unknown" >Input &lt;<arg fmt="%s" index="1">e</arg>&gt; is never used.
+</msg>
+
+</messages>

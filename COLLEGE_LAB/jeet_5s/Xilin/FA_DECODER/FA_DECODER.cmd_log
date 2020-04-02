@@ -1,0 +1,1 @@
+xst -ise "F:/LAB/jeet_5s/Xilin/FA_DECODER/FA_DECODER" -intstyle ise -ifn FA_DECODER.xst -ofn FA_DECODER.syr

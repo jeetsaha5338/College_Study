@@ -1,0 +1,1 @@
+xst -ise "J:/Xilin/Half_Add/Half_Add" -intstyle ise -ifn Half_Add.xst -ofn Half_Add.syr

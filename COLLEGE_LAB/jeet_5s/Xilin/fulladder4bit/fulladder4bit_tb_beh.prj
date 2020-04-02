@@ -1,0 +1,3 @@
+vhdl work "D:/IT_X_21/fulladder/fulladder.vhd"
+vhdl work "fulladder4bit.vhd"
+vhdl work "fulladder4bit_tb.vhw"

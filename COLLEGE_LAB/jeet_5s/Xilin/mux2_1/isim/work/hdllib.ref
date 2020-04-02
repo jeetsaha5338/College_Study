@@ -1,0 +1,4 @@
+AR mux2_tb testbench_arch D:/it51/mux2_1/mux2_tb.vhw sub00/vhpl03 1508011031
+AR mux2_1 behavioral D:/it51/mux2_1/mux2_1.vhd sub00/vhpl01 1508011029
+EN mux2_1 NULL D:/it51/mux2_1/mux2_1.vhd sub00/vhpl00 1508011028
+EN mux2_tb NULL D:/it51/mux2_1/mux2_tb.vhw sub00/vhpl02 1508011030

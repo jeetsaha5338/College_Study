@@ -1,0 +1,110 @@
+ DBMS ASSIGNMENT for IT DEPT
+Assignment	4
+
+Create the following tables with the data types and constraints
+sailor:
+Attribute 	Datatype 		Constraints
+sid 		varchar2(4)		 primary key & starts with small s
+sname	 varchar2(15) 		initcap
+mname 	varchar2(15)
+Surname	varchar2(15)
+Rating 	number(2)
+Age 		number(3,1)
+
+boat:
+Attribute 	Data type 		Constraints
+bid 		number(3)		 primary key
+bname 	varchar2(10) 	all lower case
+color		 varchar2(6)		 comes from the set blue, red, green
+
+reserve:
+Attribute	 Data type 		Constraints
+sid 		varchar2(4) 			Foreign key referencing sailor
+bid	 	number(3)		 Foreign key referencing boat
+r_day 		date 				< 1-Jan-2000
+   sid,bid -- composite primary key
+
+
+SID SNAME MNAME SURNAME RATING AGE									
+s22 Fredrico  		Roberts 	7 	45
+s31 Lubber			 Sheen 	8 	55.5
+s32 Charlotte 		Gordin	 8 	25.5
+s58 Mary 	Beth 		Lyon 		10	 35
+s64 Horatio 		Powell 	7 	35.4
+s71 Zorba			 Alex 		10	 16
+s29 Brutus 			Slater		 1 	33.8
+s95 Deep Graceb		 Davis 	3 	 63.5
+s74 Horatio			 Forrest 	9 	35
+s85 	Sara 	Art 		Powell	 3 	25.5
+s80 	Deep 	Kumar	 Kumar	 6 	17
+s87 	Deep Kumar 	Jha 		8 	51
+BOAT table:
+BID 	BNAME	 COLOR		 										 					
+101	 interlake 	blue
+102 	interlake 	red
+103	 clipper 	green
+104 	marine	 red
+RESERVE table:
+SID 	 BID  		R_DAY								
+s22	 101 		10   OCT	98
+s22	 103 		10	AUG	98
+s22 	102 		10	OCT	98
+s22 	104 		10	JUL	98
+s31 	102 		11	OCT	98
+s31 	103 		11	JUN	98
+s31	 104 		11	DEC	98
+s64 	101 		09	MAY	98
+s64 	102		 09	AUG	98
+s74	 103 		09	AUG	98
+s80 	102 		07	JUL	98
+s87 	101 		08	JUL	98
+s87 	102 		12	DEC	98
+
+Assignment	4 (PART A)
+For the above schema, perform the following query
+1) Find the names and ages of all sailors.
+2) Show names under the heading of names_of_sailors and add 2 to age.
+3) Select all records from sailors in ascending order by name;
+4) Show all sailors name.
+5) Select all distinct sailors name.
+6) Show all distinct sailors names, ratings who have rating between 5 and 10.
+7) Select all records from sailors in ascending order by rating and descending order by age.
+8) Select all records from sailors whose rating>7.
+9) Find records for sailor name Horatio and age=35.4.
+10) Find records for sailor name Horatio or age=35.4.
+11) Select names of sailors who have reserved boat 104.
+12) Find sid of sailors who have reserved red boat
+13) Select records for name beginning with ‘B’.
+14) Select records for name containing ‘B’/’b’.
+15) Select names for mname present.
+16) Select names for mname  absent.
+17) Find color of boats reserved by Lubber.
+18) Find a sailor name that has reserved at least one boat.
+19) Compute the increments of rating of persons who have sailed on diff boats on the same day
+20) Find name of sailors whose name begins and ends with B and has at least 3 characters.
+21) Find names of a sailor whose name begins and ends with ‘B’ and has exactly 3 chars.
+22) Find names of sailors who have reserved a red boat or a green boat.
+23) Find names of sailors who have reserved a red boat but not a green boat.
+24) Find names of sailors who have reserved boat 103.
+25) Find names of sailors who have reserved red boat.
+26) Find names of sailors who have not reserved red boat.
+27) Count distinct sailor name from sailors.
+28) a) Find all records for the rating>some sailor name where sailor name like ‘Horatio’.
+b) Find all records for the rating>all sailor name where sailor name like ‘Horatio’.
+29) a) Find all records for the rating<some sailor name where sailor name like ‘Horatio’.
+b) Find all records for the rating<all sailor name where sailor name like ‘Horatio’.
+30) Select all records for s_name neither Lubber nor Horatio.
+31) Find names of sailors whose rating is>10/20/30 using multi row sub query operator.
+32) Find names of sailors whose rating is>10 & 20 & 30 using multi row sub query operator.
+33) Find average age of sailors with rating 10.
+34) Find the name of sailor who are older than oldest sailor of rating=10.
+35) Find the age of youngest sailor for each rating level.
+36) Find the name of each sailor who is eligible to vote for each rating level.
+37) Find the age of youngest sailor who is eligible to vote for each rating level with at least two such
+sailors.
+38) Find the average age of sailor for each rating level with at least two such sailor.
+39) For each red boat count the no of reservations for this boat.
+40) Find sailor with highest rating.
+41) Find those rating for which the average age of sailors is minimum over all rating.
+42) Find sailors who have reserved all boats.
+

@@ -1,0 +1,4 @@
+AR nor_2_or behavioral D:/IT_X_20/NOR_2_OR/NOR_2_OR.vhd sub00/vhpl01 1504864703
+EN nor_2_or NULL D:/IT_X_20/NOR_2_OR/NOR_2_OR.vhd sub00/vhpl00 1504864702
+EN nor_2_or_res NULL D:/IT_X_20/NOR_2_OR/NOR_2_OR_RES.vhw sub00/vhpl02 1504864704
+AR nor_2_or_res testbench_arch D:/IT_X_20/NOR_2_OR/NOR_2_OR_RES.vhw sub00/vhpl03 1504864705

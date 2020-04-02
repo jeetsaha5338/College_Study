@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+Half_Add instance_name (
+    .a(a), 
+    .b(b), 
+    .s(s), 
+    .c(c)
+    );
+
+

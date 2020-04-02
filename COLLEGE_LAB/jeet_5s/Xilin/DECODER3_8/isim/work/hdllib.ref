@@ -1,0 +1,4 @@
+AR decoder3_8 behavioral D:/IT_X_20/DECODER3_8/DECODER3_8.vhd sub00/vhpl01 1503387205
+EN decoder3_8 NULL D:/IT_X_20/DECODER3_8/DECODER3_8.vhd sub00/vhpl00 1503387204
+EN decoder3_8_tb NULL D:/IT_X_20/DECODER3_8/DECODER3_8_TB.vhw sub00/vhpl02 1503387206
+AR decoder3_8_tb testbench_arch D:/IT_X_20/DECODER3_8/DECODER3_8_TB.vhw sub00/vhpl03 1503387207

@@ -1,0 +1,4 @@
+AR mux8bybehav behavioral D:/IT_X_22/mux8bybehav/mux8bybehav.vhd sub00/vhpl01 1503384204
+EN mux8bybehav NULL D:/IT_X_22/mux8bybehav/mux8bybehav.vhd sub00/vhpl00 1503384203
+EN mux8bybahav_tb NULL D:/IT_X_22/mux8bybehav/mux8bybahav_tb.vhw sub00/vhpl02 1503384205
+AR mux8bybahav_tb testbench_arch D:/IT_X_22/mux8bybehav/mux8bybahav_tb.vhw sub00/vhpl03 1503384206

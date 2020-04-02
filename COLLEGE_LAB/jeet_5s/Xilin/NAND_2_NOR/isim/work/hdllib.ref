@@ -1,0 +1,4 @@
+AR nand_2_nor behavioral D:/IT_X_20/NAND_2_NOR/NAND_2_NOR.vhd sub00/vhpl01 1504863443
+AR nand_2_nor_res testbench_arch D:/IT_X_20/NAND_2_NOR/NAND_2_NOR_RES.vhw sub00/vhpl03 1504863445
+EN nand_2_nor_res NULL D:/IT_X_20/NAND_2_NOR/NAND_2_NOR_RES.vhw sub00/vhpl02 1504863444
+EN nand_2_nor NULL D:/IT_X_20/NAND_2_NOR/NAND_2_NOR.vhd sub00/vhpl00 1504863442

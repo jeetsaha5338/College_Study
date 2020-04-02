@@ -1,0 +1,12 @@
+V3 7
+FL D:/IT_X_20/DFF/DFF.vhd 2017/10/10.11:01:30 I.24
+EN work/DFF 1507615692             FL D:/IT_X_20/DFF/DFF.vhd PB ieee/std_logic_1164 1131108373 \
+      PB ieee/std_logic_arith 1131108375 PB ieee/STD_LOGIC_UNSIGNED 1131108379
+AR work/DFF/Behavioral 1507615693  FL D:/IT_X_20/DFF/DFF.vhd EN work/DFF 1507615692
+FL I:/pendrive/5th_Lab/final/Xilin/8_SISO/8_SISO.vhd 2017/10/10.11:36:16 I.24
+EN work/Bit_8_SISO 1508175529      FL I:/pendrive/5th_Lab/final/Xilin/8_SISO/8_SISO.vhd \
+      PB ieee/std_logic_1164 1131108373 PB ieee/std_logic_arith 1131108375 \
+      PB ieee/STD_LOGIC_UNSIGNED 1131108379
+AR work/Bit_8_SISO/Behavioral 1508175530 \
+      FL I:/pendrive/5th_Lab/final/Xilin/8_SISO/8_SISO.vhd EN work/Bit_8_SISO 1508175529 \
+      CP DFF

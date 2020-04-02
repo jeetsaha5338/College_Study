@@ -1,0 +1,43 @@
+Assignment
+4 (PART B)
+1) Oracle table DUAL
+2) Types of functions
+3) Numeric Functions
+(ABS,POWER,ROUND,SQRT,EXP,GREATEST,LEAST,MOD,TRUNC,FLOOR,CEIL
+)
+4) StringFunctions
+(LOWER,UPPER,SUBSTR,INSTR,LPAD,RPAD,TRIM,LTRIM,RTRIM,LENGTH,INIT
+CAP)
+5) Conversion Functions (TO_CHAR)
+6) DateFunctions (SYSDATE,ADD_MONTHS,LAST_DAY,MONTHS_BETWEEN,
+NEXT_DAY,ROUND)
+43 a) Display s_name with left side padding by exactly 3 #
+43 b)Display s_name with left side padding by at least 3 #
+44) Display length of each name.
+45) Display all sailors names in uppercase.
+46) Display all sailors’ names in lower case.
+47) Display all sailors names in sentence case.
+48) Display 4th to 7th letter of sailors name.
+49) Display 4th and 7th letter of sailors name.
+50) Concat s_id, s_name.
+51) Display square root of rating.
+52) Display floor values of all ages.
+53) Display ceiling values of all ages.
+54) Select all s_name with 1st 2 letters off.
+55) List months between today and reservation date.
+56) Select day between today and reservation date.
+57) Shift all reservation day by 2 months.
+58) Shift all reservation day earlier by 3 months.
+59) Suppose after sailing they enjoy their next Monday as holiday. Find that
+day.
+60) Display 3 # before and after each s_name.
+61) Find the date when sailing ends.
+62) Display all reservation day.
+63) Find the position of ‘Kumar’ in the sailors’ name.
+64) Display all sailors name order by its length.65) Display sid, sname and availability of middle name which pint as ‘available’
+or ‘not available’.
+66) Display all reservation day like ‘22nd March twenty ten’ and 12/09/1998.
+67) Find the day of weekdays of reservation date.
+68) Find the number of day of weekdays of reservation date.
+69) Find the number of days passed upto reservation date of that year.
+70) Display the number of weeks of the year for reservation day.

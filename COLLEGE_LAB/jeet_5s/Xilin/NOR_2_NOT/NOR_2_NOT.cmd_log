@@ -1,0 +1,1 @@
+xst -ise "D:/IT_X_20/NOR_2_NOT/NOR_2_NOT" -intstyle ise -ifn NOR_2_NOT.xst -ofn NOR_2_NOT.syr

@@ -1,0 +1,3 @@
+MODULE fulladder2_tb
+SUBMODULE fulladder2
+INSTANCE UUT

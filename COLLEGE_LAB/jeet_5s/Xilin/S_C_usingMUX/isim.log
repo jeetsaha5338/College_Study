@@ -1,0 +1,27 @@
+ command line:
+   ./S_C_usingMUX_RES_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  51380
+
+Tue Sep 12 11:47:34 2017
+
+Total Line Count = 786
+
+ Elaboration time 0 sec.
+
+ Estimate current memory usage 61.7144 Meg. 
+
+ Total signals 15
+ Total nets 10
+ Total signal drivers 4
+ Total blocks 9
+ Total primitive blocks 2
+ Total processes 4
+ntrace select -o on -n /S_C_usingMUX_RES/a 
+ntrace select -o on -n /S_C_usingMUX_RES/carry 
+ntrace select -o on -n /S_C_usingMUX_RES/sum 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

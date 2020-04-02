@@ -1,0 +1,2 @@
+xst -ise "D:/IT_X_21/fulladder2/fulladder2" -intstyle ise -ifn fulladder2.xst -ofn fulladder2.syr
+xst -ise "J:/Xilin/fulladder2/fulladder2" -intstyle ise -ifn fulladder2.xst -ofn fulladder2.syr

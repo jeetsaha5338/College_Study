@@ -1,0 +1,4 @@
+EN project1 NULL D:/IT_X_20/PROJECT1/PROJECT1.vhd sub00/vhpl00 1500360628
+EN project1_test NULL D:/IT_X_20/PROJECT1/PROJECT1_TEST.vhw sub00/vhpl02 1500360630
+AR project1 behavioral D:/IT_X_20/PROJECT1/PROJECT1.vhd sub00/vhpl01 1500360629
+AR project1_test testbench_arch D:/IT_X_20/PROJECT1/PROJECT1_TEST.vhw sub00/vhpl03 1500360631

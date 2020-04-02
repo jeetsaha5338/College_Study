@@ -1,0 +1,37 @@
+ command line:
+   ./CLA_RES_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  50755
+
+Fri Sep 08 16:52:45 2017
+
+Total Line Count = 765
+
+ Elaboration time 0 sec.
+
+ Estimate current memory usage 61.5834 Meg. 
+
+ Total signals 13
+ Total nets 27
+ Total signal drivers 6
+ Total blocks 7
+ Total primitive blocks 1
+ Total processes 6
+ntrace select -o on -n /CLA_RES/a 
+ntrace select -o on -n /CLA_RES/b 
+ntrace select -o on -n /CLA_RES/cin 
+ntrace select -o on -n /CLA_RES/s 
+ntrace select -o on -n /CLA_RES/s 
+ntrace select -o on -n /CLA_RES/s 
+ntrace select -o on -n /CLA_RES/s 
+ntrace select -o on -n /CLA_RES/s 
+ntrace select -o on -n /CLA_RES/cout 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+run all 
+INFO:Simulator:30 - Simulator is stopped.
+run all 
+INFO:Simulator:30 - Simulator is stopped.

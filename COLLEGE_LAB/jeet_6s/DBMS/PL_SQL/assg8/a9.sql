@@ -1,0 +1,14 @@
+DECLARE
+	N NUMBER(20):='&N';
+	X NUMBER(20);
+	I NUMBER(20);
+BEGIN
+	FOR I IN 1..N
+	LOOP
+		X:=I*5;
+		DBMS_OUTPUT.PUT_LINE(X||',');
+	END LOOP;
+END;
+/
+	
+	

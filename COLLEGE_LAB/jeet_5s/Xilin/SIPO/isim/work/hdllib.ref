@@ -1,0 +1,8 @@
+AR sipo_res testbench_arch D:/IT_X_20/SIPO/SIPO_RES.vhw sub00/vhpl05 1507617890
+EN dff NULL D:/IT_X_20/DFF/DFF.vhd sub00/vhpl00 1507617620
+AR dff behavioral D:/IT_X_20/DFF/DFF.vhd sub00/vhpl01 1507617621
+EN sipo_res NULL D:/IT_X_20/SIPO/SIPO_RES.vhw sub00/vhpl04 1507617889
+AR sipo behavioral I:/pendrive/5th_Lab/final/Xilin/SIPO/SIPO.vhd sub00/vhpl03 1508169542
+EN sipo_res1 NULL I:/pendrive/5th_Lab/final/Xilin/SIPO/SIPO_RES1.vhw sub00/vhpl06 1508169543
+EN sipo NULL I:/pendrive/5th_Lab/final/Xilin/SIPO/SIPO.vhd sub00/vhpl02 1508169541
+AR sipo_res1 testbench_arch I:/pendrive/5th_Lab/final/Xilin/SIPO/SIPO_RES1.vhw sub00/vhpl07 1508169544

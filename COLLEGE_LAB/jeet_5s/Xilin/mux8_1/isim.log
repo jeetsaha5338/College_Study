@@ -1,0 +1,25 @@
+ command line:
+   ./mux8_1_result_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  49968
+
+Tue Aug 22 12:24:59 2017
+
+Total Line Count = 767
+
+ Elaboration time 0 sec.
+
+ Estimate current memory usage 62.165 Meg. 
+
+ Total signals 17
+ Total nets 15
+ Total signal drivers 6
+ Total blocks 9
+ Total primitive blocks 2
+ Total processes 5
+ntrace select -o on -m / -l this 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

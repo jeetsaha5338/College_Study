@@ -1,0 +1,1 @@
+xst -ise "F:/LAB/jeet_5s/Xilin/ALU/ALU" -intstyle ise -ifn ALU.xst -ofn ALU.syr

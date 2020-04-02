@@ -1,0 +1,1 @@
+xst -ise "D:/IT_X_20/PROJECT1/PROJECT1" -intstyle ise -ifn PROJECT1.xst -ofn PROJECT1.syr

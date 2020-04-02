@@ -1,0 +1,795 @@
+id: cannot find name for group ID 1009
+[IT_X_19@localhost ~]$ grep "jeet" a.txt
+grep: a.txt: No such file or directory
+[IT_X_19@localhost ~]$ pwd
+/home/IT_X_19
+[IT_X_19@localhost ~]$ cd Desktop
+[IT_X_19@localhost Desktop]$ pwd
+/home/IT_X_19/Desktop
+[IT_X_19@localhost Desktop]$ ls
+Assg  a.txt  b.txt  IT-Assgn_IT593.docx
+[IT_X_19@localhost Desktop]$ grep "jeet" a.txt
+jeet saha 
+jeetsaha123.js@gmail.com
+jeet saha
+[IT_X_19@localhost Desktop]$ 
+[IT_X_19@localhost Desktop]$ grep "[too two]" a.txt
+jeet saha 
+JEET SAHA
+Jeet Saha
+jeetsaha123.js@gmail.com
+playing football
+jeet saha
+there is only too present
+[IT_X_19@localhost Desktop]$ grep [too two] a.txt
+grep: Unmatched [ or [^
+[IT_X_19@localhost Desktop]$ 
+[IT_X_19@localhost Desktop]$ grep [too two] a.txt
+grep: Unmatched [ or [^
+[IT_X_19@localhost Desktop]$ grep ["too" " two"] a.txt
+grep: Unmatched [ or [^
+[IT_X_19@localhost Desktop]$ grep "too|two" a.txt
+[IT_X_19@localhost Desktop]$ grep "too|two" a.txt
+[IT_X_19@localhost Desktop]$ grep too|two a.txt
+bash: two: command not found
+^[[A^[[A^C
+[IT_X_19@localhost Desktop]$ grep "too"|"two" a.txt
+bash: two: command not found
+^C
+[IT_X_19@localhost Desktop]$ grep "too","two" a.txt
+[IT_X_19@localhost Desktop]$ grep "[too,two]" a.txt
+jeet saha 
+Jeet Saha
+jeetsaha123.js@gmail.com
+playing football
+jeet saha
+there is only too present
+[IT_X_19@localhost Desktop]$ man grep
+[IT_X_19@localhost Desktop]$ grep -w "[too,two]" a.txt
+[IT_X_19@localhost Desktop]$ man grep
+[IT_X_19@localhost Desktop]$ grep -F "[too,two]" a.txt
+[IT_X_19@localhost Desktop]$ grep -F "[too,two]" a.txt
+[IT_X_19@localhost Desktop]$ grep -F "[too two]" a.txt
+[IT_X_19@localhost Desktop]$ grep -F "jeet" a.txt
+jeet saha 
+jeetsaha123.js@gmail.com
+jeet saha
+[IT_X_19@localhost Desktop]$ grep -F "two" a.txt
+[IT_X_19@localhost Desktop]$ grep -F "too" a.txt
+there is only too present
+[IT_X_19@localhost Desktop]$ grep -F "too|two" a.txt
+[IT_X_19@localhost Desktop]$ grep -F ""too"|"two"" a.txt
+[IT_X_19@localhost Desktop]$ grep -F "too" a.txt
+there is only too present
+[IT_X_19@localhost Desktop]$ grep -F "too","two" a.txt
+[IT_X_19@localhost Desktop]$ grep -F "too" a.txt
+there is only too present
+[IT_X_19@localhost Desktop]$ grep -F "too","two" a.txt
+[IT_X_19@localhost Desktop]$ grep -F "too" a.txt
+there is only too present two not present
+[IT_X_19@localhost Desktop]$ grep -F "two" a.txt
+there is only too present two not present
+[IT_X_19@localhost Desktop]$ grep -F "Foo" a.txt
+[IT_X_19@localhost Desktop]$ grep -F "foo" a.txt
+playing football
+[IT_X_19@localhost Desktop]$ grep -E "too","two" a.txt
+[IT_X_19@localhost Desktop]$ grep -E ""too"|"two"" a.txt
+there is only too present two not present
+[IT_X_19@localhost Desktop]$ grep -E ""too"|"two"" a.txt
+there is only too present not present
+[IT_X_19@localhost Desktop]$ grep -E ""too"|"two"" a.txt
+there is only two present not present
+[IT_X_19@localhost Desktop]$ grep -E "^abc.abc$" a.txt
+[IT_X_19@localhost Desktop]$ grep -E "^abc$" a.txt
+abc
+[IT_X_19@localhost Desktop]$ grep -E "^abc$" a.txt
+abc
+[IT_X_19@localhost Desktop]$ grep -E "abc" a.txt
+abc
+abcdef
+defabc
+[IT_X_19@localhost Desktop]$ grep -E "^abc$" a.txt
+abc
+[IT_X_19@localhost Desktop]$ grep -E -i "^abc$" a.txt
+abc
+ABC
+[IT_X_19@localhost Desktop]$ grep -E -i "a|e|i|o|u" a.txt
+jeet saha 
+JEET SAHA
+Jeet Saha
+jeetsaha123.js@gmail.com
+playing football
+A
+jeet saha
+there is only two present not present
+abc
+ABC
+abcdef
+defabc
+[IT_X_19@localhost Desktop]$ grep -E -i -v "a|e|i|o|u" a.txt
+7278-368-361
+
+
+
+
+
+$
+
+112@536
+
+
+[IT_X_19@localhost Desktop]$ grep -E -v "a|e|i|o|u" a.txt
+JEET SAHA
+7278-368-361
+
+
+
+A
+
+
+$
+
+112@536
+
+
+ABC
+[IT_X_19@localhost Desktop]$ grep -E "^abc$" a.txt
+abc
+[IT_X_19@localhost Desktop]$ grep -E -i "^abc$" a.txt
+abc
+[IT_X_19@localhost Desktop]$ grep -E -i "^abc$" a.txt
+[IT_X_19@localhost Desktop]$ grep -E "^abc$" a.txt
+[IT_X_19@localhost Desktop]$ grep -E -i "^abc$" a.txt
+[IT_X_19@localhost Desktop]$ grep -E -i "^abc$" a.txt
+[IT_X_19@localhost Desktop]$ grep -E "^abc$" a.txt
+[IT_X_19@localhost Desktop]$ grep -E "^abc$" a.txt
+[IT_X_19@localhost Desktop]$ grep -E "^abc$" a.txt
+[IT_X_19@localhost Desktop]$ grep -E "^abc$" a.txt
+abc
+[IT_X_19@localhost Desktop]$ grep -E -i "^abc$" a.txt
+abc
+[IT_X_19@localhost Desktop]$ grep -i -E "^abc$" a.txt
+abc
+[IT_X_19@localhost Desktop]$ grep -i -E "abc" a.txt
+abc
+ABC 
+abcdef
+defabc
+[IT_X_19@localhost Desktop]$ grep -E "^ABC$" a.txt
+[IT_X_19@localhost Desktop]$ grep -E "^ABC$" a.txt
+ABC
+[IT_X_19@localhost Desktop]$ grep -E -i "^ABC$" a.txt
+abc
+ABC
+[IT_X_19@localhost Desktop]$ grep -E -i -v "a|e|i|o|u" a.txt
+7278-368-361
+
+
+
+
+
+$
+
+112@536
+
+
+[IT_X_19@localhost Desktop]$ grep -E -i -v "a|e|i|o|u" a.txt
+7278-368-361
+
+
+
+
+
+$
+
+112@536
+
+
+gcbfytdtfhtbjkmnfg
+[IT_X_19@localhost Desktop]$ grep -E -i "e{2}" a.txt
+jeet saha 
+JEET SAHA
+Jeet Saha
+jeetsaha123.js@gmail.com
+jeet saha
+[IT_X_19@localhost Desktop]$ grep -E -i "b|c|d|f|g|h|j|k|l|m|n|p|q|r|s|t|v|w|x|y|z|{3}" a.txt
+jeet saha 
+JEET SAHA
+Jeet Saha
+jeetsaha123.js@gmail.com
+7278-368-361
+
+
+
+playing football
+A
+
+jeet saha
+
+$
+
+112@536
+
+there is only two present not present
+
+abc
+ABC
+abcdef
+defabc
+hjfdghdasbngdgddj
+gcbfytdtfhtbjkmnfg
+[IT_X_19@localhost Desktop]$ grep -E -i "b|c|d|f|g|h|j|k|l|m|n|p|q|r|s|t|v|w|x|y|z{3}" a.txt
+jeet saha 
+JEET SAHA
+Jeet Saha
+jeetsaha123.js@gmail.com
+playing football
+jeet saha
+there is only two present not present
+abc
+ABC
+abcdef
+defabc
+hjfdghdasbngdgddj
+gcbfytdtfhtbjkmnfg
+[IT_X_19@localhost Desktop]$ grep -E -i "b|c|d|f|g|h|j|k|l|m|n|p|q|r|s|t|v|w|x|y|z" a.txt
+jeet saha 
+JEET SAHA
+Jeet Saha
+jeetsaha123.js@gmail.com
+playing football
+jeet saha
+there is only two present not present
+abc
+ABC
+abcdef
+defabc
+hjfdghdasbngdgddj
+gcbfytdtfhtbjkmnfg
+[IT_X_19@localhost Desktop]$ grep -E -i "^*.b|c|d|f|g|h|j|k|l|m|n|p|q|r|s|t|v|w|x|y|.b|c|d|f|g|h|j|k|l|m|n|p|q|r|s|t|v|w|x|y|z.b|c|d|f|g|h|j|k|l|m|n|p|q|r|s|t|v|w|x|y|z.*$" a.txt
+jeet saha 
+JEET SAHA
+Jeet Saha
+jeetsaha123.js@gmail.com
+playing football
+jeet saha
+there is only two present not present
+abc
+ABC
+abcdef
+defabc
+hjfdghdasbngdgddj
+gcbfytdtfhtbjkmnfg
+[IT_X_19@localhost Desktop]$ grep -E -i "b|c|d|f|g|h|j|k|l|m|n|p|q|r|s|t|v|w|x|y|.b|c|d|f|g|h|j|k|l|m|n|p|q|r|s|t|v|w|x|y|z.b|c|d|f|g|h|j|k|l|m|n|p|q|r|s|t|v|w|x|y|z" a.txt
+jeet saha 
+JEET SAHA
+Jeet Saha
+jeetsaha123.js@gmail.com
+playing football
+jeet saha
+there is only two present not present
+abc
+ABC
+abcdef
+defabc
+hjfdghdasbngdgddj
+gcbfytdtfhtbjkmnfg
+[IT_X_19@localhost Desktop]$ grep -E -i "b|c|d|f|g|h|j|k|l|m|n|p|q|r|s|t|v|w|x|y|z{3, }" a.txtjeet saha 
+JEET SAHA
+Jeet Saha
+jeetsaha123.js@gmail.com
+playing football
+jeet saha
+there is only two present not present
+abc
+ABC
+abcdef
+defabc
+hjfdghdasbngdgddj
+gcbfytdtfhtbjkmnfg
+[IT_X_19@localhost Desktop]$ grep -E "b|c|d|f|g|h|j|k|l|m|n|p|q|r|s|t|v|w|x|y|z{3, }" a.txt
+jeet saha 
+Jeet Saha
+jeetsaha123.js@gmail.com
+playing football
+jeet saha
+there is only two present not present
+abc
+abcdef
+defabc
+hjfdghdasbngdgddj
+gcbfytdtfhtbjkmnfg
+[IT_X_19@localhost Desktop]$ grep -E "b|c|d|f|g|h|j|k|l|m|n|p|q|r|s|t|v|w|x|y|z{ ,3}" a.txt
+jeet saha 
+Jeet Saha
+jeetsaha123.js@gmail.com
+playing football
+jeet saha
+there is only two present not present
+abc
+abcdef
+defabc
+hjfdghdasbngdgddj
+gcbfytdtfhtbjkmnfg
+[IT_X_19@localhost Desktop]$ grep -E "^free.*$" a.txt
+[IT_X_19@localhost Desktop]$ grep -E "^free.*$" a.txt
+freedom
+freely
+[IT_X_19@localhost Desktop]$ grep -E "[a-z]" a.txt
+jeet saha 
+Jeet Saha
+jeetsaha123.js@gmail.com
+playing football
+jeet saha
+there is only two present not present
+abc
+abcdef
+defabc
+hjfdghdasbngdgddj
+gcbfytdtfhtbjkmnfg
+freedom
+freely
+[IT_X_19@localhost Desktop]$ grep -E -v "[a-z 0-9]" a.txt
+
+
+
+A
+
+
+$
+
+
+
+ABC
+[IT_X_19@localhost Desktop]$ grep -E -v -i "[a-z 0-9]" a.txt
+
+
+
+
+
+$
+
+
+
+[IT_X_19@localhost Desktop]$ grep -E -v -i "a-z 0-9" a.txt
+jeet saha 
+JEET SAHA
+Jeet Saha
+jeetsaha123.js@gmail.com
+7278-368-361
+
+
+
+playing football
+A
+
+jeet saha
+
+$
+
+112@536
+
+there is only two present not present
+
+abc
+ABC
+abcdef
+defabc
+hjfdghdasbngdgddj
+gcbfytdtfhtbjkmnfg
+freedom
+freely
+[IT_X_19@localhost Desktop]$ grep -E -v -i "a-z","0-9" a.txt
+jeet saha 
+JEET SAHA
+Jeet Saha
+jeetsaha123.js@gmail.com
+7278-368-361
+
+
+
+playing football
+A
+
+jeet saha
+
+$
+
+112@536
+
+there is only two present not present
+
+abc
+ABC
+abcdef
+defabc
+hjfdghdasbngdgddj
+gcbfytdtfhtbjkmnfg
+freedom
+freely
+[IT_X_19@localhost Desktop]$ grep -E -i "[b|c|d|f|g|h|j|k|l|m|n|p|q|r|s|t|v|w|x|y|z]{3}" a.txtthere is only two present not present
+abcdef
+hjfdghdasbngdgddj
+gcbfytdtfhtbjkmnfg
+[IT_X_19@localhost Desktop]$ grep -E -i "[b-df-hj-np-z]{3}" a.txt
+there is only two present not present
+abcdef
+hjfdghdasbngdgddj
+gcbfytdtfhtbjkmnfg
+[IT_X_19@localhost Desktop]$ grep -E -v -i "a-z0-9" a.txt
+jeet saha 
+JEET SAHA
+Jeet Saha
+jeetsaha123.js@gmail.com
+7278-368-361
+
+
+
+playing football
+A
+
+jeet saha
+
+$
+
+112@536
+
+there is only two present not present
+
+abc
+ABC
+abcdef
+defabc
+hjfdghdasbngdgddj
+gcbfytdtfhtbjkmnfg
+freedom
+freely
+[IT_X_19@localhost Desktop]$ grep -E -v -i "[a-z0-9]" a.txt
+
+
+
+
+
+$
+
+
+
+[IT_X_19@localhost Desktop]$ grep -E "[^a-z0-9A-Z]" a.txt
+jeet saha 
+JEET SAHA
+Jeet Saha
+jeetsaha123.js@gmail.com
+7278-368-361
+playing football
+jeet saha
+$
+112@536
+there is only two present not present
+[IT_X_19@localhost Desktop]$ grep -E "[^a-z0-9A-Z]" a.txt
+jeet saha 
+JEET SAHA
+Jeet Saha
+jeetsaha123.js@gmail.com
+7278-368-361
+playing football
+jeet saha
+$
+112@536
+there is only two present not present
+2+3
+[IT_X_19@localhost Desktop]$ grep -E "0-9{4}.-.0-9{3}.*" a.txt
+[IT_X_19@localhost Desktop]$ grep -E "[0-9]{4}.-.[0-9]{3}.*" a.txt
+[IT_X_19@localhost Desktop]$ grep -E "^[0-9]{4}.-.[0-9]{3}.$*" a.txt
+[IT_X_19@localhost Desktop]$ grep -E "^[0-9]{4}.-.[0-9]{3}.*$" a.txt
+[IT_X_19@localhost Desktop]$ grep -E "^[0-9]{4}.\-.[0-9]{3}.*$" a.txt
+[IT_X_19@localhost Desktop]$ grep -E "^[0-9]{4}."-".[0-9]{3}.*$" a.txt
+[IT_X_19@localhost Desktop]$ grep -E "[0-9]{4}."-".[0-9]{3}$" a.txt
+[IT_X_19@localhost Desktop]$ grep -E "[0-9]{4}."-".[0-9]{3}" a.txt
+[IT_X_19@localhost Desktop]$ grep -E "[0-9]{4}.[-].[0-9]{3}" a.txt
+[IT_X_19@localhost Desktop]$ grep -E "[0-9]{4}.*" a.txt
+7278-368-361
+[IT_X_19@localhost Desktop]$ grep -E "^[0-9]{4}" a.txt
+7278-368-361
+[IT_X_19@localhost Desktop]$ grep -E "^[0-9]{4}.*" a.txt
+7278-368-361
+[IT_X_19@localhost Desktop]$ grep -E "^[0-9]{4}.-" a.txt
+[IT_X_19@localhost Desktop]$ grep -E "^[0-9]{4}."-"" a.txt
+[IT_X_19@localhost Desktop]$ grep -E "^[0-9]{4}.[-]" a.txt
+[IT_X_19@localhost Desktop]$ grep -E "^[0-9]{4}.[\-]" a.txt
+[IT_X_19@localhost Desktop]$ grep -E "^[0-9]{4}.[-]" a.txt
+[IT_X_19@localhost Desktop]$ grep -E "-" a.txt
+7278-368-361
+[IT_X_19@localhost Desktop]$ grep -E "^[0-9]{4}."-"" a.txt
+[IT_X_19@localhost Desktop]$ grep -E "^[0-9]{4}."-"$" a.txt
+[IT_X_19@localhost Desktop]$ grep -E "^[0-9]{4}."-".*$" a.txt
+[IT_X_19@localhost Desktop]$ grep -E "^[0-9]{4}[-][0-9]{3}$" a.txt
+[IT_X_19@localhost Desktop]$ grep -E "[0-9]{4}[-][0-9]{3}" a.txt
+7278-368-361
+[IT_X_19@localhost Desktop]$ grep -E "[0-9]{4}[-][0-9]{3}" a.txt
+7278-368-361
+[IT_X_19@localhost Desktop]$ grep -E "^[0-9]{4}[-][0-9]{3.*$}" a.txt
+[IT_X_19@localhost Desktop]$ grep -E "^[0-9]{4}[-][0-9]{3.}.*$" a.txt
+[IT_X_19@localhost Desktop]$ grep -E "^[0-9]{4}[-][0-9]{3.}" a.txt
+[IT_X_19@localhost Desktop]$ grep -E "[0-9]{4}[-][0-9]{3}" a.txt
+7278-368-361
+[IT_X_19@localhost Desktop]$ grep -E "[0-9]{4}[-][0-9]{3}" a.txt
+7278-368-361
+JHSDJH7278-368-361
+[IT_X_19@localhost Desktop]$ grep -E "^[0-9]{4}[-][0-9]{3}" a.txt
+7278-368-361
+[IT_X_19@localhost Desktop]$ grep -E "^[0-9]{4}[-][0-9]{3}" a.txt
+7278-368-361
+[IT_X_19@localhost Desktop]$ grep -E -i "[a-z]{1}" a.txt
+jeet saha 
+JEET SAHA
+Jeet Saha
+jeetsaha123.js@gmail.com
+playing football
+A
+jeet saha
+there is only two present not present
+abc
+ABC
+abcdef
+defabc
+hjfdghdasbngdgddj
+gcbfytdtfhtbjkmnfg
+freedom
+freely
+[IT_X_19@localhost Desktop]$ grep -E -i "[a-z]{0,1}" a.txt
+jeet saha 
+JEET SAHA
+Jeet Saha
+jeetsaha123.js@gmail.com
+7278-368-361
+
+57278-368-361
+
+playing football
+A
+
+jeet saha
+
+$
+
+112@536
+
+there is only two present not present
+
+abc
+ABC
+abcdef
+defabc
+hjfdghdasbngdgddj
+gcbfytdtfhtbjkmnfg
+freedom
+freely
+2+3
+728--45468
+[IT_X_19@localhost Desktop]$ grep -E -i -v "[a-z]{2}" a.txt
+7278-368-361
+
+57278-368-361
+
+A
+
+
+$
+
+112@536
+
+
+2+3
+728--45468
+[IT_X_19@localhost Desktop]$ grep -E -i -v "[a-z]{1}" a.txt
+7278-368-361
+
+57278-368-361
+
+
+
+$
+
+112@536
+
+
+2+3
+728--45468
+[IT_X_19@localhost Desktop]$ grep -E -i -v "[a-z]{1}" a.txt
+7278-368-361
+
+
+
+
+$
+
+112@536
+
+
+[IT_X_19@localhost Desktop]$ grep -E -i -v "[a-z]{2}" a.txt
+7278-368-361
+
+572a78-368-361
+
+A
+
+
+$
+
+112@536
+
+
+2+a3
+728--454a68
+[IT_X_19@localhost Desktop]$ grep -E -i  "[a-z]{2}" a.txt
+jeet saha 
+JEET SAHA
+Jeet Saha
+jeetsaha123.js@gmail.com
+playing football
+jeet saha
+there is only two present not present
+abc
+ABC
+abcdef
+defabc
+hjfdghdasbngdgddj
+gcbfytdtfhtbjkmnfg
+freedom
+freely
+[IT_X_19@localhost Desktop]$ grep -E -i  "[a-z]{1}" a.txt
+jeet saha 
+JEET SAHA
+Jeet Saha
+jeetsaha123.js@gmail.com
+572a78-368-361
+playing football
+A
+jeet saha
+there is only two present not present
+abc
+ABC
+abcdef
+defabc
+hjfdghdasbngdgddj
+gcbfytdtfhtbjkmnfg
+freedom
+freely
+2+a3
+728--454a68
+[IT_X_19@localhost Desktop]$ grep -E -i  "[a-z]{1,1}" a.txt
+jeet saha 
+JEET SAHA
+Jeet Saha
+jeetsaha123.js@gmail.com
+572a78-368-361
+playing football
+A
+jeet saha
+there is only two present not present
+abc
+ABC
+abcdef
+defabc
+hjfdghdasbngdgddj
+gcbfytdtfhtbjkmnfg
+freedom
+freely
+2+a3
+728--454a68
+[IT_X_19@localhost Desktop]$ grep -E -i  "^[^a-z][a-z]{1}[^a-z]" a.txt
+[IT_X_19@localhost Desktop]$ grep -E -i  "^[a-z]{1}[^a-z]" a.txt
+[IT_X_19@localhost Desktop]$ grep -E -i  "^[a-z]{1}" a.txt
+jeet saha 
+JEET SAHA
+Jeet Saha
+jeetsaha123.js@gmail.com
+playing football
+A
+jeet saha
+there is only two present not present
+abc
+ABC
+abcdef
+defabc
+hjfdghdasbngdgddj
+gcbfytdtfhtbjkmnfg
+freedom
+freely
+[IT_X_19@localhost Desktop]$ grep -E -i  "^[0-9][a-z]{1[0-9]}" a.txt
+[IT_X_19@localhost Desktop]$ grep -E -i  "^[0-9][a-z]{1}[0-9]" a.txt
+[IT_X_19@localhost Desktop]$ grep -E -i  "^[0-9][a-z]{1}[0-9]" a.txt
+[IT_X_19@localhost Desktop]$ grep -E -i  "^[0-9][a-z]{1}[0-9]" a.txt
+[IT_X_19@localhost Desktop]$ grep -E -i  "^[^a-z0-9]*[a-z]{1}[^a-z0-9]*" a.txt
+jeet saha 
+JEET SAHA
+Jeet Saha
+jeetsaha123.js@gmail.com
+playing football
+A
+jeet saha
+there is only two present not present
+abc
+ABC
+abcdef
+defabc
+hjfdghdasbngdgddj
+gcbfytdtfhtbjkmnfg
+freedom
+freely
+[IT_X_19@localhost Desktop]$ grep -E -i  "^[^a-z0-9]*[a-z]{1}[^a-z0-9]*" a.txt
+jeet saha 
+JEET SAHA
+Jeet Saha
+jeetsaha123.js@gmail.com
+playing football
+A
+jeet saha
+there is only two present not present
+abc
+ABC
+abcdef
+defabc
+hjfdghdasbngdgddj
+gcbfytdtfhtbjkmnfg
+freedom
+freely
+[IT_X_19@localhost Desktop]$ pluma id.c
+[IT_X_19@localhost Desktop]$ gcc id.c
+[IT_X_19@localhost Desktop]$ ./a.out
+[IT_X_19@localhost Desktop]$ pluma id.c
+[IT_X_19@localhost Desktop]$ gcc id.c
+[IT_X_19@localhost Desktop]$ ./a.out
+hehe:1009[IT_X_19@localhost Desktop]$ ./a.out
+hehe:1009[IT_X_19@localhost Desktop]$ pluma id.c
+[IT_X_19@localhost Desktop]$ gcc id.c
+id.c: In function ‘main’:
+id.c:12:21: error: expected identifier before ‘*’ token
+  printf("hoho:%d",p.*);
+                     ^
+[IT_X_19@localhost Desktop]$ pluma id.c
+[IT_X_19@localhost Desktop]$ gcc id.c
+id.c: In function ‘main’:
+id.c:12:20: error: request for member ‘pw_name’ in something not a structure or union
+  printf("hoho:%c",p.pw_name);
+                    ^
+[IT_X_19@localhost Desktop]$ pluma id.c
+[IT_X_19@localhost Desktop]$ gcc id.c
+[IT_X_19@localhost Desktop]$ ./a.out
+hehe:1009hoho:[IT_X_19@localhost Desktop]$ pluma id.c
+[IT_X_19@localhost Desktop]$ gcc id.c
+[IT_X_19@localhost Desktop]$ ./a.out
+hehe:1009hoho:IT_X_19[IT_X_19@localhost Desktop]$ pluma id.c
+[IT_X_19@localhost Desktop]$ gcc id.c
+id.c: In function ‘main’:
+id.c:14:24: error: ‘pass {aka struct passwd}’ has no member named ‘pw_geeos’
+  printf("hoho_f:%s\n",p->pw_geeos);
+                        ^
+[IT_X_19@localhost Desktop]$ pluma id.c
+[IT_X_19@localhost Desktop]$ gcc id.c
+id.c: In function ‘main’:
+id.c:14:24: error: request for member ‘pw_geeos’ in something not a structure or union
+  printf("hoho_f:%d\n",p.pw_geeos);
+                        ^
+[IT_X_19@localhost Desktop]$ pluma id.c
+[IT_X_19@localhost Desktop]$ gcc id.c
+id.c: In function ‘main’:
+id.c:14:24: error: request for member ‘pw_gecos’ in something not a structure or union
+  printf("hoho_f:%d\n",p.pw_gecos);
+                        ^
+[IT_X_19@localhost Desktop]$ gcc id.c
+id.c: In function ‘main’:
+id.c:14:24: error: request for member ‘pw_gecos’ in something not a structure or union
+  printf("hoho_f:%d\n",p.pw_gecos);
+                        ^
+[IT_X_19@localhost Desktop]$ pluma id.c
+[IT_X_19@localhost Desktop]$ gcc id.c
+[IT_X_19@localhost Desktop]$ ./a.out
+hehe_ID
+:1009hoho_n:IT_X_19
+hoho_p:x
+hoho_f:12050468
+hoho_d:/home/IT_X_19
+hoho_s:/bin/bash
+[IT_X_19@localhost Desktop]$ pluma id.c
+[

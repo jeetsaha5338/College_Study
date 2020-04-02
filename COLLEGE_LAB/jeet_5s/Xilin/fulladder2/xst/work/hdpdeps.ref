@@ -1,0 +1,13 @@
+V3 7
+FL J:/Xilin/fulladder2/fulladder2.vhd 2017/08/01.11:37:48 I.24
+EN work/fulladder2 1502121964      FL J:/Xilin/fulladder2/fulladder2.vhd \
+      PB ieee/std_logic_1164 1131108373 PB ieee/std_logic_arith 1131108375 \
+      PB ieee/STD_LOGIC_UNSIGNED 1131108379
+AR work/fulladder2/Behavioral 1502121965 FL J:/Xilin/fulladder2/fulladder2.vhd \
+      EN work/fulladder2 1502121964 CP halfadder
+FL D:/IT_X_21/halfadder/halfadder.vhd 2017/08/01.10:57:19 I.24
+EN work/halfadder 1501567673       FL D:/IT_X_21/halfadder/halfadder.vhd \
+      PB ieee/std_logic_1164 1131108373 PB ieee/std_logic_arith 1131108375 \
+      PB ieee/STD_LOGIC_UNSIGNED 1131108379
+AR work/halfadder/Behavioral 1501567674 FL D:/IT_X_21/halfadder/halfadder.vhd \
+      EN work/halfadder 1501567673

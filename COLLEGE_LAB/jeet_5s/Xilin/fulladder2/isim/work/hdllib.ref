@@ -1,0 +1,6 @@
+EN halfadder NULL D:/IT_X_21/halfadder/halfadder.vhd sub00/vhpl04 1501567482
+EN fulladder2_tb NULL D:/IT_X_21/fulladder2/fulladder2_tb.vhw sub00/vhpl02 1501567683
+AR fulladder2 behavioral D:/IT_X_21/fulladder2/fulladder2.vhd sub00/vhpl01 1501567682
+AR halfadder behavioral D:/IT_X_21/halfadder/halfadder.vhd sub00/vhpl05 1501567483
+AR fulladder2_tb testbench_arch D:/IT_X_21/fulladder2/fulladder2_tb.vhw sub00/vhpl03 1501567684
+EN fulladder2 NULL D:/IT_X_21/fulladder2/fulladder2.vhd sub00/vhpl00 1501567681

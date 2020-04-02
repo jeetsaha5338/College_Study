@@ -1,0 +1,2 @@
+vhdl work "adder4bitsubt.vhd"
+vhdl work "adder4bitsubt_tb.vhw"

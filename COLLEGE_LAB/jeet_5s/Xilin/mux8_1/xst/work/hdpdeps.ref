@@ -1,0 +1,11 @@
+V3 7
+FL D:/IT_X_20/mux4/mux4.vhd 2017/08/22.11:29:30 I.24
+EN work/mux4 1503384654            FL D:/IT_X_20/mux4/mux4.vhd PB ieee/std_logic_1164 1131108373 \
+      PB ieee/std_logic_arith 1131108375 PB ieee/STD_LOGIC_UNSIGNED 1131108379
+AR work/mux4/Behavioral 1503384655 FL D:/IT_X_20/mux4/mux4.vhd EN work/mux4 1503384654
+FL F:/LAB/jeet_5s/Xilin/mux8_1/mux8_1.vhd 2017/08/22.12:20:54 I.24
+EN work/mux8_1 1509390448          FL F:/LAB/jeet_5s/Xilin/mux8_1/mux8_1.vhd \
+      PB ieee/std_logic_1164 1131108373 PB ieee/std_logic_arith 1131108375 \
+      PB ieee/STD_LOGIC_UNSIGNED 1131108379
+AR work/mux8_1/Behavioral 1509390449 FL F:/LAB/jeet_5s/Xilin/mux8_1/mux8_1.vhd \
+      EN work/mux8_1 1509390448 CP mux4

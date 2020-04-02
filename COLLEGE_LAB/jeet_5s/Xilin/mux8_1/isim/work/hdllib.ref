@@ -1,0 +1,6 @@
+AR mux4 behavioral D:/IT_X_20/mux4/mux4.vhd sub00/vhpl01 1503384897
+EN mux4 NULL D:/IT_X_20/mux4/mux4.vhd sub00/vhpl00 1503384896
+EN mux8_1_result NULL D:/IT_X_20/mux8_1/mux8_1_result.vhw sub00/vhpl04 1503384900
+AR mux8_1 behavioral D:/IT_X_20/mux8_1/mux8_1.vhd sub00/vhpl03 1503384899
+EN mux8_1 NULL D:/IT_X_20/mux8_1/mux8_1.vhd sub00/vhpl02 1503384898
+AR mux8_1_result testbench_arch D:/IT_X_20/mux8_1/mux8_1_result.vhw sub00/vhpl05 1503384901

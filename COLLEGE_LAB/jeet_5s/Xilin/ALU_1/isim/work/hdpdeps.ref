@@ -1,0 +1,16 @@
+V3 11
+FL D:/IT_X_20/ALU_1/ALU_1_T.vhw 2017/08/29.12:52:54 I.24
+EN work/ALU_1_T 1503991599         FL D:/IT_X_20/ALU_1/ALU_1_T.vhw PB ieee/std_logic_1164 1132105529 \
+      PB ieee/std_logic_arith 1132105531 PB ieee/STD_LOGIC_UNSIGNED 1132105537 \
+      PB ieee/STD_LOGIC_TEXTIO 1132105539 PB std/textio 1132105521
+AR work/ALU_1_T/testbench_arch 1503991600 FL D:/IT_X_20/ALU_1/ALU_1_T.vhw EN work/ALU_1_T 1503991599 \
+      CP ALU_1          PB ieee/STD_LOGIC_TEXTIO 1132105539
+FL D:/IT_X_20/ALU_1/ALU_1.vhd 2017/08/29.12:44:50 I.24
+EN work/ALU_1 1503991597           FL D:/IT_X_20/ALU_1/ALU_1.vhd PB ieee/std_logic_1164 1132105529 \
+      PB ieee/std_logic_arith 1132105531 PB ieee/STD_LOGIC_UNSIGNED 1132105537
+AR work/ALU_1/Behavioral 1503991598 FL D:/IT_X_20/ALU_1/ALU_1.vhd EN work/ALU_1 1503991597 \
+      CP mux4
+FL D:/IT_X_19/Xilin/mux4/mux4.vhd 2017/08/22.11:29:30 I.24
+EN work/mux4 1503991051            FL D:/IT_X_19/Xilin/mux4/mux4.vhd PB ieee/std_logic_1164 1132105529 \
+      PB ieee/std_logic_arith 1132105531 PB ieee/STD_LOGIC_UNSIGNED 1132105537
+AR work/mux4/Behavioral 1503991052 FL D:/IT_X_19/Xilin/mux4/mux4.vhd EN work/mux4 1503991051

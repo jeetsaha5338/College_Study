@@ -1,0 +1,4 @@
+AR dff_res testbench_arch I:/pendrive/5th_Lab/final/Xilin/DFF/DFF_RES.vhw sub00/vhpl03 1508175944
+EN dff NULL I:/pendrive/5th_Lab/final/Xilin/DFF/DFF.vhd sub00/vhpl00 1508175941
+AR dff behavioral I:/pendrive/5th_Lab/final/Xilin/DFF/DFF.vhd sub00/vhpl01 1508175942
+EN dff_res NULL I:/pendrive/5th_Lab/final/Xilin/DFF/DFF_RES.vhw sub00/vhpl02 1508175943

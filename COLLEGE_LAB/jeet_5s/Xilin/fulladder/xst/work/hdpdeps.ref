@@ -1,0 +1,7 @@
+V3 3
+FL D:/IT_54/fulladder/fulladder.vhd 2017/07/25.12:17:18 I.24
+EN work/fulladder 1501610713       FL D:/IT_54/fulladder/fulladder.vhd \
+      PB ieee/std_logic_1164 1131108373 PB ieee/std_logic_arith 1131108375 \
+      PB ieee/STD_LOGIC_UNSIGNED 1131108379
+AR work/fulladder/Behavioral 1501610714 FL D:/IT_54/fulladder/fulladder.vhd \
+      EN work/fulladder 1501610713

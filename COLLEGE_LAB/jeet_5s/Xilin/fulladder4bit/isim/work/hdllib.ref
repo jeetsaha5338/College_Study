@@ -1,0 +1,6 @@
+AR fulladder behavioral D:/IT_X_21/fulladder/fulladder.vhd sub00/vhpl01 1501570689
+AR fulladder4bit_tb testbench_arch D:/IT_X_21/fulladder4bit/fulladder4bit_tb.vhw sub00/vhpl05 1501570693
+EN fulladder NULL D:/IT_X_21/fulladder/fulladder.vhd sub00/vhpl00 1501570688
+EN fulladder4bit_tb NULL D:/IT_X_21/fulladder4bit/fulladder4bit_tb.vhw sub00/vhpl04 1501570692
+EN fulladder4bit NULL D:/IT_X_21/fulladder4bit/fulladder4bit.vhd sub00/vhpl02 1501570690
+AR fulladder4bit behavioral D:/IT_X_21/fulladder4bit/fulladder4bit.vhd sub00/vhpl03 1501570691
