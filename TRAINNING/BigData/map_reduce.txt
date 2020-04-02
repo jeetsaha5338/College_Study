@@ -1,0 +1,8 @@
+MAP REDUCE----
+	evreythings work on key value pair
+there are many predifine class 
+i] Mapper--superclass 
+have to extend by a user define class-- wcmapper
+ii] Reducer---superclass
+have to extend by a user define class-- wcreducer
+iii] Driver class-- it include PSVM

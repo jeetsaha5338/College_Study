@@ -1,0 +1,20 @@
+import numpy as np
+a=np.arange(20,51,10)
+b=np.arange(4)
+print(b)
+c=a-b
+print(c)
+d=b**2
+print(d)
+e=b^4
+print(e)
+p=np.array([[1,2],[3,4]])
+q=np.array([[1,2],[3,4]])
+r=p+q
+print(r)
+s=p*qo
+print(s)
+t=p.dot(q)
+print(t)
+w=q<2
+print(w)

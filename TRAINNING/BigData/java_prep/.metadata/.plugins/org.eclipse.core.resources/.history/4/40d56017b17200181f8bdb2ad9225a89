@@ -1,0 +1,16 @@
+package org;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+public class Secord {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+		double values[]= {2.345,45.56,78.9,4.5};
+		FileOutputStream fout = new FileOutputStream("float.dat");
+		
+	}
+
+}

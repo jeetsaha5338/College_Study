@@ -1,0 +1,13 @@
+package first;
+import java.util.*;
+
+public class Second {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<Student> al = new ArrayList<>();
+		al.add(new Student(10,"John"));
+		
+	}
+
+}

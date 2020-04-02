@@ -1,0 +1,16 @@
+for checking the hadoop demoms========> sudo jps
+make wcfolder=======> hadoop fs -mkdir wcfolder
+alocate the jar file=====> hadoop jar wc.jar org.WCDriver
+delete output folder======>hadoop fs -rm -r output
+put text file into wcfolder====>hadoop fs -put any.txt wcfolder
+load text file=======>wc -l any.txt
+
+CUST_FILE
+
+hadoop fs -mkdir custfolder====> create folder
+hadoop fs -ls=====> show folder
+hadoop fs -cp custs custfolder=====> include data at the folder
+hadoop fs -ls custfolder=====> show the included file in the folder
+ls -ls *.jar======> show all jer files
+hadoop jar filename.jar org.AgeDriver====> run the jar file
+

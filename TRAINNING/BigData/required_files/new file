@@ -1,0 +1,202 @@
+								 PIG	
+stock = load 'stocksdir/stockprices.csv' using PigStorage(',') as (symbol:chararray,dt:chararray,price:float);
+stock1 = foreach stock generate symbol,price;
+stock1 = foreach stock generate symbol,price,price * .1 as price1;
+stock2 = filter stock1 by symbol == 'tcs';
+stock3 = order stock2 by price desc;
+=======================================================================
+stock_1 = group stock by symbol;
+stock_2 = foreach stock_1 generate group,COUNT(stock);
+stock_3 = foreach stock_1 generate group,AVG(stock,price);
+=======================================================================
+stocks = load 'stocksdir/stockprices.csv' using PigStorage(',') as (symbol:chararray,dt:chararray,price:float);
+symmaster = load 'stocksdir/symbolmastet.csv' using PigStorage(',') as (symbol:chararray,cname:chararray,phone:chararray,hq:chararray);
+joined = join stocks by symbol , symmaster by symbol;
+joinedproj = foreach joined generate dt,price;
+joinedproj = foreach joined generate stocks::symbol,cname,price; //parallel 20;(how many reducer you want to use)//for common columns
+set default_parellel 10;
+store joinedproj into 'joinedout' using PigStorage(',') ;// store it on file
+rjoined = join stocks by symbol [text], symmaster by symbol;// can use [left,right,full outer]
+history// all commands are used are shown ane by one.
+=======================================================================
+								HIVE
+mkdir hivesummer18
+cd hivesummer18
+hive
+create database first_db;
+show databases;
+use first_db;
+set hive.cli.print.current.db=true; // inform in which db u r using
+
+create table stockprices(symbol varchar(5),dt varchar(20),price float) 
+row format delimited 
+fields terminated by ','; // it create the table on the warehouse.
+
+
+
+load data inpath '/user/edureka/stocksdir/stockprices.csv' overwrite into table stockprices;===> data moved from HDFS to HDFS
+load data local inpath '/home/edureka/stockprices.csv' overwrite into table stockprices;===> data copied from local to HDFS
+select symbol from stockprices;
+
+create table stockprices(symbol varchar(5),dt varchar(20),price float) 
+row format delimited 
+fields terminated by ',' 
+location '/user/edureka/hivedata1/stock';
+//if we use it then the table created in this location not in the warehouse. thats why we need to copy the .csv file into this 
+location by '-put' command
+
+describe extended stockprices;
+ 
+
+create external table stockprices1(symbol varchar(5),dt varchar(20),price float) 
+row format delimited 
+fields terminated by ',' 
+location '/user/edureka/hivedata1/stocks';
+
+
+create external table symbolmaster1(symbol varchar(5),cname varchar(20),ph varchar(20),hq varchar(20)) 
+row format delimited 
+fields terminated by ',' 
+location '/user/edureka/hivedata1/symbol';
+
+select symbol,avg(price) from stockprices1 group by symbol;
+
+select symbol,variance(price) as avgprice,max(price) from stockprices1 group by symbol = 'infy';
+
+select a.symbol , cname from stockprices1 a join symbolmaster1 b on (a.symbol = b.symbol);
+
+set hive.exec.dynamic.partition=true;
+set hive.exec.dynamic.partition.mode=nonsrict;
+
+create table stockprices1part(dt varchar(20),price float)
+partitioned by (symbol varchar(5))
+row format delimited 
+fields terminated by ',';
+
+insert overwrite table stockprices1part partition(symbol) select dt,price,symbol from stockprices;//partitioning column should be last
+=========================================================================================================================================
+								Hbase
+cd /usr/lib
+cd hbase-0.96.2-hadoop2/
+./bin/start-hbase.sh
+hbase shell
+list
+create <'table name'>,<'1st column family name'>,<'2nd column family name'>
+put <'table name'>,<'id'>,<'column family name':'column name'>,<'value'>
+scan '<table name'>
+========================================================================================================================================
+								project
+
+project by hive=================
+
+mkdir hivesummer18
+cd hivesummer18
+hive
+create database project;
+show databases;
+use project;
+set hive.cli.print.current.db=true;
+
+hadoop fs -cp /user/edureka/startup_output/part-r-00000 /user/edureka/hivedata1/startup;
+
+
+create table startup(SNo number(4),Date number(4) , StartupName varchar2(30), IndustryVertical varchar2(50) , CityLocation varchar2(20) , InvestorsName varchar2(50),InvestmentType varchar2(50) , AmountInUSD number(1))
+row format delimited 
+fields terminated by ',' 
+location '/user/edureka/hivedata1/startup';
+
+q1=======
+
+create table q11 as select date,count(date) as count_all,IndustryVertical as ver from startup1 where sno!='SNo' group by date,IndustryVertical; 
+
+create table q12 as select date,count(date) as count_1,IndustryVertical as ver from startup1 where sno!='SNo' and amountinusd=' 1' group by date,IndustryVertical; 
+
+create table q1 as select a.date, a.count_all, b.count_1, a.ver from q11 a join q12 b on (a.ver = b.ver and a.date = b.date);
+
+select * from q1 where ((count_1/count_all)>0.5 and count_1>10 and ver !=' null ') group by ver,date,count_1,count_all;
+
+
+ Consumer Internet 	2016	305	539
+ Consumer Internet 	2017	156	233
+ ECommerce 		2016	21	38
+ ECommerce 		2017	11	15
+ Education 		2016	14	19
+ Technology 		2016	120	190
+ Technology 		2017	69	123
+ eCommerce 		2016	80	125
+ eCommerce 		2017	32	45
+
+
+
+
+
+q2=======
+
+
+create table q21 as select citylocation,count(citylocation) from startup1 where sno!='SNo' group by citylocation;
+create table q22 as select citylocation,count(citylocation) from startup1 where sno!='SNo' and amountinusd=' 1' group by citylocation;
+
+create table q2 as select a.citylocation, a.count_all, b.count_1 from q21 a join q22 b on (a.citylocation = b.citylocation);
+
+select * from q2 where ((count_1/count_all)>0.5 and count_1>10 and citylocation !=' null ');
+
+ Ahmedabad 	35	25
+ Bangalore 	625	415
+ Chennai 	66	49
+ Gurgaon 	240	169
+ Hyderabad 	75	56
+ Mumbai 	442	306
+ New Delhi 	381	223
+ Noida 		78	47
+ Pune 		84	55
+
+
+q3==========
+
+
+create table q31 as select IndustryVertical,count(IndustryVertical) as count_all from startup1 where sno!='SNo' group by IndustryVertical;
+create table q32 as select IndustryVertical,count(IndustryVertical) as count_1 from startup1 where sno!='SNo' and amountinusd=' 1' group by IndustryVertical;
+
+create table q3 as select a.industryvertical, a.count_all, b.count_1 from q31 a join q32 b on (a.industryvertical = b.industryvertical);
+
+select industryvertical,count_1/count_all from q3 where ((count_1/count_all)>0.5 and count_1>10 and industryvertical !=' null ');
+
+ Consumer Internet 	772	461
+ ECommerce 		53	32
+ Education 		20	15
+ Food & Beverage 	19	12
+ Logistics 		24	16
+ Technology 		313	189
+ eCommerce 		171	113
+
+
+q4==========
+
+
+create table q41 as select investorsname,count(investorsname) as count_all from startup1 where sno!='SNo' group by investorsname;
+create table q42 as select investorsname,count(investorsname) as count_1 from startup1 where sno!='SNo' and amountinusd=' 1' group by investorsname;
+
+create table q4 as select a.investorsname, a.count_all, b.count_1 from q41 a join q42 b on (a.investorsname = b.investorsname);
+
+select investorsname,count_1/count_all from q4 where ((count_1/count_all)>0.5 and count_1>5 and investorsname !=' null ');
+
+
+ Accel Partners			9	7
+ Brand Capital			10	7
+ Group of Angel Investors	15	14
+ Indian Angel Network		25	13
+ Info Edge (India) Ltd		8	8
+ Kalaari Capital		16	14
+ SAIF Partners			9	9
+ Sequoia Capital		14	12
+ Tiger Global			7	7
+ Trifecta Capital		6	6
+ Undisclosed			9	8
+ Undisclosed Investor		10	8
+ Undisclosed Investors		33	24
+ Undisclosed investor		9	7
+ Undisclosed investors		27	21
+ undisclosed investors		11	11
+
+
+

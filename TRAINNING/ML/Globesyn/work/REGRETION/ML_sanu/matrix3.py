@@ -1,0 +1,24 @@
+import numpy as np
+A=np.arange(11,56).reshape(5,9)
+print(A)
+B=A[3:,4:]
+print(B)
+a=np.arange(20).reshape(4,5)
+print(a)
+b=a[:3:2,::2]
+print(b)
+p=np.array([2,3,4,5],order='F')
+q=p[1:3]
+print(p)
+print(q)
+q[0]=55
+print(p)
+print(q)
+r=p.copy()
+z=r
+print(r)
+r[0]=1001
+p[1]=101
+print(r)
+print(p)
+print(z)

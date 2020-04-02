@@ -1,0 +1,9 @@
+127.0.0.1 - - [29/Jan/2018:00:58:26 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [29/Jan/2018:00:58:28 +0530] "GET /Clinic_Obosese/Home.jsp HTTP/1.1" 200 2854
+0:0:0:0:0:0:0:1 - - [29/Jan/2018:00:58:29 +0530] "GET /Clinic_Obosese/splash2.jpg HTTP/1.1" 200 140146
+0:0:0:0:0:0:0:1 - - [29/Jan/2018:00:58:30 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [29/Jan/2018:00:59:42 +0530] "GET /Clinic_Obosese/PatientLogin.jsp HTTP/1.1" 200 1233
+0:0:0:0:0:0:0:1 - - [29/Jan/2018:00:59:42 +0530] "GET /Clinic_Obosese/Patient-Portal-Banner.jpg HTTP/1.1" 200 129291
+0:0:0:0:0:0:0:1 - - [29/Jan/2018:00:59:42 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [29/Jan/2018:00:59:48 +0530] "GET /Clinic_Obosese/RegPage.jsp HTTP/1.1" 200 1940
+0:0:0:0:0:0:0:1 - - [29/Jan/2018:00:59:51 +0530] "GET /Clinic_Obosese/PatientLogin.jsp HTTP/1.1" 200 1233

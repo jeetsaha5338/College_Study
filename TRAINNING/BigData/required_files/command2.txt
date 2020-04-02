@@ -1,0 +1,9 @@
+1.Create mapper subclass and write 'map()' method
+2.Create Reducer subclass and create 'reduce()' method
+3.Create Driver subclass and write 'driver()' method
+		**note down input folder name and output folder name
+		**NO COMPILATION ERROR TILL NOW
+4.Create jar file
+5.Create input folder and copy input folder in HDFS and copy the input file in created folder
+6.Output folder in HDFS must be deleted
+7.Run your code

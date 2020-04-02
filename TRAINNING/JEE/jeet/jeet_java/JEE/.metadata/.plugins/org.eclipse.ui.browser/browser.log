@@ -1,0 +1,13 @@
+
+Jul 07, 2017 01:08:26.29 NEW SESSION
+Jul 07, 2017 01:08:26.29 [5780:772:0707/010826.290:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 07, 2017 01:08:26.54 [5780:772:0707/010826.543:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 07, 2017 01:08:48.99 [9180:4840:0707/010848.991:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 07, 2017 01:08:49.02 [9180:4840:0707/010849.027:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+
+Jul 07, 2017 01:15:29.88 NEW SESSION
+Jul 07, 2017 01:15:29.88 [4740:8604:0707/011529.882:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 07, 2017 01:15:29.90 [4740:8604:0707/011529.907:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 07, 2017 01:16:25.34 [8676:9088:0707/011625.345:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 07, 2017 01:16:25.38 [8676:9088:0707/011625.384:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 07, 2017 01:16:37.55 [8676:2676:0707/011637.557:ERROR:account_info_fetcher.cc(58)] OnGetTokenFailure: Request canceled.

@@ -1,0 +1,63 @@
+								 PIG	
+
+stock = load 'stocksdir/stockprices.csv' using PigStorage(',') as (symbol:chararray,dt:chararray,price:float);
+
+stock1 = foreach stock generate symbol,price;
+
+stock1 = foreach stock generate symbol,price,price * .1 as price1;
+
+stock2 = filter stock1 by symbol == 'tcs';
+
+stock3 = order stock2 by price desc;
+
+=======================================================================
+stock_1 = group stock by symbol;
+
+stock_2 = foreach stock_1 generate group,COUNT(stock);
+
+stock_3 = foreach stock_1 generate group,AVG(stock,price);
+
+=======================================================================
+
+stocks = load 'stocksdir/stockprices.csv' using PigStorage(',') as (symbol:chararray,dt:chararray,price:float);
+
+symmaster = load 'stocksdir/symbolmastet.csv' using PigStorage(',') as (symbol:chararray,cname:chararray,phone:chararray,hq:chararray);
+
+joined = join stocks by symbol , symmaster by symbol;
+
+joinedproj = foreach joined generate dt,price;
+
+joinedproj = foreach joined generate stocks::symbol,cname,price; //parallel 20;(how many reducer you want to use)//
+for common columns
+set default_parellel 10;
+
+store joinedproj into 'joinedout' using PigStorage(',') ;
+file
+rjoined = join stocks by symbol [text], symmaster by symbol;// can use [left,right,full outer]
+
+history// all commands are used are shown ane by one.
+=======================================================================
+								HIVE
+mkdir hivesummer18
+cd hivesummer18
+hive
+create database first_db;
+show databases;
+use first_db;
+set hive.cli.print.current.db=true;
+
+create table stockprices(symbol varchar(5),dt varchar(20),price float) 
+row format delimited 
+fields terminated by ',';
+
+load data inpath '/user/edureka/stocksdir/stockprices.csv' overwrite into table stockprices;===> data moved from HDFS to HDFS
+load data local inpath '/home/edureka/stockprices.csv' overwrite into table stockprices;===> data copied from local to HDFS
+select symbol from stockprices;
+
+create table stockprices(symbol varchar(5),dt varchar(20),price float) 
+row format delimited 
+fields terminated by ',' 
+location 'user/edureka/hivedata1/stock';
+
+describe extended stockprices;
+

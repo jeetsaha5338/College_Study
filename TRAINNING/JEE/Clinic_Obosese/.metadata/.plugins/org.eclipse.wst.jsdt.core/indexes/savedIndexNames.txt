@@ -1,0 +1,15 @@
+INDEX VERSION 1.3+E:\STUDY\TRAINNING\JEE\Clinic_Obosese\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+645706056.index
+606901678.index
+2818729398.index
+80914538.index
+3845242865.index
+2631849557.index
+4156398245.index
+1384299001.index
+2418164078.index
+2899079063.index
+4282003838.index
+3371434140.index
+386148236.index
+855084707.index

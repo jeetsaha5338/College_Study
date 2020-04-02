@@ -1,0 +1,12 @@
+package RE_PROJ;
+
+public class Test3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String record ="px123,kingstone,340,1|3|4|1";
+		String record ="px125,electronics,storege,pendrive,kingstone,340,1|3|4|1";
+		String what
+	}
+
+}

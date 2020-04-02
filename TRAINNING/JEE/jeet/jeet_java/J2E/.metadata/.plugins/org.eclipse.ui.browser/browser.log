@@ -1,0 +1,307 @@
+
+Jul 03, 2017 23:14:58.49 NEW SESSION
+Jul 03, 2017 23:14:58.49 [2748:4408:0703/231458.490:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 03, 2017 23:14:58.50 [2748:4408:0703/231458.506:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 03, 2017 23:15:27.05 [2748:4408:0703/231527.059:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 03, 2017 23:15:27.19 [2748:4408:0703/231527.190:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 03, 2017 23:15:32.46 [2748:4840:0703/231532.464:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 03, 2017 23:15:32.47 [2748:4840:0703/231532.464:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 03, 2017 23:15:49.48 [2748:4840:0703/231549.485:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 03, 2017 23:16:10.33 [2748:4408:0703/231610.335:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 03, 2017 23:16:10.49 [2748:4840:0703/231610.496:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 03, 2017 23:16:20.25 [2748:4408:0703/231620.252:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 03, 2017 23:16:51.34 [2748:4840:0703/231651.344:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 03, 2017 23:18:21.64 [6916:580:0703/231821.643:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 03, 2017 23:18:21.70 [6916:580:0703/231821.703:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 03, 2017 23:18:42.43 [6916:580:0703/231842.432:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 03, 2017 23:18:43.66 [6916:580:0703/231843.660:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 03, 2017 23:18:54.83 [6916:5912:0703/231854.839:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 03, 2017 23:18:54.84 [6916:5912:0703/231854.839:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 03, 2017 23:19:23.56 [6916:580:0703/231923.562:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 03, 2017 23:19:29.24 [6916:580:0703/231929.246:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 03, 2017 23:20:55.59 [6916:580:0703/232055.591:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 03, 2017 23:21:12.30 [6916:580:0703/232112.309:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 03, 2017 23:21:43.52 [6916:5912:0703/232143.524:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 03, 2017 23:22:11.84 [6916:5912:0703/232211.846:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 03, 2017 23:23:21.46 [8080:6600:0703/232321.467:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 03, 2017 23:23:21.51 [8080:6600:0703/232321.518:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 03, 2017 23:23:46.77 [8080:6600:0703/232346.774:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 03, 2017 23:23:47.97 [8080:6600:0703/232347.973:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 03, 2017 23:23:55.08 [8080:6788:0703/232355.088:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 03, 2017 23:23:55.09 [8080:6788:0703/232355.088:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 03, 2017 23:24:32.31 [8080:6600:0703/232432.317:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 03, 2017 23:24:32.37 [8080:6600:0703/232432.369:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 03, 2017 23:25:47.67 [7528:7244:0703/232547.672:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 03, 2017 23:25:47.74 [7528:7244:0703/232547.748:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 03, 2017 23:26:07.94 [7528:7244:0703/232607.942:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 03, 2017 23:26:09.49 [7528:7244:0703/232609.498:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 03, 2017 23:26:16.66 [7528:3996:0703/232616.666:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 03, 2017 23:26:22.02 [7528:3996:0703/232622.020:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 03, 2017 23:26:22.02 [7528:3996:0703/232622.020:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 03, 2017 23:26:40.87 [7528:3996:0703/232640.878:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 03, 2017 23:26:49.11 [7528:7244:0703/232649.112:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 03, 2017 23:26:59.44 [7528:7244:0703/232659.443:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 03, 2017 23:27:37.02 [7528:3996:0703/232737.028:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 03, 2017 23:28:37.86 [7528:7244:0703/232837.867:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 03, 2017 23:28:57.46 [7528:7244:0703/232857.462:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 03, 2017 23:29:17.26 [7528:3996:0703/232917.263:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 03, 2017 23:32:07.33 [7528:7244:0703/233207.336:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 03, 2017 23:32:11.66 [7528:3996:0703/233211.665:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 03, 2017 23:32:15.72 [7528:7244:0703/233215.727:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 03, 2017 23:34:44.21 [8004:8376:0703/233444.212:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 03, 2017 23:34:44.41 [8004:8376:0703/233444.412:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 03, 2017 23:35:07.07 [8004:8376:0703/233507.075:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 03, 2017 23:35:09.29 [8004:8376:0703/233509.295:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 03, 2017 23:35:18.89 [8004:468:0703/233518.892:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 03, 2017 23:35:18.90 [8004:468:0703/233518.892:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 03, 2017 23:35:45.16 [7908:8044:0703/233545.167:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 03, 2017 23:35:45.32 [7908:8044:0703/233545.326:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 03, 2017 23:36:05.70 [7908:8044:0703/233605.699:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 03, 2017 23:36:08.46 [7908:8044:0703/233608.469:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 03, 2017 23:36:19.30 [7908:5940:0703/233619.301:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 03, 2017 23:36:19.30 [7908:5940:0703/233619.301:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 03, 2017 23:36:50.53 [7908:8044:0703/233650.535:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 03, 2017 23:36:51.16 [7908:5940:0703/233651.162:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 03, 2017 23:37:05.44 [7908:8044:0703/233705.448:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 03, 2017 23:37:17.12 [7908:5940:0703/233717.126:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 03, 2017 23:38:04.79 [7908:5940:0703/233804.794:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 03, 2017 23:38:14.48 [7908:8044:0703/233814.485:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 03, 2017 23:38:50.06 [7908:8044:0703/233850.066:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 03, 2017 23:39:39.08 [7908:5940:0703/233939.080:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 03, 2017 23:41:24.81 [7908:8044:0703/234124.811:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 03, 2017 23:41:35.43 [7908:8044:0703/234135.439:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 03, 2017 23:43:18.88 [7908:5940:0703/234318.880:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 03, 2017 23:47:12.12 [7908:8044:0703/234712.124:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 03, 2017 23:49:10.28 [7908:8044:0703/234910.280:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 03, 2017 23:50:22.58 [7908:5940:0703/235022.582:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 03, 2017 23:57:12.12 [7908:8044:0703/235712.126:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 03, 2017 23:59:10.28 [7908:8044:0703/235910.283:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 24:00:22.58 [7908:5940:0704/000022.584:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 04, 2017 24:07:12.12 [7908:8044:0704/000712.128:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 24:09:10.28 [7908:8044:0704/000910.285:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 24:10:22.58 [7908:5940:0704/001022.586:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 04, 2017 24:16:08.32 [3808:4004:0704/001608.327:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 24:16:08.39 [3808:4004:0704/001608.372:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 24:16:29.35 [3808:4004:0704/001629.350:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 24:16:35.45 [3808:4004:0704/001635.458:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 24:16:42.68 [3808:5748:0704/001642.681:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 04, 2017 24:16:42.68 [3808:5748:0704/001642.681:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 04, 2017 24:17:20.62 [3808:4004:0704/001720.619:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 24:17:23.17 [3808:4004:0704/001723.173:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 24:19:00.32 [3808:4004:0704/001900.327:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 24:19:07.23 [3808:4004:0704/001907.235:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 24:22:11.18 [3808:4004:0704/002211.186:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 24:22:16.58 [3808:4004:0704/002216.584:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 24:27:35.81 [3808:5748:0704/002735.809:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 04, 2017 24:27:43.24 [3808:4004:0704/002743.239:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 24:27:47.41 [3808:4004:0704/002747.419:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 24:27:56.26 [3808:5748:0704/002756.266:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 04, 2017 24:28:45.69 [3808:5748:0704/002845.698:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 04, 2017 24:30:08.24 [3808:5748:0704/003008.248:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 04, 2017 24:32:49.67 [3808:5748:0704/003249.671:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 04, 2017 24:37:43.24 [3808:4004:0704/003743.241:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 24:37:47.42 [3808:4004:0704/003747.421:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 24:40:30.23 [3808:5748:0704/004030.231:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 04, 2017 24:47:43.24 [3808:4004:0704/004743.242:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 24:47:47.42 [3808:4004:0704/004747.423:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 24:50:30.23 [3808:5748:0704/005030.232:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 04, 2017 24:57:43.24 [3808:4004:0704/005743.243:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 24:57:47.42 [3808:4004:0704/005747.424:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 01:00:30.23 [3808:5748:0704/010030.234:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 04, 2017 01:07:43.24 [3808:4004:0704/010743.245:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 01:07:47.42 [3808:4004:0704/010747.425:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 01:10:30.23 [3808:5748:0704/011030.235:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 04, 2017 01:11:11.42 [4624:2588:0704/011111.425:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 01:11:11.43 [4624:2588:0704/011111.436:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 01:11:34.88 [4624:2588:0704/011134.887:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 01:11:34.91 [4624:2588:0704/011134.915:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 01:11:44.62 [2740:7824:0704/011144.622:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 01:11:44.65 [2740:7824:0704/011144.659:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 01:12:07.54 [2740:7824:0704/011207.542:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 01:12:09.66 [2740:7824:0704/011209.669:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 01:12:18.54 [2740:6656:0704/011218.544:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 04, 2017 01:12:18.55 [2740:6656:0704/011218.544:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 04, 2017 01:12:52.07 [2740:7824:0704/011252.073:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 01:12:54.25 [2740:7824:0704/011254.250:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 01:14:29.65 [2740:7824:0704/011429.657:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 01:14:38.31 [2740:7824:0704/011438.311:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 01:15:11.60 [2740:6656:0704/011511.603:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 04, 2017 01:15:39.89 [2740:6656:0704/011539.891:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 04, 2017 01:16:37.96 [2740:6656:0704/011637.959:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 04, 2017 01:17:39.33 [2740:7824:0704/011739.334:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 01:17:58.34 [2740:7824:0704/011758.345:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 01:18:31.54 [2740:6656:0704/011831.546:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 04, 2017 01:21:24.66 [2740:6656:0704/012124.665:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 04, 2017 01:23:28.85 [6752:2528:0704/012328.858:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 01:23:28.96 [6752:2528:0704/012328.967:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 01:23:51.77 [6752:2528:0704/012351.775:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 01:23:52.42 [6752:2528:0704/012352.425:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 01:24:01.77 [6752:9148:0704/012401.770:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 04, 2017 01:24:01.77 [6752:9148:0704/012401.770:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 04, 2017 01:24:40.68 [6752:2528:0704/012440.681:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 01:24:43.33 [6752:2528:0704/012443.336:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 01:26:04.20 [6752:2528:0704/012604.199:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 01:26:33.07 [6752:2528:0704/012633.077:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 01:29:50.19 [6752:2528:0704/012950.194:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 01:30:31.76 [6752:2528:0704/013031.762:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 01:32:19.85 [6752:9148:0704/013219.850:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 04, 2017 01:32:39.19 [5904:580:0704/013239.197:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 01:32:39.34 [5904:580:0704/013239.342:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 01:33:05.07 [5904:580:0704/013305.075:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 01:33:08.52 [5904:580:0704/013308.522:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 01:33:13.23 [5904:1820:0704/013313.236:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 04, 2017 01:33:13.24 [5904:1820:0704/013313.236:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+
+Jul 04, 2017 01:37:56.01 NEW SESSION
+Jul 04, 2017 01:37:56.02 [5080:4920:0704/013756.017:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 01:37:56.16 [5080:4920:0704/013756.168:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 01:38:19.68 [5080:4920:0704/013819.681:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 01:38:20.06 [5080:4920:0704/013820.060:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 01:38:28.86 [5080:4176:0704/013828.859:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 04, 2017 01:38:28.86 [5080:4176:0704/013828.860:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 04, 2017 01:39:01.77 [5080:4920:0704/013901.770:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 01:39:15.68 [5080:4920:0704/013915.684:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 01:40:48.37 [5080:4920:0704/014048.379:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 01:40:59.31 [5080:4920:0704/014059.318:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 01:42:07.62 [5168:612:0704/014207.609:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 01:42:07.74 [5168:612:0704/014207.742:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 01:42:35.41 [5168:612:0704/014235.410:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 01:42:36.24 [5168:612:0704/014236.240:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 01:42:41.82 [5168:3064:0704/014241.826:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 04, 2017 01:42:41.83 [5168:3064:0704/014241.826:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 04, 2017 01:43:25.19 [5168:612:0704/014325.195:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 01:43:36.22 [5168:612:0704/014336.220:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 01:44:26.53 [5168:3064:0704/014426.538:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 04, 2017 01:44:53.36 [5168:3064:0704/014453.364:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 04, 2017 01:45:05.95 [5168:612:0704/014505.958:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 01:45:19.60 [5168:612:0704/014519.602:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 01:45:52.07 [5168:3064:0704/014552.069:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 04, 2017 01:47:19.70 [5168:3064:0704/014719.701:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 04, 2017 01:47:42.33 [9212:2336:0704/014742.329:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 01:47:42.57 [9212:2336:0704/014742.571:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 01:48:11.19 [8516:6332:0704/014811.194:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 01:48:11.23 [8516:6332:0704/014811.233:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 01:48:37.36 [8516:6332:0704/014837.363:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 01:48:40.79 [8516:6332:0704/014840.791:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 01:48:44.81 [8516:8476:0704/014844.818:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 04, 2017 01:48:44.82 [8516:8476:0704/014844.818:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 04, 2017 01:49:18.82 [8516:6332:0704/014918.828:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 01:49:23.25 [8516:6332:0704/014923.254:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 01:50:50.11 [8516:6332:0704/015050.118:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 01:51:13.68 [8516:6332:0704/015113.681:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 01:53:07.80 [6328:584:0704/015307.802:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 01:53:07.87 [6328:584:0704/015307.878:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 01:53:34.89 [6328:584:0704/015334.893:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 01:53:35.43 [6328:584:0704/015335.434:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 01:53:42.09 [6328:8260:0704/015342.093:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 04, 2017 01:53:42.10 [6328:8260:0704/015342.093:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 04, 2017 01:54:21.78 [6328:584:0704/015421.781:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 01:54:27.72 [6328:584:0704/015427.727:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 01:55:51.20 [6328:584:0704/015551.200:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 01:56:20.45 [6328:584:0704/015620.453:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 01:59:23.27 [6328:584:0704/015923.270:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 01:59:29.64 [6328:584:0704/015929.644:ERROR:checkin_request.cc(179)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 04, 2017 02:04:54.99 [6328:584:0704/020454.991:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 04, 2017 02:04:55.79 [6328:8260:0704/020455.791:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 04, 2017 02:05:18.41 [6328:8260:0704/020518.415:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+
+Jul 06, 2017 22:49:13.31 NEW SESSION
+Jul 06, 2017 22:49:13.32 [6660:6148:0706/224913.317:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 06, 2017 22:49:13.44 [6660:6148:0706/224913.317:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 06, 2017 22:49:35.52 [6660:6148:0706/224935.520:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 06, 2017 22:49:42.21 [6660:6148:0706/224942.212:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 06, 2017 22:49:46.58 [6660:4080:0706/224946.580:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 06, 2017 22:49:46.63 [6660:4080:0706/224946.580:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 06, 2017 22:50:21.56 [6660:6148:0706/225021.568:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 06, 2017 22:50:26.04 [6660:6148:0706/225026.048:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 06, 2017 22:52:05.58 [6660:6148:0706/225205.583:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 06, 2017 22:52:09.88 [6660:6148:0706/225209.880:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 06, 2017 22:55:02.16 [6660:6148:0706/225502.168:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 06, 2017 22:55:48.91 [6660:6148:0706/225548.916:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 06, 2017 23:01:01.95 [6660:4080:0706/230101.951:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 06, 2017 23:01:25.14 [6660:4080:0706/230125.147:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 06, 2017 23:01:47.36 [6660:6148:0706/230147.363:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 06, 2017 23:01:50.45 [6660:6148:0706/230150.455:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 06, 2017 23:02:12.06 [6660:4080:0706/230212.066:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 06, 2017 23:03:56.25 [6660:4080:0706/230356.252:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 06, 2017 23:07:29.71 [6660:4080:0706/230729.710:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 06, 2017 23:11:47.37 [6660:6148:0706/231147.371:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 06, 2017 23:11:50.46 [6660:6148:0706/231150.461:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 06, 2017 23:14:23.83 [6660:4080:0706/231423.830:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 06, 2017 23:16:18.82 [6208:1920:0706/231618.829:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 06, 2017 23:16:18.84 [6208:1920:0706/231618.844:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 06, 2017 23:16:46.78 [6208:1920:0706/231646.781:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 06, 2017 23:16:48.66 [6208:1920:0706/231648.660:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 06, 2017 23:16:52.38 [6208:3764:0706/231652.387:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 06, 2017 23:16:52.38 [6208:3764:0706/231652.387:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 06, 2017 23:17:38.79 [6208:1920:0706/231738.798:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 06, 2017 23:17:40.28 [6208:1920:0706/231740.282:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 06, 2017 23:18:40.83 [6208:3764:0706/231840.832:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 06, 2017 23:19:01.13 [6208:3764:0706/231901.136:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 06, 2017 23:19:02.83 [6208:1920:0706/231902.830:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 06, 2017 23:19:36.48 [6208:1920:0706/231936.488:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 06, 2017 23:19:49.15 [6208:3764:0706/231949.155:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 06, 2017 23:21:44.60 [6208:3764:0706/232144.601:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 06, 2017 23:22:18.63 [6208:1920:0706/232218.635:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 06, 2017 23:22:25.29 [6208:1920:0706/232225.295:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 06, 2017 23:25:09.31 [6208:3764:0706/232509.313:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 06, 2017 23:27:41.05 [6208:1920:0706/232741.055:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 06, 2017 23:29:27.12 [6208:1920:0706/232927.122:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 06, 2017 23:32:57.57 [6208:3764:0706/233257.575:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 06, 2017 23:37:41.06 [6208:1920:0706/233741.060:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 06, 2017 23:39:27.12 [6208:1920:0706/233927.126:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 06, 2017 23:42:57.58 [6208:3764:0706/234257.581:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 06, 2017 23:45:42.40 [728:8624:0706/234542.403:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 06, 2017 23:45:42.41 [728:8624:0706/234542.419:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 06, 2017 23:46:03.92 [728:8624:0706/234603.927:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 06, 2017 23:46:11.59 [728:8624:0706/234611.599:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 06, 2017 23:46:16.72 [728:6572:0706/234616.723:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 06, 2017 23:46:16.73 [728:6572:0706/234616.723:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 06, 2017 23:46:44.79 [728:8624:0706/234644.797:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 06, 2017 23:47:01.39 [728:8624:0706/234701.394:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 06, 2017 23:48:24.95 [3432:7784:0706/234824.959:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 06, 2017 23:48:25.04 [3432:7784:0706/234825.047:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 06, 2017 23:48:45.89 [3432:7784:0706/234845.898:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 06, 2017 23:48:49.51 [3432:7784:0706/234849.514:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 06, 2017 23:48:58.48 [3432:7132:0706/234858.484:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 06, 2017 23:48:58.48 [3432:7132:0706/234858.484:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 06, 2017 23:49:30.71 [3432:7784:0706/234930.716:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 06, 2017 23:49:38.92 [3432:7784:0706/234938.927:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 06, 2017 23:51:13.04 [3432:7784:0706/235113.043:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 06, 2017 23:51:21.06 [3432:7784:0706/235121.062:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 06, 2017 23:54:51.62 [3432:7784:0706/235451.624:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 06, 2017 23:55:13.08 [3432:7784:0706/235513.080:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 06, 2017 23:55:13.94 [3432:7132:0706/235513.940:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 06, 2017 23:55:39.90 [3432:7132:0706/235539.908:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 06, 2017 23:56:29.61 [3432:7132:0706/235629.617:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 06, 2017 23:58:08.26 [3432:7132:0706/235808.261:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 07, 2017 24:01:33.25 [3432:7784:0707/000133.254:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 07, 2017 24:01:48.84 [3432:7132:0707/000148.847:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 07, 2017 24:02:13.45 [3432:7784:0707/000213.451:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 07, 2017 24:09:41.22 [3432:7132:0707/000941.225:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 07, 2017 24:11:33.26 [3432:7784:0707/001133.260:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 07, 2017 24:12:13.46 [3432:7784:0707/001213.467:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 07, 2017 24:19:41.23 [3432:7132:0707/001941.238:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 07, 2017 24:21:33.26 [3432:7784:0707/002133.262:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 07, 2017 24:33:40.15 [8496:7484:0707/003340.151:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 07, 2017 24:33:40.17 [8496:7484:0707/003340.172:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 07, 2017 24:34:01.11 [8496:7484:0707/003401.114:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 07, 2017 24:34:02.55 [8496:7484:0707/003402.551:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 07, 2017 24:34:13.23 [8496:3404:0707/003413.238:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 07, 2017 24:34:13.24 [8496:3404:0707/003413.238:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 07, 2017 24:34:44.10 [8496:7484:0707/003444.102:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 07, 2017 24:35:02.28 [8496:7484:0707/003502.287:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 07, 2017 24:36:03.14 [8496:3404:0707/003603.145:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 07, 2017 24:36:07.65 [8496:7484:0707/003607.658:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 07, 2017 24:36:23.91 [8496:3404:0707/003623.910:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 07, 2017 24:37:01.92 [8496:7484:0707/003701.921:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 07, 2017 24:37:15.39 [8496:3404:0707/003715.390:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 07, 2017 24:38:47.48 [8496:3404:0707/003847.481:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 07, 2017 24:38:57.46 [8496:7484:0707/003857.467:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 07, 2017 24:39:49.68 [8496:7484:0707/003949.685:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 07, 2017 24:42:27.75 [8496:3404:0707/004227.751:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 07, 2017 24:45:04.22 [8496:7484:0707/004504.222:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 07, 2017 24:47:42.83 [8496:7484:0707/004742.834:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 07, 2017 24:48:39.84 [8496:3404:0707/004839.841:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 07, 2017 24:55:04.22 [8496:7484:0707/005504.228:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 07, 2017 24:57:42.83 [8496:7484:0707/005742.838:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.

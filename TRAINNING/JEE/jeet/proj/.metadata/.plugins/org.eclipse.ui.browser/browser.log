@@ -1,0 +1,95 @@
+
+Jul 16, 2017 24:47:48.08 NEW SESSION
+Jul 16, 2017 24:47:48.08 [8104:6728:0716/004748.082:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 16, 2017 24:47:48.11 [8104:6728:0716/004748.113:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 16, 2017 24:48:17.10 [8104:6728:0716/004817.103:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 16, 2017 24:48:17.17 [8104:6728:0716/004817.170:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 16, 2017 24:48:21.23 [8104:4244:0716/004821.232:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 16, 2017 24:48:21.23 [8104:4244:0716/004821.232:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 16, 2017 24:49:10.42 [8104:6728:0716/004910.425:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 16, 2017 24:49:13.72 [8104:6728:0716/004913.724:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 16, 2017 24:51:03.93 [8104:6728:0716/005103.934:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 16, 2017 24:51:08.75 [8104:6728:0716/005108.750:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 16, 2017 24:52:11.07 [8104:4244:0716/005211.072:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 16, 2017 24:52:39.66 [8104:4244:0716/005239.664:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 16, 2017 24:53:34.03 [8104:4244:0716/005334.039:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 16, 2017 24:53:49.51 [8104:6728:0716/005349.516:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 16, 2017 24:55:03.50 [8104:6728:0716/005503.507:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 16, 2017 24:55:27.49 [8104:4244:0716/005527.497:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 16, 2017 24:58:39.28 [8104:4244:0716/005839.285:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 16, 2017 24:59:53.84 [8104:6728:0716/005953.841:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 16, 2017 01:02:34.42 [8104:6728:0716/010234.424:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 16, 2017 01:05:17.31 [8104:4244:0716/010517.317:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 16, 2017 01:09:53.84 [8104:6728:0716/010953.843:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 16, 2017 01:12:34.43 [8104:6728:0716/011234.431:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+Jul 16, 2017 01:15:17.32 [8104:4244:0716/011517.323:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 16, 2017 01:19:53.85 [8104:6728:0716/011953.851:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 16, 2017 01:43:31.87 [6048:32:0716/014331.877:ERROR:get_updates_processor.cc(244)] PostClientToServerMessage() failed during GetUpdates
+Jul 16, 2017 01:45:09.31 [5176:6316:0716/014509.310:ERROR:socket_stream.cc(210)] Closing stream with result -101
+Jul 16, 2017 01:45:09.32 [5176:6316:0716/014509.310:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -21
+Jul 16, 2017 01:45:11.82 [5176:6316:0716/014511.823:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 16, 2017 01:45:56.36 [5176:6316:0716/014556.368:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 16, 2017 01:46:05.06 [5176:784:0716/014605.066:ERROR:get_updates_processor.cc(244)] PostClientToServerMessage() failed during GetUpdates
+Jul 16, 2017 01:46:50.07 [5176:784:0716/014650.072:ERROR:get_updates_processor.cc(244)] PostClientToServerMessage() failed during GetUpdates
+Jul 16, 2017 01:47:48.47 [5176:6316:0716/014748.470:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 16, 2017 01:48:42.07 [5176:784:0716/014842.076:ERROR:get_updates_processor.cc(244)] PostClientToServerMessage() failed during GetUpdates
+Jul 16, 2017 01:58:42.53 [1492:4716:0716/015842.539:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 16, 2017 01:59:08.78 [1492:4716:0716/015908.782:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 16, 2017 01:59:16.81 [1492:640:0716/015916.811:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 16, 2017 01:59:16.81 [1492:640:0716/015916.811:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 16, 2017 02:00:03.04 [1492:4716:0716/020003.048:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -21
+Jul 16, 2017 02:04:35.59 [1492:640:0716/020435.590:ERROR:media_internals.cc(103)] Cannot get RenderProcessHost
+Jul 16, 2017 02:04:35.60 [1492:640:0716/020435.590:ERROR:media_internals.cc(103)] Cannot get RenderProcessHost
+Jul 16, 2017 02:04:35.61 [1492:640:0716/020435.590:ERROR:media_internals.cc(103)] Cannot get RenderProcessHost
+Jul 16, 2017 03:06:12.60 [388:7348:0716/030612.600:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -105
+Jul 16, 2017 03:06:50.55 [388:7348:0716/030650.557:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -105
+Jul 16, 2017 03:07:34.22 [388:760:0716/030734.225:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-105).
+Jul 16, 2017 03:07:34.22 [388:760:0716/030734.225:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-105).
+Jul 16, 2017 03:08:00.21 [388:7348:0716/030800.212:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -105
+Jul 16, 2017 03:09:58.16 [388:7348:0716/030958.166:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -105
+Jul 16, 2017 03:10:58.41 [388:760:0716/031058.411:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 16, 2017 03:11:36.56 [388:760:0716/031136.561:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 16, 2017 03:12:36.92 [388:760:0716/031236.928:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 16, 2017 03:13:11.48 [388:7348:0716/031311.480:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -105
+Jul 16, 2017 03:14:21.25 [388:760:0716/031421.252:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 16, 2017 03:18:24.65 [388:760:0716/031824.651:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 16, 2017 03:20:50.08 [388:7348:0716/032050.080:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -105
+Jul 16, 2017 03:23:24.71 [2380:5280:0716/032324.711:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -105
+Jul 16, 2017 03:24:03.32 [2380:5280:0716/032403.322:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -105
+Jul 16, 2017 03:24:40.30 [2380:6892:0716/032440.302:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-105).
+Jul 16, 2017 03:24:40.30 [2380:6892:0716/032440.302:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-105).
+Jul 16, 2017 03:24:59.96 [2380:5280:0716/032459.961:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -105
+Jul 16, 2017 03:26:33.18 [2380:5280:0716/032633.181:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -105
+Jul 16, 2017 03:30:33.91 [2380:5280:0716/033033.914:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -105
+Jul 16, 2017 03:33:35.16 [1364:3368:0716/033335.162:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -105
+Jul 16, 2017 03:34:14.51 [1364:3368:0716/033414.518:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -105
+Jul 16, 2017 03:35:37.32 [5720:4812:0716/033537.325:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -105
+Jul 16, 2017 03:36:15.82 [5720:4812:0716/033615.821:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -105
+Jul 16, 2017 03:36:53.38 [5720:8956:0716/033653.380:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-105).
+Jul 16, 2017 03:36:53.38 [5720:8956:0716/033653.380:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-105).
+Jul 16, 2017 03:37:23.02 [5720:4812:0716/033723.021:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -105
+Jul 16, 2017 03:37:28.81 [5720:8956:0716/033728.815:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 16, 2017 03:38:02.42 [5720:8956:0716/033802.427:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 16, 2017 03:39:09.59 [5720:8956:0716/033909.598:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 16, 2017 03:39:28.85 [5720:4812:0716/033928.852:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -105
+Jul 16, 2017 03:39:38.09 [5720:4812:0716/033938.094:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 16, 2017 03:40:52.62 [5720:8956:0716/034052.625:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 16, 2017 03:42:00.29 [5504:3368:0716/034200.294:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 16, 2017 03:42:27.65 [5504:3368:0716/034227.654:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 16, 2017 03:42:35.79 [5504:8904:0716/034235.791:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 16, 2017 03:42:35.80 [5504:8904:0716/034235.791:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 16, 2017 03:42:44.29 [5504:8904:0716/034244.292:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 16, 2017 03:43:07.06 [5504:8904:0716/034307.060:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 16, 2017 03:43:26.56 [5504:3368:0716/034326.563:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 16, 2017 03:43:59.21 [5504:8904:0716/034359.218:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 16, 2017 03:44:49.57 [5504:3368:0716/034449.575:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 16, 2017 03:45:54.86 [5504:8904:0716/034554.868:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+Jul 16, 2017 03:48:23.32 [5504:3368:0716/034823.324:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+
+Jul 16, 2017 20:24:34.00 NEW SESSION
+Jul 16, 2017 20:24:34.00 [2112:8068:0716/202434.005:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 16, 2017 20:25:03.22 [2112:8068:0716/202503.220:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 16, 2017 20:25:08.92 [2112:2780:0716/202508.920:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 16, 2017 20:25:08.92 [2112:2780:0716/202508.920:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-106).
+Jul 16, 2017 20:25:56.23 [2112:8068:0716/202556.230:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+Jul 16, 2017 20:27:35.36 [2112:8068:0716/202735.365:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106

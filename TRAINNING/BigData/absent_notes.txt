@@ -1,0 +1,109 @@
+Cluster /execution mode of hadoop-->
+1)Fully Distributed Mode(production mode)
+2)Pseudo distributed mode
+	 4 domains will run in single computer
+		a)name node
+		b)data node
+		c)resource manager
+		d)name manager
+3)Stand Alone mode
+
+
+Data block
+hadoop 1--				hadoop 2--
+64mb					128mb
+				
+
+540 MB(broke in 5 blocks)
+-128 b1
+-128 b2
+-128 b3
+-128 b4
+-28  b5
+
+each block is copied in different slave machine 
+if any of the machine is damaged then the content of the block will be lost....
+so the copy of the block is maintained in another slave machine so that the content will not lost.
+
+Replication factor--
+no. of backup that are allowed for a block
+By default it is 3.
+
+Task of master is to keeping a count of copies of block stored in which slave(server).
+Master doesnot store any data.
+--------------------------------------------------------------------------------------------------------------------
+
+20.6.18
+--------------------------------------------------------------------------------------------------------------------
+function of Name node
+---------------------
+It is the master table that maintain and manages the data table.
+It records the metadata of all fils stored in the cluster.
+just like the path of the file,owner,replication factor and other factor.
+
+it maintain two physical files--
+i)FsImage
+ii)Editlogs
+#whenever we do any file operation each of them will create a new information and there will be a entry in editlogs.
+#FsImage stores the previous data(ex.,if we start the file execution today then it will store the data of yesterday any tell the programmer about the yesterdays records) but editlogs stores the current data(at every moment it will beupdated).
+
+All this are stored in hard disk of master system.
+If the name node is crashed at any moment then the previos records can be recovered by editlog ang fsimage but some data will be lose that are stored in RAM...
+for this purpose the the new technique has came Hot Standby Name node(whenever the master go down then the hot standby name node in action).
+
+functionof secondary name node--
+it combines the editlogs and fsimage.
+it help to setup the another name node.
+
+Rack awareness Alorithm--
+all the blocks are not write in same rack because if the rack goes down then all the copies will get lost.
+
+
+Function of data node--
+1)These are slavesdaemons or process which runs on each slave machine.
+2)the actual data is stored on datanode.
+3)The datanode performs the low-levelread and write reuest from file system's client.
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+JDBC
+1. Load and Register Driver     -  (connector jar file should be put in lib folder)
+Class.forName("com.mysql.jdbc.Driver");
+i. JVM will searching for Driver class & using Build Path settings it will get that.
+ii. After Getting Driver class,jvm will load Byte code into memory,at the loading time a static block will execute that will call DriverManager.RegisterDriver() method.
+( FROM JAVA 7 IT IS NOT REQUIRED )
+ii. Appropite Driver is setup for our JDBC application.
+
+2. Establish Connection between Java & DB
+Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/studentdb","root","abc123");
+
+jdbc - main protocol
+mysql://localhost:3306 - subprotocol
+studentdb - database
+
+getconnection internally call Driver.connect() method
+establish socket connection
+
+3. Create Statement/PreparedStatement/CallableStatement as requirement.
+
+ PreparedStatement pst = con.prepareStatement("insert into Item values(?,?,?,?)");
+
+4. Write & Execute Query.
+pst.setInt(1, idata.getId());
+pst.setString(2, idata.getName());
+pst.setDouble(3, idata.getPrice());
+pst.setString(4, idata.getComapny());
+		       		        		     
+int i1 = pst.executeUpdate();
+
+5. Process Result
+ if( i1 > 0 )
+     do Something
+
+  while(rs.next)
+  {
+      WRITE CODE HERE
+  }
+
+6. Close Statement/PreparedStatement/CallableStatement & Connection
+pst.close();
+con.close();5:01 PM 6/29/2017

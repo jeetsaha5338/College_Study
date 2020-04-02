@@ -1,0 +1,27 @@
+package RE_PROJ;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class Test2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String phone ="7001212121,abc@gmail.com";
+		
+		String what = "[76]\\d{9},[a-z0-9]+@\\w+.com";
+		//String email1= "@";
+		//String email2= "\\z+.com";
+		Pattern p=Pattern.compile(what);
+		Matcher m=p.matcher(phone);
+		if(m.matches()){
+			System.out.println(m.start()+","+(m.end()-1)+","+"matched");
+		}
+		else {
+			System.out.println("no matching");
+		}
+		
+
+	}
+
+}
