@@ -1,0 +1,44 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main(int c,char **v)
+{
+    int i,j,k,len,n,f;
+    if(c!=3)
+    {
+        printf("erorr");
+        exit(1);
+    }
+    for(i=0;v[2][i]!='\0';i++)
+    {
+        if(v[2][i]<48 || v[2][i]>57)
+        {
+            printf("erorr");
+            exit(1);
+        }
+    }
+    k=atoi(v[2]);
+    for(i=0;v[1][i]!='\0';i++);
+    len=i;
+    for(i=0;i<=len-k;i++)
+    {
+        //check(i,i+k-1);
+        n=i+k-1;
+        f=0;
+        for(j=i;j<=(i+n)/2;j++)
+        {
+            if(v[1][j]!=v[1][n+i-j])
+            {
+                f=1;
+                break;
+            }
+        }
+        if(f==0)
+        {
+            for(j=i;j<=n;j++)
+            {
+                printf("%c",v[1][j]);
+            }
+            printf("\n");
+        }
+    }
+}

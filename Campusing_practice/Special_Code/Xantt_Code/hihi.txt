@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main()
+{
+	int a=10;//a is a variable 
+	int b=20;/* b is also var*/
+	return 0;//
+}
+$

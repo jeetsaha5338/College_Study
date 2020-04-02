@@ -1,0 +1,1569 @@
+<html><head><title>Report 1</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<base href="http://182.74.215.200:8080/apex/" />
+<style type="text/css">
+table.apex_ir_html_export {
+background-color:#F2F2F5;
+border-width:1px 1px 0px 1px;
+border-color:#C9CBD3;
+border-style:solid;
+}
+table.apex_ir_html_export td {
+color:#000000;
+font-family:Tahoma,Arial,Helvetica,Geneva,sans-serif;
+font-size:9pt;
+background-color:#EAEFF5;
+padding:8px;
+background-color:#F2F2F5;
+border-color:#ffffff #ffffff #cccccc #ffffff;
+border-style:solid solid solid solid;
+border-width:1px 0px 1px 0px;
+}
+table.apex_ir_html_export th {
+font-family:Tahoma,Arial,Helvetica,Geneva,sans-serif;
+font-size:9pt;
+padding:8px;
+background-color:#CFE0F1;
+border-color:#ffffff #ffffff #cccccc #ffffff;
+border-style:solid solid solid none;
+border-width:1px 0px 1px 0px;
+white-space:nowrap;
+}
+</style>
+<script type="text/javascript">
+window.apexir_search = {};
+apexir_search.search = function(pWorksheetId){
+  var lSearch = document.getElementById("S"+pWorksheetId).value.toUpperCase(),
+      lRows = document.getElementById("data"+pWorksheetId).getElementsByTagName("TR"),
+      lRowCount = lRows.length;
+  for (var i=0; i<lRowCount;i++){
+    if (lSearch==="") {
+      lRows[i].style.display = "";
+    } else {
+      var lCells = lRows[i].getElementsByTagName("TD");
+          lCellCount = lCells.length;
+          lFound = false;
+      for (var j=0; (!lFound && j<lCellCount);j++){
+        if (lCells[j].innerHTML.toUpperCase().indexOf(lSearch) != -1) lFound = true;
+      }
+      lRows[i].style.display = (lFound?"":"none");
+    }
+  }
+};
+
+apexir_search.searchIfEnter = function(e, pWorksheetId){
+  var keycode;
+  if(window.event){keycode = window.event.keyCode;}
+  else if (e){keycode = e.which;} else {return true;}
+  if(keycode == 13){
+    apexir_search.search(pWorksheetId);
+    return false;
+  } else { return true; };
+};
+</script>
+</head><body>
+<table border="0" cellpadding="0" cellspacing="0" class="apex_ir_html_export">
+<tr><td>Search: <input type="text" size="30" maxlength="1000" value="" id="S4752619743455357" onkeydown="return apexir_search.searchIfEnter(event, '4752619743455357');" /><input type="button" value="Search" onclick="apexir_search.search('4752619743455357')"/></td></tr>
+</table>
+<br />
+<table border="0" cellpadding="0" cellspacing="0" class="apex_ir_html_export">
+<thead><tr><th id="Q_TEXT">Q Text</th><th id="SUBJECT">Subject</th></tr></thead><tbody id="data4752619743455357">
+<tr><td headers="Q_TEXT">What is Data?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Difference between data,  information and knowledge</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is database?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">
+What is DBMS?
+</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is a Database system?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">
+What is RDBMS?
+</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are the advantages of DBMS?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are the disadvantage in File Processing System?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Describe the three levels of data abstraction?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Data Independence?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are data and information, and how are they related in a database?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Why is a database considered to be &quot;self-describing&quot;?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Who is E.F. Codd, and why is he significant in the development of modern database systems?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are the major functions of the database administrator?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are some of the disadvantages associated with conventional file processing systems?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Explain the difference between two and three-tier architectures.</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are the properties of the Relational tables?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is a field in a database?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is a Record in a database ?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is a Table in a database ?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What’s difference between DBMS and RDBMS?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">How do you communicate with an RDBMS?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Disadvantage in File Processing System?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Who is database administrator(DBA)?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Compare a hierarchical and network database model?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are the disadvantages of using a dbms?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are advantages of DBMS over traditional file based systems?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are different types of end users?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are different types of DBMS?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Which part of the RDBMS takes care of the data dictionary? How?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is the job of the information stored in data-dictionary?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is an Entity?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is SQL?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Explain the differences between structured data and unstructured data.</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is SQL server?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Define the &quot;integrity rules&quot;?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is difference between SQL and SQL SERVER?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are the different type of SQL&#x27;s statements ?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is extension and intension?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are the Advantages of SQL ?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is DML Compiler?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Query evaluation engine?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Stored Procedure?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Trigger?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is order by clause?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">How is the data structure of System R different from the relational structure?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is difference between DELETE &amp; TRUNCATE commands?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is VDL (View Definition Language)?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Data Model?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is SDL (Storage Definition Language)?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is DDL Interpreter?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is E-R model?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Record-at-a-time?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Object Oriented model?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is a query?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is an Entity type?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What do you mean by Correlated subquery?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are the primitive operations common to all record management systems?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is an Entity set?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Name the buffer in which all the commands that are typed in are stored?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is an Extension of entity type?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Define SQL and state the differences between SQL and other conventional programming Languages.</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Weak Entity set?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is database Trigger?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are stored-procedures? And what are the advantages of using them?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is an attribute?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are stand-alone procedures?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are a Relation Schema and a Relation?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are cursors give different types of cursors?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is degree of a Relation?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Write an SQL SELECT statement to display all the columns of the STUDENT table but only those rows where the Grade column is greater than or equal to 90.</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Relationship?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Name and briefly describe the five SQL built-in functions.</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Relationship set?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Relationship type?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Write an SQL SELECT statement to count the number of rows in STUDENT table and display the result with the label NumStudents.</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is degree of Relationship type?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is an SQL subquery?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are super, primary, candidate and foreign keys?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is a SQL view? Briefly explain the use of views.</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are partial, alternate,, artificial, compound and natural key?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Name four applications for triggers.</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are stored procedures, and how do they differ from triggers?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT"> What is a foreign key, and what is it used for?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">
+What is the job of the information stored in data-dictionary?
+</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are the advantages of using stored procedures?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is the difference between a correlated subquery and a regular subquery?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Explain the relationship between entity, entity class, and entity instance.</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are the ways in which an Oracle database can be created?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Explain the difference between attributes and identifiers.</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Describe and contrast a trigger and a procedure.</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Name and describe three types of binary relationships.</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is a recursive relationship? Give an example not used in the text.</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is difference between DELETE and TRUNCATE commands?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are the steps for transforming an entity into a table?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is the difference between a HAVING CLAUSE and a WHERE CLAUSE?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Define a surrogate key, describe the ideal primary key and explain how surrogate keys meet this ideal.</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is data constraints?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are the properties and different Types of Sub-Queries?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">In general, how are recursive relationships handled in a database design?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are sequences, and what are the possible problems when using them to create surrogate keys?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is PRIMARY KEY constraint?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is  ERD?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is UNIQUE KEY constraint?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">List some of the chrematistics of good data definitions.</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is FOREIGN KEY constraint?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Explain minimum and maximum cardinality.</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is CHECK Constraint?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Describe the naming of Relationships?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is NOT NULL Constraint?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Describe domain constraints.</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Nested Trigger?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Cursor?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What&#x27;s the difference between a primary key and a unique key?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Difference between Function and Stored Procedure?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Aggregate Functions?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is the difference between UNION and UNION ALL?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Which is the subset of SQL commands used to manipulate Oracle Database structures, including tables?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is a Catalog?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What operator performs pattern matching?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What operator tests column for the absence of data?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is schema?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Which command executes the contents of a specified file?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is a unique key? </td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is the parameter substitution symbol used with INSERT INTO command?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is the difference between primary key and unique constraints?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Which command displays the SQL command in the SQL buffer, and then executes it?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is data Integrity? </td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are attributes?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are the wildcards used for pattern matching?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are diff. types of attributes?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">State true or false. EXISTS, SOME, ANY are operators in SQL.</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is domain value or value set of an attribute?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">State true or false. !=, &lt;&gt;, ^= all denote the same operation.</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is degree of a relationship?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are the privileges that can be granted on a table by a user to others?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is recursive relationship?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What command is used to get back the privileges offered by the GRANT command?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are relationship constraints?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Cardinality ratio?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Which system tables contain information on privileges granted and privileges obtained?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is a Participation constraint?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Which system table contains information on constraints on all the tables created?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is a weak entity types?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Will the outputs of the above two commands differ?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is a ternary relationship?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is the difference between TRUNCATE and DELETE commands?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Define the “integrity rules”?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What command is used to create a table by copying the structure of another table?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">To copy only the structure, the WHERE clause of the SELECT command should contain a FALSE statement as in the following.</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What will be the output of the following query?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is a view? How it is related to data independence?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Relational Algebra?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What will be the output of the following query?SELECT  DECODE(TRANSLATE(&#x27;A&#x27;,&#x27;1234567890&#x27;,&#x27;1111111111&#x27;), &#x27;1&#x27;,&#x27;YES&#x27;, &#x27;NO&#x27; );</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Relational Calculus?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What does the following query do?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Which date function is used to find the difference between two dates?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">How does Tuple-oriented relational calculus differ from domain-oriented relational calculus?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Why does the following command give a compilation error?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is meant by query optimization?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is the advantage of specifying WITH GRANT OPTION in the GRANT command?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is the use of the DROP option in the ALTER TABLE command?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are the unary operations in Relational Algebra?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is the value of ‘comm’ and ‘sal’ after executing the following query if the initial value of ‘sal’ is 10000?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Are the resulting relations of PRODUCT and JOIN operation the same?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is the use of DESC in SQL?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are different Types of Join?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is the use of CASCADE CONSTRAINTS?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Which function is used to find the largest integer less than or equal to a specific value?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Specialization?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is the output of the following query?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is generalization?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is a join? </td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is the difference between ORDERBY and GROUPBY? </td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Why Self Join is it required?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is the difference between having and where clause?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Equijoin?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is a view in SQL? How to create one</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Natural Join?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is RAID Technology?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are clustered and non-clustered Indexes?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is indexing and what are the different kinds of indexing?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is system catalog or catalog relation? How is better known as?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Storage Manager?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Buffer Manager?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is File Manager?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Index?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are the uses of view?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is a Trigger?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is a stored procedure?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is the difference between Trigger and Stored Procedure?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is a Cursor? </td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Auto Increment? </td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is the difference between TRUNCATE and DROP statements? </td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are the components of a PL&#x2F;SQL Block?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are % TYPE and % ROWTYPE? What are the advantages of using these over datatypes?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Why Cursor is required?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Explain the two types of Cursors?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are the PL&#x2F;SQL Statements used in cursor processing?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are the cursor attributes used in PL&#x2F;SQL?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Name some usages of database trigger ?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Is it possible to use Transaction control Statements such a ROLLBACK or COMMIT in Database Trigger? Why?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is an Exception? What are types of Exception?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is difference between a PROCEDURE &amp; FUNCTION?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are advantages of Stored Procedures?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are the modes of parameters that can be passed to a procedure?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is a package? What are the advantages of packages?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are two parts of package?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is difference between a Cursor declared in a procedure and Cursor declared in a package specification?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Explain the difference between GRANT and REVOKE command.</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Define Row level trigger.</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Define Statement level triggers.</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Difference between SUBSTR and INSTR ? </td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Which is faster - IN or EXISTS? </td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Define Network?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is a Link?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is a node?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is a gateway or Router?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is point-point link?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is Multiple Access?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What are the advantages of Distributed Processing?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What are the criteria necessary for an effective and efficient network?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">Name the factors that affect the performance of the network?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">Name the factors that affect the reliability of the network?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">Name the factors that affect the security of the network?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is Protocol?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What are the key elements of protocols?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What are the key design issues of a computer Network?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">Define Bandwidth and Latency?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">Define Routing?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">When a switch is said to be congested?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is Lossless join property?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is 1 NF (Normal Form)?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is normalization?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Functional Dependency?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Fully Functional dependency?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is semantic gap?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is 2NF?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is 3NF?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Round Trip Time?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is BCNF (Boyce-Codd Normal Form)?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Define the terms Unicasting, Multiccasting and Broadcasting?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is 4NF?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Multiplexing?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is 5NF?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Name the categories of Multiplexing?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Domain-Key Normal Form?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Why are functional dependencies not equations?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is FDM?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is WDM?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is TDM?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">Why we do normalization? What are insertion, update and deletion anomalies?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Synchronous TDM?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">List the layers of OSI</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What does it mean when we say that a relation is in Boyce-Codd Normal Form (BCNF)?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Which layers are network support layers?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">You have been given a set of tables with data and asked to create a new database to store them. When you examine the data values in the tables, what are you looking for?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Which layers are user support layers?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">Why do normalized tables require more complex SQL when SQL statements are used in application programs?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Which layer links the network support layers and user support layers?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What are the concerns of the Physical Layer?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is the multivalue, multicolumn problem? Include an example not used in the text.</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are the responsibilities of Data Link Layer?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">Why is the multivalue, multicolumn problem another form of the multivalued dependency problem?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are the responsibilities of Network Layer?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is the inconsistent values problem? Include an example not used in the text.</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Why is database redesign necessary?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are the responsibilities of Transport Layer?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is denormalization and why would someone consider doing so?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are the responsibilities of Session Layer?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is Normalization?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is De-normalization?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are different normalization forms?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Denormalization? </td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Dependency-preserving decomposition?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Checksum?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What are the responsibilities of Presentation Layer?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What are the responsibilities of Application Layer?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What are the two classes of hardware building blocks?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What are the different link types used to build a computer network?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What are the categories of Transmission media?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What are the types of errors?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is Error Detection? What are its methods?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is Redundancy?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is VRC?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is LRC?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is CRC?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">List the steps involved in creating the checksum.</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What are the Data link protocols?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is a transaction?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Explain the difference between an exclusive lock and a shared lock?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Explain what we mean by an ACID transaction.</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is durability in DBMS?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What do you mean by atomicity and aggregation?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is a Phantom Deadlock?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is a checkpoint and When does it occur?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are the different phases of transaction?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What do you mean by flat file database?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is &quot;transparent DBMS&quot;?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Transaction Manager?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Authorization and Integrity manager?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are serial, non serial schedule?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are conflict serializable schedules?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is view serializable?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is cold backup and hot backup (in case of Oracle)?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is meant by Proactive, Retroactive and Simultaneous Update.</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is a cascading update?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is a dependency graph?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Explain the difference between an exclusive lock and a shared lock.</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Explain the difference between optimistic locking and pessimistic locking.</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is deadlock? How can it be avoided? How can it be resolved once it occurs?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Explain locking.</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is dirty Read?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Compare Error Detection and Error Correction:</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is a checkpoint and when does it occur?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What do you mean by UNDO in database? </td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Forward Error Correction?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is REDO in database? </td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Define Retransmission?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">COMMIT takes more time than ROLLBACK  ?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are the basic data base operations?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are Data Words?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What are the disadvantages of not controlling concurrency?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are Code Words?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is a Linear Block Code?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is result equivalent?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are conflict equivalent schedules?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are Cyclic Codes?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is view equivalence?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Define Encoder?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">Define Decoder?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What are the various methods of controlling concurrency?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is a lock?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are various types of locking techniques?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Framing?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is a binary lock?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is shared or exclusive lock?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Fixed Size Framing?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is two phase locking?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What are different types of two phase lockings (2pl)?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">Define Character Stuffing?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is a deadlock?</td><td headers="SUBJECT">DBMS</td></tr>
+<tr><td headers="Q_TEXT">What is Bit Stuffing?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is Flow Control?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is Error Control ?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What Automatic Repeat Request (ARQ)?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is Stop-and-Wait Protocol?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is Stop-and-Wait Automatic Repeat Request?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is usage of Sequence Number in Relaible Transmission?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is Pipelining ?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is Sliding Window?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is Piggy Backing?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What are the two types of transmission technology available?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is subnet?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">Difference between the communication and transmission.</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What are the possible ways of data exchange?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is SAP?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What do you meant by &quot;triple X&quot; in Networks?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is frame relay, in which layer it comes?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is terminal emulation, in which layer it comes?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">Suppose transmission channels become virtually error-free. Is the data link layer still needed? </td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is Beaconing?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">Why is the transport layer not present inside the network? </td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is redirector?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is NETBIOS and NETBEUI?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">Suppose a computer is moved from one department to another. Does the physical address need to change? Does the IP address need to change? Does it make a difference if the computer is a laptop? </td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is RAID?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is passive topology?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">Suppose a machine is attached to several physical networks. Why does it need a different IP address for each attachment? </td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is Brouter?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">Explain why it is useful for application layer programs to have a &quot;well-known&quot; TCP port number? </td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is cladding?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">Use a Web browser to connect to cnn.com. Explain what layers in the protocol stack are involved in the delivery of the video newscast. </td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is point-to-point protocol?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">How Gateway is different from Routers?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">Which of the TCP&#x2F;IP transport protocol (UDP or TCP) would you select for the following applications: packet voice, file transfer, remote login, multicast communication (i.e., multiple destinations). </td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">You want to implement a mechanism that automates the IP configuration, including IP address, subnet mask, default gateway, and DNS information. Which protocol will you use to accomplish this?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is attenuation?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is MAC address?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">Give two features that the data link layer and transport layer have in common. Give two features in which they differ. Hint: Compare what can go wrong to the PDUs that are handled by these layers. </td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">Difference between bit rate and baud rate.</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is Bandwidth?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What are the types of Transmission media?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is Project 802?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">Suppose two Ethernet LANs are interconnected by a box that operates as follows. The box has a table that tells it the physical addresses of the machines in each LAN. The box listens to frame transmissions on each LAN. If a frame is destined to a station at the other LAN, the box retransmits the frame onto the other LAN, otherwise the box does nothing. a.	Is the resulting network still a LAN? Does it belong in the data link layer or the network layer?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is Protocol Data Unit?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What are the different type of networking &#x2F; internetworking devices?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">Suppose two Ethernet LANs are interconnected by a box that operates as follows. The box has a table that tells it the physical addresses of the machines in each LAN. The box listens to frame transmissions on each LAN. If a frame is destined to a station at the other LAN, the box retransmits the frame onto the other LAN, otherwise the box does nothing. 
+a.	Can the approach be extended to connect more than two LANs? If so, what problems arise as the number of LANs becomes large?
+</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is ICMP?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What are the data units at different layers of the TCP &#x2F; IP protocol suite?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is difference between ARP and RARP?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">Suppose all laptops in a large city are to communicate using radio transmissions from a high antenna tower. Is the data link layer or network layer more appropriate for this situation? </td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">Now suppose the city is covered by a large number of small antennas covering smaller areas. Which layer is more appropriate?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">How can we use tunneling to send a IPv6 packet over a IPv4 network?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is an autonomous system? </td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is socket address?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What are well-known port numbers?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What are ephemeral port numbers? </td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What does the port number in a TCP connection specify?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is NAT. How can NAT help in address depletion?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is the minimum and maximum length of the header in the TCP segment and IP datagram?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is the range of addresses in the classes of internet addresses?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is the difference between TFTP and FTP application layer protocols?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What are major types of networks and explain?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What are the important topologies for networks?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is mesh network?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is difference between baseband and broadband transmission?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">Explain 5-4-3 rule?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What MAU?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is the difference between routable and non- routable protocols?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">Why should you care about the OSI Reference Model?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is logical link control?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is virtual channel?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is virtual path?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is packet filter?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is traffic shaping?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is multicast routing?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is region?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is silly window syndrome?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What are Digrams and Trigrams?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">Expand IDEA.</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is wide-mouth frog?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is Mail Gateway?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is IGP (Interior Gateway Protocol)?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is EGP (Exterior Gateway Protocol)?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is autonomous system?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is BGP (Border Gateway Protocol)?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is Gateway-to-Gateway protocol?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is NVT (Network Virtual Terminal)?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is a Multi-homed Host?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is Kerberos?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is OSPF?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is Proxy ARP?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is SLIP (Serial Line Interface Protocol)?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is RIP (Routing Information Protocol)?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">What is source route?</td><td headers="SUBJECT">NETWORKING</td></tr>
+<tr><td headers="Q_TEXT">Should We Pursue our Policy of Dialogue with Pakistan?</td><td headers="SUBJECT">GD Topics</td></tr>
+<tr><td headers="Q_TEXT">Advertisements Cheat People and hence Should Be Banned</td><td headers="SUBJECT">GD Topics</td></tr>
+<tr><td headers="Q_TEXT">Should Petroleum Subsidy go away?</td><td headers="SUBJECT">GD Topics</td></tr>
+<tr><td headers="Q_TEXT">Skilled Manpower Shortage in India</td><td headers="SUBJECT">GD Topics</td></tr>
+<tr><td headers="Q_TEXT">Tell me about yourself&#x2F; introduce yourself.</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Tell me about your family.  </td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">How was your day&#x2F; your experience of today’s interview&#x2F; exam? </td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">What is the meaning of your name?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">What is your native place? What is it famous for?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Tell me about your college.</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Tell me about your college life.</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Why do you want to work in this industry [and not in an educational institute]?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Do you have any plans for further education?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Why is your CGPA not higher? What are your plans to increase it?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">What were your favourite subjects&#x2F; courses&#x2F; teachers and why?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">What changes would you make at your college?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">How would you describe your ideal job&#x2F; company&#x2F; location?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">If you were hiring a person for this job, what would you look for? </td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">What unique skills can you bring to our company? </td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Which challenge&#x2F;problem was the most&#x2F;least rewarding?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">What accomplishments have given you the most satisfaction in your life?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">What are two or three examples of tasks that you do not particularly enjoy doing?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">What are two or three examples of tasks that you particularly enjoy doing?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">What motivates you? </td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">What are your greatest weaknesses?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Do you prefer to work independently or on a team and why? </td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Have you ever lead a team? How did you correlate your team’s efforts? Do you consider yourself a leader?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Do you handle conflict well? Give example</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">What type of approach to solving problems seems to work best for you? Give me an example of when you solved a tough problem</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">What do you find are the most difficult decisions to make?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Give a specific example of something you have done at work that you consider innovative.</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Tell me about the most boring work you’ve ever done</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Who has inspired you in your life and how?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">What are your short-term or long-term career goals?  How do you plan to achieve these goals?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">How do you measure your own success? </td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">What are your greatest strengths?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Describe some situations in which you worked under pressure or met deadlines</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">If you won $10 million lottery, would you still work?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">If you become PM&#x2F;CM, what will you do?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Sell me this stapler (this pencil…this clock…or some other object on interviewer’s desk).</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">What kind of salary are you looking for?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">What interests you about this job? </td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">What’s the most difficult part of being an engineer?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">What are your career options right now?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Why did you choose to attend your college?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Why do you want to work for this organization? </td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">What do you know about this organization?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">What contributions&#x2F; changes would you make if you came on board?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">What challenges are you looking for in this position?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">What applicable attributes or experience do you have that you can bring to this job?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Where could you use some improvement?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">How do you propose to compensate for your lack of experience? </td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Aren’t you overqualified for this position?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">How much training do you think you will need to become a productive employee?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Suppose you were in my chair and you had two candidates in front of you. One is technically very sound, the other one has potential like you, but technically weak. Whom would you select and why?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Do your skills match this job or another job more closely? </td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Why are you the best person for this job? </td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Why should we hire you? </td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">What major challenges and problems have you faced?  How did you handle them?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Have you done any project? What problems did you face in completing it?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">When did you last have to work on a challenging project with a tight deadline?  Tell me about the experience.</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">What have you done to improve your knowledge in the last year? </td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">If the people who know you were asked why you should be hired, what would they say?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">What do you worry about?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">When I call your references, what will they say is your greatest strength and your greatest weakness? </td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Do you have any fatal flaws? </td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">If you had to describe yourself in only three words, what would those words be?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Are you a self-starter? Support your response with suitable examples.</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Do you enjoy doing independent research?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Would you rather work with information or with people?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Describe a difficult work situation&#x2F;project and how you overcame it. </td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Tell me about a problem you had with a boss&#x2F; supervisor&#x2F; professor.</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">How do you react to criticism from supervisors that you consider to be unjust? Did you ever encounter any such situations? </td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Describe some situations in which you worked under pressure or met deadlines.</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">What would you say to your boss if he’s crazy about an idea, but you think it stinks?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Describe a situation in which you had to work with a difficult person. How did you handle the situation?  Is there anything you would have done differently in hindsight?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Tell me about something you did – or failed to do – that you now feel a little ashamed of.</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">What good books have you read lately? [Mention why]</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Are you net savvy? Do you feel it is important and why?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">What is more important to you, the money or the work? </td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">How much money do you need to be happy?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Have you considered starting your own business?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">How do you feel about reporting to a younger person (minority, woman, etc)?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Are you willing to work overtime? Nights? Weekends? </td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">How familiar are you with the community that we are located in?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Do you have any location preferences?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Would you be willing to relocate if required? </td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Are you willing to travel and how much?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Are you willing to put the interests of the organization ahead of your own?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">On a scale of one to ten, rate me as an interviewer.</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">What if I don’t select you for this job? </td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Is there anything you wanted me to know about you that we haven’t discussed? </td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Do you have any questions for me?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Differentiate between composition and aggregation with suitable example.</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What do you mean by link and association?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Explain Data Abstraction with example.</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is the difference between java and C++?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What are the basic properties of an OOP Language?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is the difference between procedural and object-oriented programs?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Why Java is called an OOP language?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Why Java is platform independent but C++ not?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Why Java is not fully platform independent?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What do you mean by platform?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Why Java is not 100% pure OOP language?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Differentiate among JDK, JVM and JRE.</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is Byte code?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Why Java is called a compiler-interpreter language?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Difference between Abstraction and Encapsulation in Java.</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Why Java does not support pointers?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">How Java achieves platform independence?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Difference between path and classpath in Java?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">How many types of memory areas are allocated by JVM?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is UNICODE? Differentiate it with ASCII code.</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Explain the purposes of different modules of JVM.</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is JAR file? How to create and execute JAR file in Java?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is the difference between Integer and int?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Are there any global variables in Java, which can be accessed by other part of your program?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is Java Annotations?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Can we use String with switch case?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is Autoboxing in Java?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is Unboxing in Java?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is Generics in Java?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is Enum in Java?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is the difference between Array, ArrayList and vector?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Explain up casting and down casting with example (Both class level and primitive level)</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is the purpose of garbage collection in Java, and when is it used?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">If an object is garbage collected, can it become reachable again?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is an Object and how do you allocate memory to it?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is Garbage Collection and how to call it explicitly?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Does Java have destructor?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is default constructor?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is the purpose of finalize () method?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Does constructor return any value?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is heap? Explain the process of allocation and de-allocation of space in heap.</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Can you use this () and super () both in a constructor?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is the difference between a constructor and a method?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">How would you make a copy of an entire Java object with its state?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is String in Java? String is a data type?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">How does substring () inside String works?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is the difference between creating String as new() and literal?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Why String is immutable in Java?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is difference among String, StringBuffer and StringBuilder in Java ?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is Constant String Pool?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Why StringBuilder works faster than StringBuffer?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Differentiate between == and equals() method.</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Difference between String and StringBuffer.</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is the difference between Assignment and Initialization?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Can you access non static variable in static context?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Why main is static in Java?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Can we have multiple public classes in a java source file?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Can we declare a class as static?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is static block?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Can you use abstract and final both with a method?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Difference between private, public, package and protected in Java?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is blank final variable in Java?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">How to access static members of a class?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Differentiate between method overloading and method overriding.</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is dynamic method dispatch?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Can you override private or static method in Java?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Can we overload main () method?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is Runtime Polymorphism and compile time polymorphism?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Differentiate between static binding and dynamic binding?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Differentiate between early binding and late binding?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">How to prevent method overriding?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Why Java does not support operator overloading?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Can we overload static method in java?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Can we override static method in java?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">How to implement inheritance in Java?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Does Java support multiple inheritances?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Why Java class does not support multiple inheritances?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is the use of this and super keywords?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is the difference between this () and super ()?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is constructor chaining?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">By default every class extends which Java class?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">How to prevent inheritance of a class?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is the difference between process and threads?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Considering notepad&#x2F;IE or any other thing as process, what will happen if you start notepad or IE 3 times? Where three processes is started or three threads are started?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">How do you ensure that N thread can access N resources without deadlock?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Difference between notify () and notifyAll() call?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is synchronization? What are the different ways to synchronize threads?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is daemon thread and which method is used to create the daemon thread?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Is it better to make whole method synchronized or only critical section synchronized?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What are the benefits of multi-threaded programming?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Does String is thread-safe in Java?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Why StringBuilder object executes faster than StringBuffer object?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is object lock&#x2F; intrinsic lock&#x2F;monitor?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Difference between transient and volatile variable in Java?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Difference between wait and sleep in Java?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Why wait () and notify () method must be invoked from synchronized context?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is difference between calling start () and run () method of Thread?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is difference between synchronize and concurrent Collection in Java?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">There are two classes: A and B. The class B need to inform a class A when some important event has happened. What Java technique would you use to implement it</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">In a Java class, one has 10 variables. One wants to serialize only 3 variables,how can this be achieved?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Difference between extends Thread and implements Runnable in Java. Which one you will prefer to create multiple threads?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Suppose if we have a variable &#x27;I&#x27; in run method, if I can create one or more thread each thread will occupy a separate copy or same variable will be shared?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Differentiate between runtime error and runtime exception.</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Why we have to handle Exception?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What are the different ways to handle Exception?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Differentiate between throw and throws clause.</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is checked and unchecked Exception? Give example.</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Can we have return statement in finally clause? What will happen?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What will happen if you put return statement or System.exit () on try or catch block ? Will finally block execute?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What does the expression 1.0 &#x2F; 0.0 will return? Will it throw Exception? Any compile time error?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">If a method throws NullPointerException in super class, can we override it with a method which throws RuntimeException?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Can we have try without catch block?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Explain Java Exception Hierarchy?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What happens when exception is thrown by main method?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Can we have an empty catch block?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">How does thread synchronization occur in a monitor?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is serialization?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">How can two threads be made to communicate with each other?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">How to create user defined exception?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is the advantage of having character stream in Java?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Differentiate between character stream and byte stream.</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">In a Java program, how can you divert program messages to the system console, but error messages, say to a file?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is Wrapper class? </td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">How do you convert bytes to character in Java?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">How to convert byte stream to character stream?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What are the stream variables available in Java?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">If I don&#x27;t provide any arguments on the command line, then the String array of Main method will be empty or null?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Differentiate between abstract class and interface.</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Can you declare an interface method static?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Can we define private and protected modifiers for variables in interfaces?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">You can create an abstract class that contains only abstract methods. On the other hand, you can create an interface that declares the same methods. So can you use abstract classes instead of interfaces?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Can abstract class have constructor?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Can interface have constructor?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Can abstract class and interface have concrete methods?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">When will you use an interface and abstract class?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is Marker interface? When it is used?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Is it possible to create object of abstract class and interface?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Why there are some null interfaces in JAVA? What does it mean? Give some null interface in JAVA?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is the importance of main method in Java?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is difference between static (class) method and instance method?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Can you have virtual functions in Java? </td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">How to call main() method in java?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Can we execute a program without main () method?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is variable argument method in Java?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What are function call by pass by reference and pass by value?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Differentiate between class and object with practical example.</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is Immutable Object? Can you write Immutable Class?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is singleton class? When it is used?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is adapter class? What is its purpose?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is inner and nested class? How to access members of these classes?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is anonymous inner class? </td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">How would you prevent a client from directly instantiating your concrete classes?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is the root class for all java classes?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is the use  package?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Can I import same package&#x2F;class twice? Will the JVM load the package twice at runtime?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What are the significances of import statement?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What are the differences between?
+a. import pkg.*; b. import pkg.C; 
+</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">How to create user defined packages?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is static import?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is the difference between applications and applets?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Difference between Swing and Awt?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Applet does not contains main () method, then how it executes?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Can you write a Java class that can be used both as application program and Applet?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Differentiate between Applet and JApplet.</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What is the use of Layout manager?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Differentiate among paint (), repaint () and update () methods?</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">What do you mean by data?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What do you mean by entity?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What do you mean by information?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">How do you find out if a machine is 32 bit or 64 bit?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is the difference between data and information?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What do you mean by data type?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What do you mean by built-in data type? Give some examples.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What do you mean by abstract data type? Give some examples.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Why abstract data type is called as ‘Abstract’?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is Data abstraction?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is data structure?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What do you mean by static data structure?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What do you mean by dynamic data structure?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What are the main objectives of Data structure?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is the significance of data structure?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What are the four basic Operations of Data structures?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Classify the data structure.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is linear data structure? Give examples. Why it is called linear?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is non-linear data structure? Give examples. Why it is called non-linear?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What does abstract data type means?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">List out the areas in which data structures are applied extensively?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is an algorithm? What are the characteristics of a good algorithm? </td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What are the different kinds of algorithm?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What do you mean by time complexity of any algorithm?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What do you mean by space complexity of any algorithm?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is Brute Force algorithm?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">How do you find the complexity of an algorithm? What is the relationbetween the time and space complexities of an algorithm?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Why do we use asymptotic notation in the study of algorithm?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is the significance of Big-Oh notation?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is the significance of Big-Theta notation?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is the significance of Big-Omega notation?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is the smallest value of n such that an algorithm whose running time is</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Which of the following shows the correct relationship among some of the more common computing times for algorithm?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is array?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What are the applications of array?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is the advantage of arrays?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What are disadvantages of the array?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">How do you assign an address to an element of a pointer array?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Why do we Use a Multidimensional Array?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What do you mean by row-major and column-major representation of array?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">In an integer array, there is 1 to 100 numbers, out of one is duplicate, how to find?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">How do you find duplicates in array if there is more than one duplicate?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">How do you reference all the elements in a one-dimension array?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Consider the linear arrays AAA(5:50), BBB (-5:10) and CCC(18).
+(a) Find the number of elements in each array
+(b) Suppose Base(AAA) = 300 and w=4 words per memory cell for AAA. Find the             address of AAA[15], AAA[35] and AAA[55].
+</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">How can you overcome the limitations of arrays?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is the difference between an array and a linked list?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Explain the method to calculate the address of an element in an array. A25×4 matrix array DATA is stored in memory in ‘row-major order’. If base address is 200 and w = 4 words per memory cell. Calculate the address of DATA [12, 3].</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Explain the method to calculate the address of an element in an array. A 25×4 matrix array DATA is stored in memory in ‘row-major order’. If base address is 200 and w=4 words per memory cell. Calculate the address of DATA [12, 3].</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Do array subscripts always start with zero?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Can the sizeof operator be used to tell the size of an array passed to a function?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Is it better to use a pointer to navigate an array of values, or is it better to use a subscripted array name?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is the difference between array_name and &amp;array_name?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is the difference between a string and an array?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Array is an lvalue or not?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Can the size of an array be declared at runtime?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What will happen if we try to store more number of elements than specified in array size?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What will be output if you will execute following c code?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What will be output if you will execute following c code ?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What will be output if you will execute  following c code?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What will be output if you will execute following c  code ?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Let the size of the elements stored in an 8x3 matrix be 4 bytes each. If the base address of the matrix is 3500, then find the address of A [4, 2] for both row major and column major order.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What do you mean by sparse matrix? What is the significance of sparse matrix?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">How do you find the second maximum element in an unsorted array of integers, using single for loop?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Let A be a two-dimensional array declared as follows: 
+A: array [1 …. 10] [1 …… 15] of integer; 
+</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Assuming that each integer takes one memory location, the array is stored in row-major order and the first element of the array is stored at location 100, what is the address of the element A[i][j]?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Two matrices M1 and M2 are to be stored in arrays A and B respectively. Each array can be stored either in row-major or column-major order in contiguous memory locations. The time complexity of an algorithm to compute M1 × M2 will be 
+(a) Best if A is in row-major and B is in column major order 
+(b) Best if both are in row-major order 
+(c) Best if both are in column-major order 
+(d) Independent of the storage scheme
+Choose correct answer. Give explanation.
+</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Consider the following declaration of a ‘two-dimensional array in C:
+		char a[100][100]; 
+Assuming that the main memory is byte-addressable and that the array is stored starting from memory address 0, what will be the address of a[40][50]?
+</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">A program P reads in 500 integers in the range [0..100] exepresenting the scores of 500 students. It then prints the frequency of each score above 50. What would be the best way for P to store the frequencies?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What values are automatically assigned to those array elements which are not explicitlyinitialized?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is stack?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Why stack is an abstract data type? Explain.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What do you mean by top of the stack?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Why stack is called as ‘LIFO’?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">How can you represent a stack in memory?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What are the basic operations on stack?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What do you mean by push and pop in a stack?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Can stack termed as a FILO?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What are the applications of stack?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is the data structures used to perform recursion?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is the difference between storing data on the heap vs. on the stack?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Consider the following stack of characters, where STACK is allocated N = 8 memory cells STACK : A,C,D,F,K,_,_,_. ( _ means empty allocated cell)
+Describe the stack as the following operations takes place:
+               (a) POP (STACK, ITEM)
+               (b) POP(STACK, ITEM)
+               (c) POP(STACK, ITEM)
+               (d) PUSH(STACK, R)
+               (e) PUSH(STACK,L)
+               (f) PUSH(STACK, S)
+  (g) PUSH (STACK, P)
+(h) POP(STACK, ITEM)
+</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Translate infix expression into its equivalent post fix expression: (A-B)*(D&#x2F;E).</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Translate infix expression into its equivalent post fix expression: 
+(A+B^D)&#x2F; (E-F) +G
+</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Translate infix expression into its equivalent post fix expression: 
+           A*(B+D)&#x2F;E-F*(G+H&#x2F;K)
+</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Consider the following arithmetic expression P, written in postfix notation :
+                      P: 12, 7, 3, - , &#x2F;, 2, 1, 5, +, *, +
+</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Translate P into infix expression.
+Evaluate P: 12 , 7 , 3 , - , &#x2F; , 2 , 1 , 5 , + , * , + , )
+</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Is it possible to insert different type of elements in a stack? How?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Reverse the order of elements on a stack S
+(i)	Using two additional stacks.
+(ii)	Using one additional queue.
+</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">The integers 1,2,3,4 are pushed into the stack in that order. They may be popped out of the stack in any valid order. The integers, which are popped out produce a permutation of the numbers 1, 2, 3, 4.Which of the following permutation can never be produced in such a way?   
+             a)	1,2,3,4		
+               b) 4,2,3,1		
+              c) 4,3,2,1		
+               d) 3,2,4,1
+</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">A single array A[1 .. MAXSIZE] is used to implement two stacks. The two stacks grow from opposite ends of the array. Variables top1 and top2 (top1 &lt; top2) point to the location of the topmost element in each of the stacks. If the space is to be used efficiently, the condition for ‘stack full’ is
+ a) (top1 = MAXSIZE&#x2F;2) and (top2 = MAXSIZE&#x2F;2 + 1)
+ b) top1 + top2 = MAXSIZE
+ c) (top1 = MAXSIZE&#x2F;2) or (top2 = MAXSIZE)
+ d) top1 = top2 – 1
+</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Evaluate the following prefix expression &quot; ++ 26 + - 1324&quot;.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Convert the following infix expression to post fix notation ((a+2)*(b+4)) -1.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Stack can be described as a pointer. Explain.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Parenthesis are never needed in prefix or postfix expressions. Why?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">How many stacks are required to implement a Queue.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is the difference between ARRAY and STACK?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is difference between Stack and Queue data structure?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Given a stack S and another empty stack T and a variable v, write a function that returns S but with its elements reversed.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Five boxes, A through E, are stacked in alphabetical order with box A on top. The bottom three boxes are simultaneously removed and placed on top with their vertical order maintained. If this procedure were repeated two more times which box would end up in the middle of the stack?
+Box E
+Box D
+Box C
+Box A
+Box B
+</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">How do you implement a queue using stack?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is stack overflow and why does that occur?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Consider an empty stack of integers.Let the numbers 1, 2, 3,4,5,6 be pushed on to this stack only in the order they appeared from left to right.Let S indicates a push and X indicates a pop operation.Can they be permuted in to the order 325641(output) and order 154623? (if a permutation is possible give the order string of operations.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What data structure would you mostly likely see in a non-recursive implementation of a recursive algorithm?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">How can stacks be used to check whether an expression iscorrectly parentheses or not?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">State the disadvantages of linked list implementation of stack.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Consider the following stack of characters, where STACK is allocated N = 8 memorycells
+STACK: A, C, D, F, K, _, _, _. (_ means empty allocated cell)
+Describe the stack as the following operations takes place:
+(a) POP(STACK, ITEM)
+(b) POP(STACK, ITEM)
+(c) POP(STACK, ITEM)
+(d) PUSH(STACK, R)
+(e) PUSH(STACK,L)
+(f) PUSH(STACK, S)
+(g) PUSH(STACK,P)
+(h) POP(STACK, ITEM)
+</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is queue?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Why queue is an abstract data type?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">How do you represent queue in memory?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">List the operations of queue.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Explain the terms Front and Rear for queue.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What are the prerequisites for implementing the queue ADT using array?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">How the enqueue and dequeue operations are performed in queue.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">List the Applications of queue?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Define priority queue with diagram and give the operations.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Give the applications of priority queues.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">In which data structure, elements can be added or removed at either end, but not in the middle?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What are priority queues?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Minimum number of queues needed to implement the priority queue?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What are the disadvantages of linear queue? How is it solving by using circular queue?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is adequeue?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Suppose a circular queue of capacity (n – 1) elements is implemented with an array of n elements. Assume that the insertion and deletion operation are carried out using REAR and FRONT as array index variables, respectively. Initially, REAR = FRONT = 0. What are the conditions to detect queue full and queue empty?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">List out the different ways to implement the list?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Define singly linked list with neat diagram</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Write the syntax of node creation?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Whether Linked List is linear or Non-linear data structure?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">List the operations of single linked list.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">List out the advantages and disadvantages of singly linked list.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Define doubly linked linked list with neat diagram.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Write the difference between Singly and doubly linked list.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Write the difference between doubly and circularly linked list.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">How do you implement stack using single linked-list?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">How would you sort the elements in a singly linked list?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Consider a linked list of n elements. What is the time taken to insert an element after anelement pointed by some pointer?(O(1))</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Write the programs for Linked List (Insertion and Deletion) operations.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Why binary search technique can’t be used in Singly Linked list?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">How to find middle element of linked list in one pass?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">How to find if linked list has loop?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">How to find 3rd element from end in a linked list in one pass?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">How to reverse linked list using recursion and iteration?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Can Quick sort applied on singly linked list?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Write a function to check a single linked list is palindrome or not?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">A circularly linked list is used to represent a Queue. A single variable p is used to access the Queue. To which node should p point such that both the operations enQueue and deQueue can be performed in constant time? (GATE 2004) </td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Is it possible to create a doubly linked list using only one pointer with every node?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Given pointer to a node X in a singly linked list. Only one pointer is given, pointer to head node is not given, can we delete the node X from given linked list?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Which sorting algorithm is easily adaptable to singly linked lists? Explain</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">How to read a singly linked list backwards?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Define Tree .Give an example.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Define depth of a node in a tree. Give example.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Define length of the path in a tree with an example.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Define a path in a tree. Give example.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Define height of the node in a tree. Give example.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">List the applications of trees.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Define Binary tree.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">List the tree traversal applications.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is the maximum total number of nodes in a tree that has N levels? Note that the root is level (zero).</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">How many different binary trees and binary search trees can be made from three nodes that contain the key values 1, 2 &amp; 3?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Define binary search tree?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">List the Types of binary search trees</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">List the Operations of binary search tree?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Define Threaded Binary tree.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">List the uses of binary tree.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">How deletion is performed in a binary search tree.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">How many null nodes will a binary tree with 20 nodes?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">There are 8, 15, 13, 14 nodes were there in 4 different trees. Which of them couldhave formed a full binary tree?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">List out the disadvantages of Binary search tree.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">List out the types of Tree traversal?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Write the steps and routine for the postorder traversal.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Write the steps and routine for the preorder traversal.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Write the steps and routine for the inorder traversal.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Define AVL Tree. Give Example.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Define Balance factor.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">When AVL tree property is violated and how to solve it?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Define Rotation in AVL tree. Mention the two types of rotations.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Draw a binary Tree for the expression: A * B - (C + D) * (P &#x2F;Q).</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Define Splay Tree.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">List the Operations of Splay tree.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">List the Operations on B-Trees.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">List the B-Trees Applications.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Define B-Tree.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Define binary heaps.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">List the Operations on Binary heap.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">List the Applications of Binary heap</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">How many different trees are possible with 10 nodes?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is the maximum number of nodes on any level ‘i’ in a binary tree?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is the maximum number of nodes possible in a binary tree of height h is \(2^h\)-1?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is the difference of full binary tree and complete binary tree?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">How can you represent a binary tree in memory?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What are the disadvantages of array representations of binary tree?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is the complexity of searching any element in a binary search tree?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is threaded binary tree? What is the advantage of its?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is the reason for balancing a binary search tree?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is the heap?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is the disadvantage of B-Tree?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Construct binary tree from inorder and preorder traversal
+Inorder: 16 22 31 15 46 77 19
+Preorder: 15 22 16 31 77 46 19
+</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Construct binary tree from inorder and postorder traversal
+Inorder: 20 19 24 8 11 13 6
+Postorder: 20 24 19 11 6 13 8
+</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">The preorder traversal of a binary search tree T is 23 12 11 9 6 45 32 67 56. What are the inorder and postorder traversals of the tree T?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">How do you count total no. of nodes in a binary tree?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">How do you check whether a binary tree BST or not?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Construct AVL tree 
+23 34 12 11 6 2 45 4 25 24
+</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Consider the following nested representation of binary trees: (X Y Z) indicates Y and Z arethe left and right sub stress, respectively, of node X. Note that Y and Z may be NULL, or further nested. Which of the following represents a valid binary tree? 
+(a) (1 2 (4 5 6 7))
+(b) (1 (2 3 4) 5 6) 7)
+(c) (1 (2 3 4)(5 6 7))
+(d) (1 (2 3 NULL) (4 5))
+</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Write a function that accepts root of a binary tree and return true if it is foldable otherwise return false. A binary tree is foldable if left subtree of root is mirror image if right subtree.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Given a Tree, is it possible to find the greatest and least among leaves in linear time?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Given two keys K1 &amp; K2, write an algorithm to print all the elements between them with K1&lt;=K2 in a BST.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">A complete n-ary tree is a tree in which each node has n children or no children. Let I be the number of internal nodes and L be the number of leaves in a complete n-ary tree. If L = 41, and I = 10, what is the value of n?(5)</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">A scheme for storing binary trees in an array X is as follows. Indexing of X starts at 1 instead of 0. the root is stored at X[1]. For a node stored at X[i], the left child, if any, is stored in X[2i] and the right child, if any, in X[2i+1]. To be able to store any binary tree on n vertices the minimum size of X should be. </td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is the worst case time complexity for search, insert and delete operations in a general Binary Search Tree?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">We are given a set of n distinct elements and an unlabeled binary tree with n nodes. In how many ways can we populate the tree with the given set so that it becomes a binary search tree?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is a graph? Differentiate between Directed and undirected graph.                      </td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Define weighted graph, subgraph, adjacency, incidence, path, length, simple path, cycle, cyclic and acyclic graph, DAG, degree, indegree, outdegree, source, sink, pendant vertex, isolated vertex, complete graph, loop, multi graph, simple graph, regular graph, planar graph, null graph, connected graph.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Define bridge, articulation point, biconnected graph, strongly connected graph, weakly connected graph.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Define forest, spanning tree and spanning forest.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">How to represent a graph (array representation and linked list representation)?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Does the Minimal Spanning tree of a graph give the shortest distance between any 2 specified nodes?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Which data structures are used for BFS and DFS of a graph?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">How can you represent a graph in memory?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is the disadvantage of adjacency matrix representation of graph?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is the disadvantage of adjacency list representation of graph?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is the difference of tree traversal and graph traversal?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is minimum spanning tree? What is its significance?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is prim’s algorithm?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is kruskal’s algorithm?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is the advantage of adjacency list representation over adjacency matrix representation of a graph?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">How many undirected graphs (not necessarily connected) can be constructed out of a given set V= {V 1, V 2,…V n} of n vertices ?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is sufficient to detect cycle in a directed graph?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">An undirected graph G with n vertices and e edges is represented by adjacency list. What isthe time required to generate all the connected components?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Write programs for Bubble Sort.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Write a Binary Search program.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">A list is ordered from smaller to largest when a sort is called. Which sort would take the longest time to execute?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">A list is ordered from smaller to largest when a sort is called. Which sort would take the shortest time to execute?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">When will you sort an array of pointers to list elements, rather than sorting the elements themselves?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">The element being searched for is not found in an array of 100 elements. What is the average number of comparisons needed in a sequential 22.search to determine that the element is not there, if the elements are completely unordered</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is the average number of comparisons needed in a sequential search to determine the position of an element in an array of 100 elements, if 24.the elements are ordered from largest to smallest?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Which sort show the best average behavior? Why?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is the average number of comparisons in a sequential search?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">When is a binary search best applied?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">You have to sort a list L consisting of a sorted list followed by a few “random” elements. Which sorting method would be especially suitable for such a task? Why?(Insertion sort)</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Which sorting methods would be most suitable for sorting a list which is almost sorted? Why? (Bubble Sort)</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Which sorting technique that relatively passes through a list to exchange the first element with any elementless than it and then repeats with a new first element?(Quick sort).</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is the time complexity of Merge sort and Heap sort algorithms?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What are the conditions under whichsequential search of a list is preferred over binary search?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What do you mean by internal sorting and external sorting? Give examples.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Write the algorithm of selection sort.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is the main advantage of selection sort?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What are best case, average case and worst case time complexity of selection sort?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Write the algorithm of bubble sort. What is the significance of its name?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is the difference of bubble sort and selection sorting technique?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What are best case, average case and worst case time complexity of bubble sort?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Write the algorithm of insertion sort.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is the advantage and disadvantage of insertion sort?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What are best case, average case and worst case time complexity of insertion sort?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Why merge sort is an external sorting technique?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What are best case, average case and worst case time complexity of merge sort?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is the space complexity of merge sort?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">“Quick sort is based on divide and conquer technique”. Explain.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is best choice for pivot element?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is the difference of bubble sort and modified bubble sort?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">In a selectionsort of n elements, how many times is the swap function called in the complete execution of the algorithm?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">How can I sort things that are too large to bring into memory?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What are best case, average case and worst case time complexity of linear search?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What are best case, average case and worst case time complexity of binary search?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is the disadvantage of binary search?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What do you mean by recursion? Give an example.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is tower of Hanoi problem? How do you solve it by recursive way?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">In tower of Hanoi problem, if there is n no. of disks to move, how many moves are there?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is the time complexity of tower of Hanoi problem?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">“Iteration is faster than recursion”. Why?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">When recursion is the best choice rather than iteration?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What do you mean by Base case, Recursive case, Binding Time, Run-Time Stack and Tail Recursion?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What do you mean by indirect and direct recursion?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Define hashing.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Define a Key in hashing.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Define Hash table. Give an example.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is Software Engineering?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">Why will we study Software Engineering?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">What is the software crisis?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">Define table size of a hash table.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What are the differences between a program and software?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">What is SDLC?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">Why do we need SDLC?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">Define a Hash function with an example.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What are the different SDLC models?   </td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">What is Feasibility Study?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">What is the aim of Requirements Specification?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">Who are System Analysts?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">Properties of a hash function.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What are the problems of Classical Waterfall Model?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">What is the time complexity of searching an element using hashing technique?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What are the two types of prototype?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">What is collision in hashing?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Which model is known as Meta model and why?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">What are the methods of resolving collision in hashing?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is SRS? </td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">Define separate chaining hashing</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">List out the applications of hashing.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What are non-functional requirements?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">Why SRS is known as black box specification?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">What are the advantages of separate chaining?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What are the functions of a project manager?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">What are the disadvantages of separate chaining?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is open addressing?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What are the shortcomings of Basic and Intermediate COCOMO?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">For which kind of projects will we consider the democratic team?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">What are the types of open addressing hashing?</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Differentiate between linear probing and quadratic probing</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is the problem of Chief Programmer team?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">What is a software design?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">Define primary clustering.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Define double hashing.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What are the objectives of Structured Analysis (SA) and Structured Design (SD)?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">Define rehashing.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is a DFD? </td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">What is the difference between code walkthrough and code inspection?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">List out the advantages and disadvantages of rehashing.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is coupling?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">What are the ways in which rehashing can be implemented.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">What is cohesion?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">Define Extendible hashing.</td><td headers="SUBJECT">DATA STRUCTURE</td></tr>
+<tr><td headers="Q_TEXT">Why do we need low coupling and high cohesion?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">What are Fan-in and Fan-out?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">Write down the difference between error, fault and failure.</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">What is  a test case and a test suite?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">What is 40-20-40 rule in Software Industry?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">What is cyclomatic complexity and what are its advantages?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">What is egoless programming?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">What is a stub?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">What is unit testing?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">What is the objective of integration testing?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">What is performance testing?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">What is system testing?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">What are the different types of system testing?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">What is Acceptance Testing?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">What are the functions of test summary report?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">What are V &amp;V activities?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">What is Stress Testing?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">What is software reliability?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">What is software quality?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">What are the different types of software quality?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">What is the difference between software quality and software reliability?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">What is Software maintenance?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">What are the different types of software maintenance?</td><td headers="SUBJECT">Software Engineering</td></tr>
+<tr><td headers="Q_TEXT">What is OS?</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What are the basic functions of an operating system?</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">OS is resource manager. Do you accept it.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">How you can measure the performance of OS</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">Explain some way by which you can increase CPU utilization.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is procees? What is difference between process and program?</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">How you can create new process?</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">When a child process created then what are resource used by child process</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">how you can identify parent and child process.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">Which process parent and child terminate first.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">what is zombie and orphan process</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">what is thread?</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">why thread is called light weight process?</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">what is difference between process and thread?</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">How we can communicate between processes and threads.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">what distributed and real time OS.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is multi tasking, multi programming, multi threading?</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">Explain process state transition </td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is scheduler and dispatcher</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">what are different types of scheduler</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is throughput, waiting time and turn around time.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is PCB?</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">Explain FCFS scheduling and what is its advantage and disadvantages</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">Explain SJF scheduling and what is its advantage and disadvantages</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">Explain SRTF scheduling and what is its advantage and disadvantages</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">Explain RR scheduling and what is its advantage and disadvantages</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">Which CPU scheduling algorithm is best according you and why.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">Why process synchronization is needed?</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is race condition.?</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">what is critical section?</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is critical section problem?</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">How you can solve critical section problem.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">what is semaphore?</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is binary and counting semaphore.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">A semaphore value can be negative? </td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">In counting semaphore if semaphore=5 and -5 what is significance.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is producer-consumer problem. how you solve it?</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is Dinning Philosopher problem. how you solve it?</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is critical region and monitor.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">what is busy waiting?</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">what is spinlock?</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is deadlock  explain with example.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What are the necessary condition of deadlock.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is deadlock prevention and avoidance</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">How we can prevent deadlock.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">How we can avoid deadlock</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">when a system is in safe state.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">If deadlock occurred then what is the remedy.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is RAM and ROM.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What do you mean by memory management.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is fixed partition and dynamic parttion.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is problem of fixed partition and dynamic partition.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is Compaction.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is paging.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is logical and physical address?</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">In paging why page size is taken as power of 2.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is TLB.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">Explain how TLB decrease the memory access time.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is the problem if Paging</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is 50% rule.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">explain First fit,best fit and worst fit memory allocation techniques.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">Why hierarchical paging is required.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">Explain briefly about, processor, assembler, compiler, loader, linker and the functions executed by them.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is cache memory?</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is segmentation.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is problem of segmentation and what is the remedy.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is virtual memory.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">If the size of a program is greater than RAM size, can it execute?</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is demand paging.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is SWAPING.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is lazy swapper.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">Explain FIFO page replacement Strategy what its advantage and disadvantage.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">Explain Optimal page replacement Strategy what its advantage and disadvantage.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">Explain LRU page replacement Strategy what its advantage and disadvantage.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is Thrasing.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">How we can prevent Thrashing.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is local and global page replacement techniques.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is the resident set and working set of a process?</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is structure of H&#x2F;D.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is Seek time and rotational latency.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is the goal of Disk scheduling</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is FCFS Disk scheduling and what its advantage and disadvantage.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is SSTF Disk scheduling and what its advantage and disadvantage.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is SCAN Disk scheduling and what its advantage and disadvantage.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is C-SCAN Disk scheduling and what its advantage and disadvantage.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is LOOK Disk scheduling and what its advantage and disadvantage.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What are the file attributes.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">How file is maintained.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is sequential file allocation?</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is linked file allocation? </td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is Indexed file allocation? </td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is inode.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">How we can the inode of a file in linux.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">How free space is managed by OS.</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is cycle stealing?</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What are the stipulations of C2 level security?</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is a trap and trapdoor?</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">What is access matrix.
+	</td><td headers="SUBJECT">Operating System</td></tr>
+<tr><td headers="Q_TEXT">Discuss the functions of operating system.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What do you mean by assembler, compiler and interpreter?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Differentiate between high-level, middle-level and low-level language.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is assembly language? Discuss its advantages.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is the best way to comment out a section of code that contains comments?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is an unsigned integer constant? What is the significance of declaring a constant unsigned?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is the importance of flowchart?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is the use of ASCII?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is the difference between a string copy (strcpy) and a memory copy (memcpy)? When should each be used?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How can I remove the trailing spaces from a string?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How can I remove the leading spaces from a string?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How can I right-justify a string?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How can I pad a string to a known length?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How can I copy just a portion of a string?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What are escape sequence characters? What is the purpose of use them?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How can I convert a string to a number?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How can you tell whether two strings are the same?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What do you mean  by overflow and underflow of data?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How do you print only part of a string?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is an lvalue?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Write a C program to count the number of vowels in a string.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Explain  how members of a union are accessed using  a program code.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is an rvalue?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Described about nested structure.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Is left-to-right or right-to-left order guaranteed for operator precedence?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Explain  the utility  of typedef key words in structure.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">In which  application union can be useful?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is the difference between ++var and var++?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Is it possible to create an array of structure? Explain  with  the help of a example.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What does the modulus operator do?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Explain  with  an example how structure is initialized.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Where in memory are my variables stored?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">“Structure declaration reserves memory for the structure”, comment on this statement with valid justification.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Do variables need to be initialized?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Describe self referential structure.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Explain  with  example union inside  a structure.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">When should the register modifier be used? Does it really help?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How  a function can access the members of a structure.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Explain with example local and global structure.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">When should the volatile modifier be used?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Write a program to define a union and  a structure both  having exactly  the same  member. Using  the size of operator print the size of structure variable as well as the union variable.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Can a variable be both const and volatile?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is a macro, and how do you use it?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">When should the const modifier be used?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What will the preprocessor do for a program?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How reliable are floating-point comparisons?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How can you avoid including a header more than once?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How can you determine the maximum value that a numeric variable can hold?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Can a file other than a .h file be included with #include?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Are there any problems with performing mathematical operations on different variable types?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is the benefit of using #define to declare a constant?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is operator promotion?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is the benefit of using enum to declare a constant?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">When should a type cast be used?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">When should a type cast not be used?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How are portions of a program disabled in demo versions?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Is it acceptable to declare&#x2F;define a variable in a C header?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Is it better to use a macro or a function?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is the difference between declaring a variable and defining a variable?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is the difference between #include and #include &quot;file&quot; ?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is the benefit of using const for declaring constants?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Can you define which header file to include at compile time?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How can type-insensitive macros be created?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is the concatenation operator?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What are the standard predefined macros?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Write a C program to test whether a no. is power of 2 or not.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is a pragma?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Write a C program to check whether a no. is even or odd without using % operation.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is #line used for?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Write a C-program which does the addition of two integers without using ‘+’ operator.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What are the __DATE__ and __TIME__ preprocessor commands?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Write a C-program to find the smallest of three integers without using any of the comparison operators.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How can you be sure that a program follows the ANSI C standard?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Find the maximum &amp; minimum of two numbers in a single line without using any condition &amp; loop.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How do you override a defined macro?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Is it possible to use %( modulo division operator) on floating point data?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How can you check to see whether a symbol is defined?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Explain mixed mode arithmetic with an example.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Can include files be nested?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How many levels deep can include files be nested?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Explain the output of the following code.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How do you determine whether to use a stream function or a low-level function?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Explain precedence and associativity with  an example.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How do you list files in a directory?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Explain the output of the following program.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Explain the difference between logical AND (&amp;&amp;) and bitwise AND (&amp;) operator.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How do you sort filenames in a directory?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How do you determine a file&#x27;s attributes?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How can I make sure that my program is the only one accessing a file?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How can I prevent another program from modifying part of a file that I am modifying?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How can I read and write comma-delimited text?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Explain  the output of the following program.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Write a program which will store values into an array from a text file and calculate the average value.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Consider the following code:</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Explain  fseek() function.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Explain the output of the following program?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Write the functions name and syntax  to read  data  from a file.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Explain  the term stream.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Explain  the output of this program on an implementation where int occupies 2 bytes?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Why should you close a file after it is used?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Write a program to calculate the distance between two given co-ordinates.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Under which circumstances does the function fopen()  fail.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">When is a switch statement better than multiple if statements?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is the impact of fclose() on buffer data.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Is a default case necessary in a switch statement?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Differentiate between gets() and fgets() functions.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Can the last case of a switch statement skip including the break?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Where can the function ftell() be used?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Why do we need fflush()?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Differentiate between fscanf() and fread()?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is the difference between goto and long jmp( ) and setjmp()?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How will you check for EOF when reading a file?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Other than in a for statement, when is the comma operator used?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is the most efficient way to store flag values?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How can you tell whether a loop ended prematurely?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Are bit fields portable?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How to print number from 1 to 100 without using conditional operators?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Is it better to bitshift a value than to multiply by 2?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Explain  how many times &quot;VIRAT&quot; is get printed</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Explain  the necessity of different loops?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is meant by high-order and low-order bytes?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How are 16- and 32-bit numbers stored?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Why should I use standard library functions instead of writing my own?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Explain the difference while and do-while loop with  an example</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How can i write functions that take a variable number of arguments?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Write a complete C program to print prime numbers within a given  range.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is the difference between a free-standing and a hosted environment?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Differentiate between “break” and “continue” with  an example.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How  to print number from 1 to 100 without using  lop structure?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How do I determine whether a character is numeric, alphabetic, and so on?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Can an array be an lvalue?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is a &quot;locale&quot;?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Is there a way to jump out of a function or functions?	</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What&#x27;s a signal? What do I use signals for?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Why shouldn&#x27;t I start variable names with underscores?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What math functions are available for integers? For floating point?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What are multibyte characters?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How can I manipulate strings of multibyte characters?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How can a program be made to print the line number where an error occurs?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How can a program be made to print the name of a source file where an error occurs?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How can you tell whether a program was compiled using C versus C++?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">If errno contains a nonzero number, is there an error?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is a stream?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Is it valid to address one element beyond the end of an array?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Can you assign a different address to an array tag?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Why can&#x27;t constant values be used to define an array&#x27;s initial size?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How do you redirect a standard stream?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How can you restore a redirected standard stream?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Do array subscripts always start with zero? Explain.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Can stdout be forced to print somewhere other than the screen?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is the difference between text and binary modes?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Is it valid to address one element beyond the end of an array? Explain</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How do you view the PATH?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Write a program which  will check whether a square matrix  is symmetric or not?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How can I open a file so that other programs can update it at the same time?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Write a program which  will check whether a square matrix  is lower  triangular or not?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How can I avoid the Abort, Retry, Fail messages?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Write a program which  will check whether a square matrix  is upper triangular or not?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Write a program which  will find out trace (sum of all diagonal elements) of a square matrix.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is a local block?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Should variables be stored in local blocks?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Can static variables be declared in a header file?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">When should I declare a function?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Why should I prototype a function?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How many parameters should a function have?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is a static function?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Should a function contain a return statement if it does not return a value?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Is it possible to execute code even after the program exits the main() function?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Is using exit() the same as using return?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">With an example show  the passing of 2D array into a function.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What are the advantages of using  a function?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What are the function prototypes?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What are the return type and return value of printf( ) and scanf( ) functions?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Write short note on “Pointer to Function” and “Function returning a Pointer”.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Write a function (recursive and non-recursive) mypower(a,b) which  will calculate ab  for any floating value  a and integer value b.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is the purpose of return statement?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Explain the role of C preprocessor.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How macro differs from a constant value in C?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is indirection?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How many levels of pointers can you have?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is a null pointer?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">When is a null pointer used?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is a void pointer?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">When is a void pointer used?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Can you subtract pointers from each other? Why would you?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Is NULL always defined as 0(zero)?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Is NULL always equal to 0(zero)?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What does it mean when a pointer is used in an if statement?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Can you add pointers together? Why would you?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How do you use a pointer to a function?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Can the size of an array be declared at runtime ?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Is it better to use malloc() or calloc()?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How do you declare an array that will hold more than 64KB of data?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is the difference between far and near ?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">When should a far pointer be used?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is the stack?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is the heap ?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What happens if you free a pointer twice?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is the difference between NULL and NUL?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is a &quot;null pointer assignment&quot; error? What are bus errors, memory faults, and core dumps?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How can you determine the size of an allocated portion of memory?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How does free() know how much memory to release?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Can math operations be performed on a void pointer?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">How do you print an address?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is a const pointer?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is array of pointers? Explain  with  an example.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">What is pointer to an array? Explain  with an example.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Why a[5] == 5[a]? Explain.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Do you understand by const pointer? Explain with an example</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Why we can not add two pointers?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Why are pointers different sizes on different machines?</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Can I convert a pointer to an ordinary number? Give your logic.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Does C use the sizeof operator when it is adjusting pointer arithmetic? Give your logic.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Is it possible to write scanf statement without ‘&amp;’ operator? Give your logic with an example.</td><td headers="SUBJECT">C</td></tr>
+<tr><td headers="Q_TEXT">Do you consider yourself successful?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">What your hobbies?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">What do you think it takes to be successful in this career?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">What experience do you have in this field? </td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">What do you think about …Abortion…Maoists …The Death Penalty… (or any other controversial subject)?</td><td headers="SUBJECT">HR Interview Questions</td></tr>
+<tr><td headers="Q_TEXT">Explain generalization and specialization with suitable example.</td><td headers="SUBJECT">JAVA</td></tr>
+<tr><td headers="Q_TEXT">Tell me about the final year project that you are  pursuing.</td><td headers="SUBJECT">Project Based Questions</td></tr>
+<tr><td headers="Q_TEXT">What are the different technologies &#x2F; concepts &#x2F;  theories are used in your project?</td><td headers="SUBJECT">Project Based Questions</td></tr>
+<tr><td headers="Q_TEXT">What kind of value addition it will do to the current technology  &#x2F; product.</td><td headers="SUBJECT">Project Based Questions</td></tr>
+<tr><td headers="Q_TEXT">Who are your  clients ?</td><td headers="SUBJECT">Project Based Questions</td></tr>
+<tr><td headers="Q_TEXT">What are the methods you have used for requirement analysis? </td><td headers="SUBJECT">Project Based Questions</td></tr>
+<tr><td headers="Q_TEXT">Have you done cost estimation for your  project ? How?</td><td headers="SUBJECT">Project Based Questions</td></tr>
+<tr><td headers="Q_TEXT">Have you done the feasibility study for your project? What are those?</td><td headers="SUBJECT">Project Based Questions</td></tr>
+<tr><td headers="Q_TEXT">Why you have selected  this topic ?</td><td headers="SUBJECT">Project Based Questions</td></tr>
+<tr><td headers="Q_TEXT">Questions on technologies  &#x2F; concepts &#x2F; theories used ?</td><td headers="SUBJECT">Project Based Questions</td></tr>
+<tr><td headers="Q_TEXT">How is your project-work going to help the society?</td><td headers="SUBJECT">Project Based Questions</td></tr>
+<tr><td headers="Q_TEXT">What are your own contributions in  the project ?</td><td headers="SUBJECT">Project Based Questions</td></tr>
+<tr><td headers="Q_TEXT">How you have break down the project modules and distributes among your team  members?</td><td headers="SUBJECT">Project Based Questions</td></tr>
+<tr><td headers="Q_TEXT">Draw flow-chart &#x2F; block-diagram &#x2F; dataflow (high level design ) diagram for your project?</td><td headers="SUBJECT">Project Based Questions</td></tr>
+<tr><td headers="Q_TEXT">What are all the data structures used in the project?</td><td headers="SUBJECT">Project Based Questions</td></tr>
+<tr><td headers="Q_TEXT">Have you used any database for your project? What?</td><td headers="SUBJECT">Project Based Questions</td></tr>
+<tr><td headers="Q_TEXT">Basic algorithm for database connectivity used in the project? (CSE &#x2F; IT &#x2F; MCA)</td><td headers="SUBJECT">Project Based Questions</td></tr>
+<tr><td headers="Q_TEXT">Limitation &#x2F; constraints of your project?</td><td headers="SUBJECT">Project Based Questions</td></tr>
+<tr><td headers="Q_TEXT">What is your future plan with the  project?</td><td headers="SUBJECT">Project Based Questions</td></tr>
+<tr><td headers="Q_TEXT">Have you implemented any security layer?</td><td headers="SUBJECT">Project Based Questions</td></tr>
+<tr><td headers="Q_TEXT">How you have scheduled your time? What are the progresses (PERT &#x2F; CPM)? </td><td headers="SUBJECT">Project Based Questions</td></tr>
+<tr><td headers="Q_TEXT">Any literature survey you have done for your  project?</td><td headers="SUBJECT">Project Based Questions</td></tr>
+<tr><td headers="Q_TEXT">What is the scope  of the project?</td><td headers="SUBJECT">Project Based Questions</td></tr>
+<tr><td headers="Q_TEXT">Corruption is a Necessary Evil for Success in Any Sphere</td><td headers="SUBJECT">GD Topics</td></tr>
+<tr><td headers="Q_TEXT">Censorship in Movies &amp; Our Culture</td><td headers="SUBJECT">GD Topics</td></tr>
+<tr><td headers="Q_TEXT">Sports in India has lost its glory</td><td headers="SUBJECT">GD Topics</td></tr>
+<tr><td headers="Q_TEXT">Are Leaders born or are they made?</td><td headers="SUBJECT">GD Topics</td></tr>
+<tr><td headers="Q_TEXT">Judging a candidate based on merit list is not the right thing to do.</td><td headers="SUBJECT">GD Topics</td></tr>
+<tr><td headers="Q_TEXT">Privatization of Higher Education</td><td headers="SUBJECT">GD Topics</td></tr>
+<tr><td headers="Q_TEXT">Flexible Timings or Fixed Timings - Which is better at Work?</td><td headers="SUBJECT">GD Topics</td></tr>
+<tr><td headers="Q_TEXT">Foreign Universities in India</td><td headers="SUBJECT">GD Topics</td></tr>
+<tr><td headers="Q_TEXT">Gadgets and video games are hampering childhood</td><td headers="SUBJECT">GD Topics</td></tr>
+<tr><td headers="Q_TEXT">Indian education system is concerned about marks not knowledge</td><td headers="SUBJECT">GD Topics</td></tr>
+<tr><td headers="Q_TEXT">Retirement Age for Politicians</td><td headers="SUBJECT">GD Topics</td></tr>
+<tr><td headers="Q_TEXT">Brain-Drain has to be stopped</td><td headers="SUBJECT">GD Topics</td></tr>
+<tr><td headers="Q_TEXT">What we need to reduce scams is better regulatory bodies</td><td headers="SUBJECT">GD Topics</td></tr>
+<tr><td headers="Q_TEXT">Women are not fit for Defence Services</td><td headers="SUBJECT">GD Topics</td></tr>
+<tr><td headers="Q_TEXT">Is India Safe for Indians?</td><td headers="SUBJECT">GD Topics</td></tr>
+<tr><td headers="Q_TEXT">Are MNCs Superior to Indian Companies?</td><td headers="SUBJECT">GD Topics</td></tr>
+<tr><td headers="Q_TEXT">How to Deal with High Oil Prices?</td><td headers="SUBJECT">GD Topics</td></tr>
+<tr><td headers="Q_TEXT">Should the Government Set-up More IITs and IIMs, OR should it be use the Money for Primary &amp; Secondary Education?</td><td headers="SUBJECT">GD Topics</td></tr>
+<tr><td headers="Q_TEXT">Content on Internet should be censored</td><td headers="SUBJECT">GD Topics</td></tr>
+<tr><td headers="Q_TEXT">Religion should not be mixed with politics</td><td headers="SUBJECT">GD Topics</td></tr>
+<tr><td headers="Q_TEXT">Water resources should be nationalised</td><td headers="SUBJECT">GD Topics</td></tr>
+<tr><td headers="Q_TEXT">Indian villages - our strength or our weakness?</td><td headers="SUBJECT">GD Topics</td></tr>
+<tr><td headers="Q_TEXT">E-Learning: A Substitute for Classroom Learning?</td><td headers="SUBJECT">GD Topics</td></tr>
+<tr><td headers="Q_TEXT">Women Empowerment - A Cause for Increasing Divorce Rate in India?</td><td headers="SUBJECT">GD Topics</td></tr>
+<tr><td headers="Q_TEXT">Should Mobile phones be banned in colleges?</td><td headers="SUBJECT">GD Topics</td></tr>
+<tr><td headers="Q_TEXT">Dress code in educational Institutes</td><td headers="SUBJECT">GD Topics</td></tr>
+<tr><td headers="Q_TEXT">Films are corrupting the Indian Youth</td><td headers="SUBJECT">GD Topics</td></tr>
+<tr><td headers="Q_TEXT">Is Dependence on Computers a Good Thing?</td><td headers="SUBJECT">GD Topics</td></tr>
+<tr><td headers="Q_TEXT">Is T20 Cricket killing Real Cricketing Skills?</td><td headers="SUBJECT">GD Topics</td></tr>
+<tr><td headers="Q_TEXT">Is Reservation in Higher Education the only alternative for Social Equality?</td><td headers="SUBJECT">GD Topics</td></tr>
+<tr><td headers="Q_TEXT">Is an MBA necessary to succeed in life?</td><td headers="SUBJECT">GD Topics</td></tr>
+<tr><td headers="Q_TEXT">Advantages of Co-education</td><td headers="SUBJECT">GD Topics</td></tr>
+<tr><td headers="Q_TEXT">Is Hard Work more desirable or Smart Work?</td><td headers="SUBJECT">GD Topics</td></tr>
+<tr><td headers="Q_TEXT">Should GD be Part of Campus Placements?</td><td headers="SUBJECT">GD Topics</td></tr>
+<tr><td headers="Q_TEXT">Should Smoking be Banned Completely?</td><td headers="SUBJECT">GD Topics</td></tr>
+<tr><td headers="Q_TEXT">Influence of Online Social Networks on our Youth</td><td headers="SUBJECT">GD Topics</td></tr>
+</tbody></table></body></html>
